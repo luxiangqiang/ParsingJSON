@@ -2,5 +2,10 @@
   "cSpell.words": [
     "antd",
     "offical"
-  ]
+  ],
+  "less.compile": {
+    "compress": true, // 删除多余空格
+    "sourceMap": false, // 是否生产 match对应 .map文件
+    "out": false    // 是否创建编译后文件
+  }
 }
