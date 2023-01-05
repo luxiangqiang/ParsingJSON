@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Input, Select, Form, Button, message, InputNumber } from "antd";
-import { IData } from "../types";
+import { IData } from "@/components/types";
 import "./country-form.less";
 
 const { Option } = Select;

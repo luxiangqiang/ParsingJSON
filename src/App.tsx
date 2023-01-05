@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
-import CountryContent from "./components/Country";
-import { ICountry } from "./components/types";
-import data from "./static/uk.json";
+import CountryContent from "@/components/Country";
+import { ICountry } from "@/components/types";
+import data from "@/static/uk.json";
 
 function App() {
   const [country, setCountry] = useState<ICountry>({

@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import { Collapse } from "antd";
-import { IData } from "../types";
+import { IData } from "@/components/types";
 import "./collapse.less";
 import { useState } from "react";
-import JsonView from "../JsonView/index";
-import CountryForm from "../CountryForm";
+import JsonView from "@/components/JsonView/index";
+import CountryForm from "@/components/CountryForm/index";
 
 const { Panel } = Collapse;
 

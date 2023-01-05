@@ -14,6 +14,12 @@
     "skipLibCheck": true, //忽略所有库中的声明文件（ *.d.ts）的类型检查。
     "jsx": "react", // 在 .tsx文件里支持JSX
     "resolveJsonModule": true, // 引入 json
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
   },
   "include": [
     "./src/**/*", // 这个表示处理根目录的src目录下所有的.ts和.tsx文件，并不是所有文件

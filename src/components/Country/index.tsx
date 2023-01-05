@@ -1,7 +1,7 @@
 import React from "react";
-import CollapseContent from "../Collapse";
+import CollapseContent from "@/components/Collapse";
 import "./country.less";
-import { ICountry } from "../types";
+import { ICountry } from "@/components/types";
 
 const CountryContent: React.FC<{ country: ICountry; sourceData: any }> =
   function ({ country, sourceData }) {
