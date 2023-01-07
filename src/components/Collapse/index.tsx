@@ -31,7 +31,7 @@ const CollapseContent: React.FC<{ sourceData: IData }> = function ({
   sourceData,
 }) {
   const [state, dispatch] = useReducer(reducer, initialState);
-
+  
   function onUpdateCountry(newData: Partial<IData>) {
     dispatch({
       type: "update",
@@ -45,15 +45,17 @@ const CollapseContent: React.FC<{ sourceData: IData }> = function ({
   useEffect(() => {
     console.log("Collapse.tsx");
     function getStoryData() {
-      const story = localStorage.getItem(sourceData.hireIn)
+      let story = localStorage.getItem(sourceData.hireIn)
         ? (JSON.parse(localStorage.getItem(sourceData.hireIn)) as IData)
         : null;
-      story &&
         dispatch({
           type: "update",
-          payload: {
+          payload: story ? {
             ...sourceData,
             ...story,
+          } : {
+            ...sourceData,
+            ...initialState,
           },
         });
     }
