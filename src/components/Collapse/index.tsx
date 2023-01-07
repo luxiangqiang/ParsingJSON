@@ -1,54 +1,64 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useReducer } from "react";
 import { Collapse } from "antd";
 import { IData } from "@/components/types";
 import "./collapse.less";
-import { useState } from "react";
 import JsonView from "@/components/JsonView/index";
 import CountryForm from "@/components/CountryForm/index";
 
 const { Panel } = Collapse;
 
-const CollapseContent: React.FC<{ data: IData; sourceData: any }> = function ({
-  data,
+let initialState = {
+  capital: "",
+  currency: "",
+  hireIn: "",
+  offical_language: "",
+  payroll_cycle: "",
+  continent: "",
+  priority: 0,
+};
+
+function reducer(state: IData, action: { type: string; payload: IData }) {
+  const country = action.payload;
+  switch (action.type) {
+    case "update":
+      return {
+        ...country,
+      };
+  }
+}
+
+const CollapseContent: React.FC<{ sourceData: IData }> = function ({
   sourceData,
 }) {
-  const [copyCountry, setCopyCountry] = useState({
-    ...sourceData,
-    capital: "",
-    currency: "",
-    hireIn: "",
-    offical_language: "",
-    payroll_cycle: "",
-    continent: "",
-    priority: 0,
-  });
+  const [state, dispatch] = useReducer(reducer, initialState);
 
-  async function getStoryData() {
-    await new Promise((resolve, reject) => {
-      const story = localStorage.getItem(data.hireIn)
-        ? (JSON.parse(localStorage.getItem(data.hireIn)) as IData)
-        : null;
-      story ? resolve(story) : reject();
-    }).then(
-      (res: IData) => {
-        setCopyCountry({
-          ...sourceData,
-          capital: res?.capital || "",
-          currency: res?.currency || "",
-          hireIn: res?.hireIn || "",
-          offical_language: res?.offical_language || "",
-          payroll_cycle: res?.payroll_cycle || "",
-          continent: res?.continent || "",
-          priority: res?.priority || 0,
-        });
+  function onUpdateCountry(newData: Partial<IData>) {
+    dispatch({
+      type: "update",
+      payload: {
+        ...state,
+        ...newData,
       },
-      () => {}
-    );
+    });
   }
 
   useEffect(() => {
+    console.log("Collapse.tsx");
+    function getStoryData() {
+      const story = localStorage.getItem(sourceData.hireIn)
+        ? (JSON.parse(localStorage.getItem(sourceData.hireIn)) as IData)
+        : null;
+      story &&
+        dispatch({
+          type: "update",
+          payload: {
+            ...sourceData,
+            ...story,
+          },
+        });
+    }
     getStoryData();
-  });
+  }, [sourceData]);
 
   return (
     <div className="collapse">
@@ -57,13 +67,13 @@ const CollapseContent: React.FC<{ data: IData; sourceData: any }> = function ({
           <div className="collapse_container">
             <div className="collapse_left">
               <CountryForm
-                formData={data}
-                copyCountry={copyCountry}
-                setCopyCountry={setCopyCountry}
+                sourceData={sourceData}
+                formData={state}
+                updateCountry={onUpdateCountry}
               />
             </div>
             <div className="collapse_right">
-              <JsonView json={copyCountry} />
+              <JsonView json={state} />
             </div>
           </div>
         </Panel>

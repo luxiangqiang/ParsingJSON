@@ -3,14 +3,13 @@ import CollapseContent from "@/components/Collapse";
 import "./country.less";
 import { ICountry } from "@/components/types";
 
-const CountryContent: React.FC<{ country: ICountry; sourceData: any }> =
-  function ({ country, sourceData }) {
-    return (
-      <div className="header">
-        <div className="header_title">{country.name}</div>
-        <CollapseContent data={country.data} sourceData={sourceData} />
-      </div>
-    );
-  };
+const CountryContent: React.FC<{ country: ICountry }> = function ({ country }) {
+  return (
+    <div className="header">
+      <div className="header_title">{country.name}</div>
+      <CollapseContent sourceData={country.sourceData} />
+    </div>
+  );
+};
 
 export default CountryContent;

@@ -1,7 +1,9 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useMemo } from "react";
 import { Input, Select, Form, Button, message, InputNumber } from "antd";
 import { IData } from "@/components/types";
 import "./country-form.less";
+import { downloadJSON } from "@/utils/downloadJSON";
+import debounce from "lodash.debounce";
 
 const { Option } = Select;
 
@@ -36,41 +38,51 @@ const useContinents = function () {
 };
 
 const CountryForm: React.FC<{
+  sourceData: IData;
   formData: IData;
-  copyCountry: any;
-  setCopyCountry: React.Dispatch<React.SetStateAction<IData>>;
-}> = function ({ formData, copyCountry, setCopyCountry }) {
+  updateCountry: React.Dispatch<React.SetStateAction<any>>;
+}> = function ({ sourceData, formData, updateCountry }) {
   const [form] = Form.useForm();
-
   const continents = useContinents();
+
+  const debounceChangeInput = useMemo(
+    () =>
+      debounce((e: React.ChangeEvent<HTMLInputElement>, key: string = "") => {
+        updateCountry({
+          [key]: key === "priority" ? Number(e) : e.target.value,
+        });
+      }, 500),
+    [updateCountry]
+  );
 
   function onChangeInput(
     e: React.ChangeEvent<HTMLInputElement>,
     key: string = ""
   ) {
-    setCopyCountry({
-      ...Object.assign({}, copyCountry),
-      [key]: key === "priority" ? Number(e) : e.target.value,
-    });
+    debounceChangeInput(e, key);
   }
 
   function onChangeSelect(value: string) {
-    setCopyCountry({
-      ...Object.assign({}, copyCountry),
+    updateCountry({
       continent: value,
     });
   }
 
+  // 保存到本地
   const handlerSaveLocalStory = function () {
-    localStorage.setItem(formData.hireIn, JSON.stringify(copyCountry));
+    localStorage.setItem(formData.hireIn, JSON.stringify(formData));
     message.success("保存成功");
   };
 
+  // 下载到本地
+  const handlerDownload = function () {
+    downloadJSON(formData, sourceData.hireIn);
+  };
+
   useEffect(() => {
-    for (let key in copyCountry) {
-      form.setFieldValue(key, copyCountry[key as keyof IData]);
-    }
-  });
+    console.log("CountryForm.tsx", formData);
+    form.setFieldsValue(formData);
+  }, [form, formData]);
 
   return (
     <Form
@@ -79,42 +91,38 @@ const CountryForm: React.FC<{
       wrapperCol={{ span: 16 }}
       className="CountryForm"
     >
-      <Form.Item
-        label="国家名称"
-        name="hireIn"
-        initialValue={copyCountry.hireIn}
-      >
+      <Form.Item label="国家名称" name="hireIn">
         <Input
           allowClear
-          addonBefore={formData.hireIn}
+          addonBefore={sourceData.hireIn}
           onChange={(e) => onChangeInput(e, "hireIn")}
         />
       </Form.Item>
       <Form.Item label="首都" name="capital">
         <Input
           allowClear
-          addonBefore={formData.capital}
+          addonBefore={sourceData.capital}
           onChange={(e) => onChangeInput(e, "capital")}
         />
       </Form.Item>
       <Form.Item label="货币种类" name="currency">
         <Input
           allowClear
-          addonBefore={formData.currency}
+          addonBefore={sourceData.currency}
           onChange={(e) => onChangeInput(e, "currency")}
         />
       </Form.Item>
       <Form.Item label="官方语言" name="offical_language">
         <Input
           allowClear
-          addonBefore={formData.offical_language}
+          addonBefore={sourceData.offical_language}
           onChange={(e) => onChangeInput(e, "offical_language")}
         />
       </Form.Item>
       <Form.Item label="工资单周期" name="payroll_cycle">
         <Input
           allowClear
-          addonBefore={formData.payroll_cycle}
+          addonBefore={sourceData.payroll_cycle}
           onChange={(e) => onChangeInput(e, "payroll_cycle")}
         />
       </Form.Item>
@@ -141,6 +149,14 @@ const CountryForm: React.FC<{
           onClick={handlerSaveLocalStory}
         >
           保存到本地
+        </Button>
+        <Button
+          className="download"
+          type="primary"
+          htmlType="submit"
+          onClick={handlerDownload}
+        >
+          下载到本地
         </Button>
       </Form.Item>
     </Form>

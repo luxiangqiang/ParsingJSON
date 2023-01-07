@@ -10,5 +10,5 @@ export interface IData {
 
 export interface ICountry {
   name: string;
-  data: IData;
+  sourceData: IData;
 }

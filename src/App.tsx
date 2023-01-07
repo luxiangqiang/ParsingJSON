@@ -1,37 +1,45 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useReducer } from "react";
 import "./App.css";
 import CountryContent from "@/components/Country";
-import { ICountry } from "@/components/types";
+import { ICountry, IData } from "@/components/types";
 import data from "@/static/uk.json";
 
+let initialState: ICountry = {
+  name: "",
+  sourceData: {
+    capital: "",
+    currency: "",
+    hireIn: "",
+    offical_language: "",
+    payroll_cycle: "",
+    continent: "",
+    priority: 0,
+  },
+};
+
+function reducer(state: ICountry, action: { type: string; payload: IData }) {
+  const country = action.payload;
+  switch (action.type) {
+    case "add":
+      return {
+        name: data?.hireIn,
+        sourceData: {
+          ...country,
+        },
+      };
+  }
+}
+
 function App() {
-  const [country, setCountry] = useState<ICountry>({
-    name: "",
-    data: {
-      capital: "",
-      currency: "",
-      hireIn: "",
-      offical_language: "",
-      payroll_cycle: "",
-      continent: "",
-      priority: 0,
-    },
-  });
+  const [state, dispatch] = useReducer(reducer, initialState);
+
   useEffect(() => {
-    setCountry({
-      name: data?.hireIn,
-      data: {
-        capital: data?.capital,
-        currency: data.currency,
-        hireIn: data.hireIn,
-        offical_language: data.offical_language,
-        payroll_cycle: data.payroll_cycle,
-      },
-    });
+    dispatch({ type: "add", payload: data });
   }, []);
+
   return (
     <div className="App">
-      <CountryContent country={country} sourceData={data} />
+      <CountryContent country={state} />
     </div>
   );
 }
