@@ -1,0 +1,368 @@
+{
+    "hireIn": "croatia",
+    "currency": "HRK",
+    "capital": "Zagreb",
+    "offical_language": "Croatian",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Social Security"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_pink.svg",
+            "title": "Private Healthcare - Unisure (optional)"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum wage is HRK 4,687.50 per month."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The individual income tax ranges from 20% to 30%. Income tax is calculated according to progressive rates. In addition, there may be local municipality taxes."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Gross Annual Income (HRK)": "Up to 360,000",
+                                "Tax Rate (%)": "20%"
+                            },
+                            {
+                                "Gross Annual Income (HRK)": "Over 360,000",
+                                "Tax Rate (%)": "30%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is generally estimated at 16.5% of the employee salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Health insurance - 16.5%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard workweek is from Monday to Friday."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Pregnant employees are entitled to 98 days of paid leave. 28 days must be taken before the child's birth. 70 days must be taken after the child's birth. The employee will receive 100% of their average salary during this period (based on the last 6 months), and the Croatian Health Insurance Fund (HZZO) will be responsible for this pay."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee can extend leave through parental leave."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "There is no paternity leave currently required by law."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to 8 months for the first and second child and 30 months for twins or every child after the first two of parental leave. Both parents can use parental leave, each for 4 or 15 months. If this right is used by only one parent, then leave can last only 6 or 30 months. Salary compensation during the first 6 months of parental leave is paid 100% of their average salary (based on the last 6 months) with a maximum limit of HRK 5,654.20 per month. For the remaining leave, employees will receive 70% of their average salary."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The Croatian Health Insurance Fund (HZZO) is responsible for this payment."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Parental leave can't be extended."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to paid sick leave for up to 42 days and long-term illness benefits after 42 days. This leave is paid at different rates and by different payers:"
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Period": "First 42 days",
+                                "Pay (% of base salary)": "A minimum of 70%, based on the employment agreement",
+                                "Payer": "Employer"
+                            },
+                            {
+                                "Period": "After 42 days",
+                                "Pay (% of base salary)": "Income replacement benefit is calculated",
+                                "Payer": "Employer reimbursed by Croatian Health Insurance Fund (HZZO)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Croatia can be complex. There is no at-will termination in Croatia for employers, outside the probation period, and termination must be done for just cause."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "Economic, technical, or organizational reasons the need for Employee's work position ceases to exist"
+                                    },
+                                    {
+                                        "text": "Employee ceases to be capable of performing his/her duties, due to his/her ability or character"
+                                    },
+                                    {
+                                        "text": "Employee breaches his/her obligations arising from the employment relationship"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum notice period is 2 weeks and will be increased according to the length of the employment."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Length of Employment": "Probation Period",
+                                "Notice Period": "7 days"
+                            },
+                            {
+                                "Length of Employment": "Less than 1 year",
+                                "Notice Period": "2 weeks"
+                            },
+                            {
+                                "Length of Employment": "Consecutively worked for 1 year",
+                                "Notice Period": "4 weeks"
+                            },
+                            {
+                                "Length of Employment": "Consecutively worked for 2 years",
+                                "Notice Period": "6 weeks"
+                            },
+                            {
+                                "Length of Employment": "Consecutively worked for 5 years",
+                                "Notice Period": "8 weeks"
+                            },
+                            {
+                                "Length of Employment": "Consecutively worked for 10 years",
+                                "Notice Period": "10 weeks"
+                            },
+                            {
+                                "Length of Employment": "Consecutively worked for 20 years*",
+                                "Notice Period": "12 weeks"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "The stated deadlines are reduced by half if the employee's employment contract is terminated due to a breach of the employment obligation, i.e. if it is a case of dismissal due to the employee's misconduct"
+                            },
+                            {
+                                "text": "If the employee terminates the employment contract, the notice period cannot be longer than one month"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "* If the worker has reached 50 years of age this period is extended for another 2 weeks, and if the worker has reached 55 years of age for one month."
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In Croatia, employees are entitled to severance pay if the following conditions are met:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "The employer terminates the employment contract"
+                            },
+                            {
+                                "text": "The dismissal is not conditioned by the behavior of the worker"
+                            },
+                            {
+                                "text": "The worker has spent at least 2 years continuously working for the employer terminating the contract"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Severance payment is based on the length of employment with the same employer. The statutory minimum severance payment is one-third of the monthly salary (average of the last 3 months) per year of employment. The maximum payment is 6 months salary unless otherwise provided for by law, by-law, collective agreement, or work contract."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Both full-time and part-time employees are entitled to 20 working days of paid time off (PTO) a year. PTO accrues monthly at 1.67 days per month which is pro-rated for part-time employees."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Croatia celebrates 14 national holidays. National holidays include:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "New Year’s day\nEpiphany\nEaster Sunday\nEaster Monday\nLabor day\nStatehood day\nCorpus Christi\nAnti-Fascist Struggle day\nVictory day\nAssumption day\nAll Saints day\nRemembrance day\nChristmas day\nSt. Stephen's day"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes 3 business days."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in Croatian and can be bilingual. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Name"
+                            },
+                            {
+                                "text": "Position and job description"
+                            },
+                            {
+                                "text": "Obligations"
+                            },
+                            {
+                                "text": "Place of work"
+                            },
+                            {
+                                "text": "Commencement and duration of employment"
+                            },
+                            {
+                                "text": "Working hours"
+                            },
+                            {
+                                "text": "Salary and other benefits"
+                            },
+                            {
+                                "text": "Additional remuneration and reimbursement of expenses"
+                            },
+                            {
+                                "text": "Vacation and leave"
+                            },
+                            {
+                                "text": "Termination conditions"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Probation periods are not mandatory. There is no minimum probation period. The maximum probation period is 6 months."
+                    }
+                ]
+            }
+        ]
+    }
+}

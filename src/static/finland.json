@@ -1,0 +1,385 @@
+{
+    "hireIn": "finland",
+    "currency": "Euro - EUR",
+    "capital": "Helsinki",
+    "offical_language": "Finnish and Swedish",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Occupational Health Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Pension%20fund/Badge_pink.svg",
+            "title": "Pension Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Social Security"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_purple.svg",
+            "title": "Workers Compensation Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Private Healthcare - Unisure (optional)"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "There are no provisions regarding the minimum salary stipulated in the law. The wage can vary according to the collective agreement that applies to the company."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The individual national income tax ranges from 6% to 32%. Income tax is calculated according to progressive rates for national taxes. Employees also pay an additional flat rate for municipality taxes (up to 23%). Multiple additional factors may impact overall rates such as Church Tax, number of children, among others."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Gross Annual Income": "Up to EUR 27,900",
+                                "National Tax Rate (%)": "6%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to EUR 45,900",
+                                "National Tax Rate (%)": "17.25%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to EUR 80,500",
+                                "National Tax Rate (%)": "21.25%"
+                            },
+                            {
+                                "Gross Annual Income": "Over EUR 80,500",
+                                "National Tax Rate (%)": "32%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The employer cost is generally estimated at 19% of the employee salary."
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Standard working hours are 7.5 hours per day and 37.5 hours per week, but the client can change this to 40 hours a week and 8 hours a day if they want to. The standard work week is from Monday to Friday."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Overtime pay is not mandatory."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Overtime must be mutually agreed on in the employment agreement (EA). If there is overtime in the EA, hours outside of standard work hours are paid according to the Working Hours Act."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "For additional hours, the employer can pay employees:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "150% of the hourly rate for the first 2 hours."
+                            },
+                            {
+                                "text": "200% of the hourly rate for the following hours."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to 105 working days of paid leave. The paid leave must start 30 days before the child's birth and end 75 days after the due date."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Kela (Social Insurance) will pay a minimum of EUR 29.05 per day during this period. Kela will calculate the exact leave with the annual salary of the employee."
+                    },
+                    {
+                        "type": "text",
+                        "data": "The employee can extend leave using parental leave."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to 54 days of paid paternity leave. A maximum of 18 days can overlap with maternity leave. The rest of the paternity leave can be taken in a maximum of 2 separate periods before the child is 2 years old."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Kela (Social Insurance) will pay a minimum of EUR 29.05 per day during this period. Kela will calculate the exact leave with the annual salary of the employee."
+                    },
+                    {
+                        "type": "text",
+                        "data": "The employee can extend leave using parental leave."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to 158 working days of parental leave. Both parents can decide how to distribute the time off, which should be taken immediately after maternity leave."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Kela (Social Insurance) will pay a minimum of EUR 29.05 per day during this period. Kela will calculate the exact leave with the annual salary of the employee."
+                    },
+                    {
+                        "type": "text",
+                        "data": "An employee is entitled to extended childcare leave from the day parental leave ends until the child turns three years old."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Parental leave is a different type of leave from maternity and paternity leave. In some countries, parental/child care leave is granted to the parents on top of the standard leave."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to paid sick leave up to 300 days."
+                    },
+                    {
+                        "type": "text",
+                        "data": "For the first nine days the employer pays 100% of the salary if the employee worked for more than a month or 50% if the working period was less than a month long."
+                    },
+                    {
+                        "type": "text",
+                        "data": "From the ninth day, Social Insurance (Kela) will cover 40-60% of the salary."
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employer or employee may terminate agreements in Finland. If the decision is from the employer, the employee must be consulted and be allowed to present an opinion on the matter."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Expiry"
+                            },
+                            {
+                                "text": "Dismissal"
+                            },
+                            {
+                                "text": "Cancellation"
+                            },
+                            {
+                                "text": "Resignation"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum notice period is 14 days and will be increased according to the length of the employment and who initiates the termination."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Termination by the employer:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "14 days if the length of service is less than 1 year."
+                            },
+                            {
+                                "text": "1 month if the length of service is up to 4 years."
+                            },
+                            {
+                                "text": "2 months if the length of service is up to 8 years."
+                            },
+                            {
+                                "text": "4 months if the length of service is up to 12 years."
+                            },
+                            {
+                                "text": "6 months if the length of service is more than 12 years."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Termination by employee:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "14 days if the length of service is less than 5 years."
+                            },
+                            {
+                                "text": "1 month if the length of service is more than 5 years."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Severance is not required and will only be paid at the employer's discretion. In exceptional cases, the employee can claim severance from the employer."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Both full-time and part-time employees are entitled to 30 days of paid time off (PTO) a year. PTO accrues at 2.5 days per month. Annual leave is calculated from the 1st of April until the end of March."
+                    },
+                    {
+                        "type": "text",
+                        "data": "During the first year, employees accrue two days per month."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Usually, the season is May-September for summer holidays and October-April for winter holidays."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Finland celebrates 15 national and 2 regional holidays based on the location of the employee."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "National public holidays include:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "New Year's Day\nEpiphany\nGood Friday\nSecond Easter Day\nVappu\nMother's Day\nAscension Day\nMidsummer Eve\nMidsummer Day\nAll Saints' Day\nFather's Day\nIndependence Day\nChristmas Eve\nChristmas Day\nSecond Day of Christmas"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "3 business days after MSA signature & deposit payment."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts can be in English or bilingual. They must be written and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Name"
+                            },
+                            {
+                                "text": "Start date"
+                            },
+                            {
+                                "text": "Job description"
+                            },
+                            {
+                                "text": "Annual leave"
+                            },
+                            {
+                                "text": "Termination conditions"
+                            },
+                            {
+                                "text": "Qualifications of the employee"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "For fixed term contracts, a maximum of half of the length of the job will last less than a year or 180 days"
+                            },
+                            {
+                                "text": "For indefinite term contracts, the maximum is 180 days"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Probation periods are not mandatory."
+                    }
+                ]
+            }
+        ]
+    }
+}

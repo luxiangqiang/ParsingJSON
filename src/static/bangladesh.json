@@ -1,0 +1,282 @@
+{
+    "hireIn": "bangladesh",
+    "currency": "Bangladeshi taka",
+    "capital": "Dhaka",
+    "offical_language": "Bengali",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Gratuity%20Fund/PiggyinHand_purple.svg",
+            "title": "Gratuity Payment"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "There is no minimum wage by Law in Bangladesh."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The individual income tax ranges from 0% to 30%. Income tax is calculated according to progressive rates. Multiple additional factors may impact overall rates such as the household status and the number of children."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "For foreign residents the tax rate is a flat 30%"
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The employer cost is generally estimated at 13.66"
+                    },
+                    {
+                        "type": "text",
+                        "data": "%"
+                    },
+                    {
+                        "type": "text",
+                        "data": "of the employee salary."
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard workweek is from Sunday to Thursday."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees who have worked for 6 consecutive months are entitled to 16 weeks of paid leave. 8 days must be taken before the child's birth. The employee will receive their average salary of the 3 months proceeding when they gave notice of the birth, and the employer will be responsible for this pay."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "There is no paternity leave currently required by law."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Bangladesh, no law covers parental leave."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to paid sick leave for up to 14 days. This leave is paid 100% by the employer."
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Bangladesh can be complex. There is no at-will termination in Bangladesh for employers outside the probation period and termination must be done for just cause."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "probation period"
+                                    },
+                                    {
+                                        "text": "objective grounds"
+                                    },
+                                    {
+                                        "text": "disciplinary dismissal"
+                                    },
+                                    {
+                                        "text": "performance due to unsuitability for the job"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum notice period is 60 days and will be increased according to the type of the employment."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "60 days if the employee is monthly rated"
+                            },
+                            {
+                                "text": "120 days if the employee is permanent worker"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Bangladesh, all employees who are terminated are entitled to severance pay. Severance pay is 30 days of salary per year of service up to"
+                    },
+                    {
+                        "type": "text",
+                        "data": "1 months base compensation."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Both full-time and part-time employees are entitled to 18 working days of paid time off (PTO) a year. PTO accrues monthly at 1 day for every 18 days worked. Employees are eligible for annual leave after they have completed their probation period."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Bangladesh celebrates 20 national holidays over 24 days."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "National public holidays include:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "Shaheed Day and International Mother Language Day\nBirthday of the Father of the Nation Bangabandhu Sheikh Mujibur Rahman\nShab-e-Barat\nIndependence and National Day\nBengali New Year's Day\nJumatul Wida\nShab-e-Qadar\nMay Day\nEid-ul-Fitr - 3 days\nBuddha Purnima (Boishakhi Purnima)\nBank Holiday\nEid-ul-Azha - 3 days\nMoharrum (Ashura)\nNational Mourning Day\nJanmashtami\nDurga Puja (Bijoya Dashami)\nEid-e-Miladun-Nabi (S)\nVictory Day\nChristmas Day\nBank Holiday"
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "For more information see here"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes 5 business days. Documents must be completed 1 day before the start date."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in English and can be bilingual. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Title of the Agreement"
+                            },
+                            {
+                                "text": "Identify the parties"
+                            },
+                            {
+                                "text": "Term of the Agreement"
+                            },
+                            {
+                                "text": "Position/ Place of work"
+                            },
+                            {
+                                "text": "Remuneration"
+                            },
+                            {
+                                "text": "Mandatory Benefits"
+                            },
+                            {
+                                "text": "Termination Procedure"
+                            },
+                            {
+                                "text": "Dispute Resolution"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Probation periods are mandatory. The minimum probation period is 3 months and the maximum probation period is 6 months."
+                    }
+                ]
+            }
+        ]
+    }
+}

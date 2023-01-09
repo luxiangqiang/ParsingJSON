@@ -1,0 +1,324 @@
+{
+    "hireIn": "ukraine",
+    "currency": "Ukrainian Hryvnia (UAH)",
+    "capital": "Kyiv",
+    "offical_language": "Ukrainian",
+    "payroll_cycle": "Bi-monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Social Security"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_pink.svg",
+            "title": "Private Healthcare - Unisure (optional)"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum wage is UAH 6,500 per month from January 2022 onwards, and UAH 6,700 from October 2022 onwards."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The individual income tax rate is 18% in Ukraine. Income tax is calculated using a flat tax rate."
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is generally estimated at 22% of the employee salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Compulsory state social insurance - 22%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard workweek is from Monday to Friday."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Pregnant employees are entitled to 126 days of paid leave. 70 days must be taken before the child's birth. 56 days must be taken after the child's birth. The employee will receive 100% of their average salary during this period, and the Social Insurance Fund will be responsible for this pay. The employee cannot extend leave."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to 14 days of paid paternity leave. This leave can be taken up to 3 months from the child’s birth. The employee will receive 100% of their average salary during this period, and the employer will be responsible for this pay. The employee cannot extend leave."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Ukraine, no law covers parental leave. However, employees may be entitled to maternity leave and paternity leave."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to 4 months of sick leave. The first 5 days of paid leave are covered by the employee. All the days following this are covered by the Social Insurance Fund. The salary paid during this leave is based on the length of the employment insurance record ranging from 50% to 100%."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Employment insurance record": "Less than 3 years",
+                                "Pay (% of salary)": "50%"
+                            },
+                            {
+                                "Employment insurance record": "3 - 5 years",
+                                "Pay (% of salary)": "60%"
+                            },
+                            {
+                                "Employment insurance record": "5 - 8 years",
+                                "Pay (% of salary)": "70%"
+                            },
+                            {
+                                "Employment insurance record": "Above 8 years",
+                                "Pay (% of salary)": "100%"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Ukraine can be complex. There is no at-will termination in Ukraine for employers outside the probation period and termination must be done for just cause. Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "Probation period"
+                                    },
+                                    {
+                                        "text": "Changes in the organization of production and labor"
+                                    },
+                                    {
+                                        "text": "Appearance at work in a state of intoxication"
+                                    },
+                                    {
+                                        "text": "Incompatibility of the employee to the position to which he was hired"
+                                    },
+                                    {
+                                        "text": "Performance due to unsuitability for the job"
+                                    },
+                                    {
+                                        "text": "Systematic non-fulfillment by the employee"
+                                    },
+                                    {
+                                        "text": "Non-appearance for work for more than four months in a row due to temporary incapacity"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The notice period is based on the grounds of dismissal."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "By mutual agreement - no notice period"
+                            },
+                            {
+                                "text": "During probation period - 3 days of notice"
+                            },
+                            {
+                                "text": "Voluntarily by the employee - 14 days of notice"
+                            },
+                            {
+                                "text": "Unilaterally by the employer in cases of redundancy - 2 months of notice"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Severance pay is paid if an employee is dismissed from work, not on his own initiative. The amount of severance pay is based on the circumstances of contract termination."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Case\nSeverance pay\n\n\nRefusal of the employee to transfer to work in another organization as well as the refusal of the employee to continue working due to changes in significant working conditions. 2. Employee’s incompatibility with position or work 3. Reinstatement of an employee who previously performed at the job\n1-month salary\n\n\nConscription of an employee or owner\n2 months’ salary\n\n\nViolation by the owner or authorized body\n3 months’ salary"
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Both full-time and part-time employees are entitled to a minimum of 24 days of paid time off (PTO) a year. PTO varies by type of employee:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Employees in the first or second category of disabled persons - 30 days of PTO"
+                            },
+                            {
+                                "text": "Employees in the third category of disabled persons - 26 days of PTO"
+                            },
+                            {
+                                "text": "Employees under the age of 18 - 31 days of PTO"
+                            },
+                            {
+                                "text": "Seasonal workers - proportional to time worked"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "PTO accrues monthly at 2 days per month. Employees are eligible to take PTO after 6 months of work."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Ukraine celebrates 11 public holidays. National public holidays include:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "New Year\nOrthodox Christmas Day\nInternational Women's Day\nLabor Day\nEaster\nVictory Day over Nazism in World War II\nTrinity\nConstitution Day\nIndependence Day\nDefender’s Day\nChristmas"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes 5 business days."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in Ukrainian and can be bilingual. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Place of work"
+                            },
+                            {
+                                "text": "Working hours"
+                            },
+                            {
+                                "text": "Break"
+                            },
+                            {
+                                "text": "Position"
+                            },
+                            {
+                                "text": "Rights and responsibilities"
+                            },
+                            {
+                                "text": "Amount of remuneration"
+                            },
+                            {
+                                "text": "Validity"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Probation periods are not mandatory. There is no minimum probation period. The maximum probation period for non-blue collar employees is 90 days (3 months). For blue collar employees, the maximum probation period is 1 month."
+                    }
+                ]
+            }
+        ]
+    }
+}

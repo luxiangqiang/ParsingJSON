@@ -1,0 +1,355 @@
+{
+    "hireIn": "puerto rico",
+    "currency": "United States Dollar - USD",
+    "capital": "San Juan",
+    "offical_language": "Spanish & English",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Public Health Care"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Social Security"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Work Accident Insurance"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum wage is USD 1,160 per month."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The individual income tax ranges from 0% to 33%. Income tax is calculated according to progressive rates. Multiple additional factors may impact overall rates, such as household status and the number of children."
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The employer cost is generally estimated between 13-18% of the employee salary."
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Standard working hours are 8 hours per day and 40 hours per week. The standard workweek is from Monday to Friday."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Overtime payment is mandatory for non-exempt employees. Hours outside of standard work hours are considered overtime. For additional hours, employees are paid 150% of the hourly rate."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Non-exempt employees, according to federal and Puerto Rico overtime laws, are employees that do not spend most of their time managing teams or performing executive or professional duties and earn a salary above USD 2,964 per month."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to 8 weeks of paid leave; 4 weeks must be taken before the child's birth. The remaining days can be divided into two periods of time. The employee will receive 100% of the salary during this period, and the employer will be responsible for this pay."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to 5 working days of unpaid leave."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to 12 weeks of parental leave. Both parents can decide how to distribute the time off, which should be taken after paternity and maternity leave. Either parent can take parental leave. Parental leave is unpaid."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to paid sick leave for up to 12 days, depending on the length of service. Employees accrue one sick day for every month worked up until 12 days. The employer pays sick leave at 100%."
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Puerto Rico are complex. Employees hired for an indefinite period should be terminated by just cause. If is terminated without case, the employee will be entitled to an indemnification."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "probation period"
+                                    },
+                                    {
+                                        "text": "objective grounds"
+                                    },
+                                    {
+                                        "text": "disciplinary dismissal"
+                                    },
+                                    {
+                                        "text": "performance due to unsuitability for the job"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "By expiration of the contract"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Puerto Rico, notice period does not apply."
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In Puerto Rico, all employees who are terminated due to without just cause are entitled to severance pay. Severance pay varies depending on the employee's length of service:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Up to 5 years: 2 months' salary plus 1 week of pay for each full year of service."
+                            },
+                            {
+                                "text": "Up to 15 years: 3 months of salary plus 2 weeks of pay for each year of service"
+                            },
+                            {
+                                "text": "More than 15 years: 6 months of salary plus 3 weeks of pay for every year of service."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Both full-time and part-time employees are entitled to 6 working of paid time off (PTO) a year. PTO and aural rate varies depending on the length of services. During the first year of employment, an employee is not allowed to take more than 6 days."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "During the first year of service: 0.50 days per month, up to six days a year."
+                            },
+                            {
+                                "text": "From the 2nd through the 5th year of service: 0.75 days per month, up to nine days a year."
+                            },
+                            {
+                                "text": "From the 6th through the 15th year of service: 1 day per month, up to 12 days a year."
+                            },
+                            {
+                                "text": "From the 15th year of service: 1.25 days per month, up to 15 days a year."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Puerto Rico celebrates 18 national holidays."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "New Year's Day"
+                            },
+                            {
+                                "text": "Epiphany"
+                            },
+                            {
+                                "text": "Martin Luther King Jr. Birthday"
+                            },
+                            {
+                                "text": "President's Day"
+                            },
+                            {
+                                "text": "Emancipation Day"
+                            },
+                            {
+                                "text": "Good Friday"
+                            },
+                            {
+                                "text": "Easter Sunday"
+                            },
+                            {
+                                "text": "Mother's Day"
+                            },
+                            {
+                                "text": "Memorial Day"
+                            },
+                            {
+                                "text": "Father's Day"
+                            },
+                            {
+                                "text": "Independence Day"
+                            },
+                            {
+                                "text": "Constitution Day"
+                            },
+                            {
+                                "text": "Labour Day"
+                            },
+                            {
+                                "text": "Day of the Race"
+                            },
+                            {
+                                "text": "Veterans Day"
+                            },
+                            {
+                                "text": "Discovery Day"
+                            },
+                            {
+                                "text": "Thanksgiving Day"
+                            },
+                            {
+                                "text": "Christmas Day"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Onboarding takes 2 business days after the client signs the SOW. The hiring process includes registering the employee in Social Security. This must be done at least 1 day before the start date."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in English and can be bilingual. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "name"
+                            },
+                            {
+                                "text": "start date"
+                            },
+                            {
+                                "text": "length of the employment"
+                            },
+                            {
+                                "text": "job description"
+                            },
+                            {
+                                "text": "termination conditions"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The length will depend on the classification of the employee:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Non- exempt employees: 9 months"
+                            },
+                            {
+                                "text": "Exempt employees 12 months"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

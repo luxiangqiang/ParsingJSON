@@ -1,0 +1,296 @@
+{
+    "hireIn": "namibia",
+    "currency": "Namibian Dollar",
+    "capital": "Windhoek",
+    "offical_language": "English",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "National Social Security Fund"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Workers Compensation Insurance"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "There is no minimum wage by law in Namibia."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The individual income tax ranges from 0% to 37%. Income tax is calculated according to progressive rates. Multiple additional factors may impact overall rates, such as household status and the number of children."
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The employer cost is generally estimated at 2% of the employee salary."
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Standard working hours are 8 hours per day and 40 hours per week. The standard work week is from Monday to Friday."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees who have worked for 12 consecutive months are entitled to 12 weeks of paid leave. 4 weeks must be taken before the child's birth. The employee will receive 100% of the salary during this period, and Social Security and the employer will be responsible for this pay."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "There is no paternity leave currently required by law."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Namibia, no law covers parental leave. However, employees may be entitled to maternity leave and paternity leave."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to paid sick leave for up to 30 days for a three-year cycle. This leave is paid at 100%."
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases.Terminations in Namibia are complex. There is no at-will termination in Namibia for employers and termination must be done for just cause."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "probation period"
+                                    },
+                                    {
+                                        "text": "objective grounds"
+                                    },
+                                    {
+                                        "text": "disciplinary dismissal"
+                                    },
+                                    {
+                                        "text": "performance due to unsuitability for the job"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum notice period is 1 day and will be increased according to the length of the employment."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "1 day if the length of service is 4 weeks or less"
+                            },
+                            {
+                                "text": "1 week if the length of service is more than 4 weeks but less than a year"
+                            },
+                            {
+                                "text": "1 month if the length of service is more than 1 year"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Namibia, all employees who are terminated are entitled to severance pay. Severance pay is 1 week of salary per year of service."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Both full-time and part-time employees are entitled to 20 working days of paid time off (PTO) a year. PTO accrues monthly at 1.67 days per month. Employees are eligible for annual leave after 1 month of work."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Namibia celebrates both 13 national holidays."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "National public holidays include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "New Year's Day"
+                            },
+                            {
+                                "text": "Independence Day"
+                            },
+                            {
+                                "text": "Good Friday"
+                            },
+                            {
+                                "text": "Easter Monday"
+                            },
+                            {
+                                "text": "Worker’s Day"
+                            },
+                            {
+                                "text": "Worker’s Day Holiday"
+                            },
+                            {
+                                "text": "Cassinga Day"
+                            },
+                            {
+                                "text": "Africa Day"
+                            },
+                            {
+                                "text": "Ascension Day"
+                            },
+                            {
+                                "text": "Heroes Day"
+                            },
+                            {
+                                "text": "Human Rights Day / Women's Day"
+                            },
+                            {
+                                "text": "Christmas Day"
+                            },
+                            {
+                                "text": "Family Day"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes 2 business days after the client signs the SOW. Documents must be completed 1 day before the start date."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in English. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "name"
+                            },
+                            {
+                                "text": "start date"
+                            },
+                            {
+                                "text": "length of the employment"
+                            },
+                            {
+                                "text": "job description"
+                            },
+                            {
+                                "text": "termination conditions"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum probation period is 90 days and maximum is usually 180 days."
+                    }
+                ]
+            }
+        ]
+    }
+}

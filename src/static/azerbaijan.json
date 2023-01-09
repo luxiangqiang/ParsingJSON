@@ -1,0 +1,368 @@
+{
+    "hireIn": "azerbaijan",
+    "currency": "Azerbaijani Manat",
+    "capital": "Baku",
+    "offical_language": "Azerbaijani",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Public Health Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Social Security"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Unemployment Insurance"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum wage is AZN 300 per month."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The individual income tax ranges from 0% to 14%. Income tax is calculated according to progressive rates."
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The employer cost is generally estimated at 18.9% of the employee's salary."
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Standard working hours are 8 hours per day and 40 hours per week. The standard work week is from Monday to Friday."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Overtime payment is mandatory and not included in the salary and paid on top of the monthly salary. Hours outside of standard work hours are considered overtime. Employees can work a maximum of 2 hours of overtime a day. For additional hours, employees are paid 200% of the hourly rate."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees who have worked for six consecutive months are entitled to 126 days of paid leave. 70 days must be taken before the child's birth. The employee will receive 100% of their average salary from the last 12 months during this period, and Social Security will be responsible for this pay."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to 14 days of paid paternity leave. The employee will receive 0% of the salary during this period."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In Azerbaijan parental leave is complex. Employees are entitled to different levels of leave for different circumstances:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Mothers with more than 2 children under the age of 16 are entitled to 2 additional days of paid leave a year."
+                            },
+                            {
+                                "text": "Mothers with more than 3 or more children under the age of 16 are entitled to 5 additional days of paid leave a year."
+                            },
+                            {
+                                "text": "Mothers or single fathers with a child under the age of 16 are entitled to 14 days of unpaid leave."
+                            },
+                            {
+                                "text": "Females adopting children under the age of 2 months are entitled to 56 days of partially paid leave from social security."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Sick leave in Azerbaijan is complex. Employees who have worked for at least six months are entitled to paid sick leave for up to 365 days. This leave is paid at different rates and by different payers depending upon length of service, how long they are sick and type of sickness."
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts can be bilingual. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "name"
+                            },
+                            {
+                                "text": "start date"
+                            },
+                            {
+                                "text": "length of the employment"
+                            },
+                            {
+                                "text": "job description"
+                            },
+                            {
+                                "text": "termination conditions"
+                            },
+                            {
+                                "text": "salary"
+                            },
+                            {
+                                "text": "working hours"
+                            },
+                            {
+                                "text": "holidays"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum notice period is 30 days and will be increased according to the length of the employment."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "45 days if the length of service is less than 2 years"
+                            },
+                            {
+                                "text": "60 days if the length of service is less than 5 years"
+                            },
+                            {
+                                "text": "90 days if the length of service is less than 15 years"
+                            },
+                            {
+                                "text": "120 days if the length of service is less than 25 years"
+                            },
+                            {
+                                "text": "150 days if the length of service is more than 25 years"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "If an employee resigns, they must also provide 1 month of notice regardless of the length of service. However, more can be agreed upon agreement between the two parties."
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Severance pay will depend on the length of service and type of termination."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Redundancy: 90 days of salary"
+                            },
+                            {
+                                "text": "Standard termination: 30 days of salary for services less than a year."
+                            },
+                            {
+                                "text": "Standard termination: 120 days of salary for services between 1-5years."
+                            },
+                            {
+                                "text": "Standard termination: 210 days of salary for services between 5-10years."
+                            },
+                            {
+                                "text": "Standard termination: 60 days of salary for services greater than 10 years."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Both full-time and part-time employees are entitled to 21 working days of paid time off (PTO) a year. PTO and aural rate varies depending on the length of services. Employees are eligible for annual leave after 1 month of work. Certain classifications of employees would only be entitled to 15 working days of PTO."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The length of service is the seniority of an employee working, regardless of the employer. The length is confirmed with Social Security, and the information submitted as the worker's history."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Azerbaijan celebrates 15 national holidays over 22 days."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "National public holidays include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "New Year's Day - 2 days"
+                            },
+                            {
+                                "text": "Women's Day"
+                            },
+                            {
+                                "text": "Victory Day"
+                            },
+                            {
+                                "text": "Republic Day"
+                            },
+                            {
+                                "text": "Day of National Salvation of the Azerbaijani People"
+                            },
+                            {
+                                "text": "Armed Forces Day of the Republic of Azerbaijan"
+                            },
+                            {
+                                "text": "National Independence Day"
+                            },
+                            {
+                                "text": "Victory Day"
+                            },
+                            {
+                                "text": "National Flag Day of the Republic of Azerbaijan"
+                            },
+                            {
+                                "text": "Constitution Day"
+                            },
+                            {
+                                "text": "National Revival Day"
+                            },
+                            {
+                                "text": "Day of Solidarity of World Azerbaijanis"
+                            },
+                            {
+                                "text": "Novruz holiday – 5 days"
+                            },
+                            {
+                                "text": "Eid al-Adha – 2 days"
+                            },
+                            {
+                                "text": "Eid al-Fitr – 2 days"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes 7 business days. Documents must be completed 1 day before the start date."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts can be bilingual. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "name"
+                            },
+                            {
+                                "text": "start date"
+                            },
+                            {
+                                "text": "length of the employment"
+                            },
+                            {
+                                "text": "job description"
+                            },
+                            {
+                                "text": "termination conditions"
+                            },
+                            {
+                                "text": "salary"
+                            },
+                            {
+                                "text": "working hours"
+                            },
+                            {
+                                "text": "holidays"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Standard probationary period is 90 days."
+                    }
+                ]
+            }
+        ]
+    }
+}

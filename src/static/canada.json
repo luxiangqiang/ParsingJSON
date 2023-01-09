@@ -1,0 +1,434 @@
+{
+    "hireIn": "canada",
+    "currency": "Canadian Dollar (CAD)",
+    "capital": "Ottawa",
+    "offical_language": "French and English",
+    "payroll_cycle": "Bi-Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Pension%20fund/Badge_turquoise.svg",
+            "title": "Pension Fund"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_pink.svg",
+            "title": "Social Security"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Disability%20Fund/Disability_blue.svg",
+            "title": "Disability Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Healthcare - Canada Life (Mandatory - Bronze)"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Pension - Wealthsimple (optional)"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Healthcare - Canada Life (Optional - Silver and Gold plans)"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "On April 1, 2022, the federal minimum wage increased from $15.00 to $15.55 per hour. For those working in provinces or territories where the general minimum wage rate is higher, the higher rate will continue to apply."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Minimum wage in Canada differs by Province / Territory."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Please reference the corresponding information for current wages:"
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Provinces"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Newfoundland and Labrador"
+                            },
+                            {
+                                "text": "Prince Edward Island"
+                            },
+                            {
+                                "text": "Nova Scotia"
+                            },
+                            {
+                                "text": "New Brunswick"
+                            },
+                            {
+                                "text": "Quebec"
+                            },
+                            {
+                                "text": "Ontario"
+                            },
+                            {
+                                "text": "Manitoba"
+                            },
+                            {
+                                "text": "Saskatchewan"
+                            },
+                            {
+                                "text": "Alberta"
+                            },
+                            {
+                                "text": "British Columbia"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Territories"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Nunavut"
+                            },
+                            {
+                                "text": "Northwest Territories"
+                            },
+                            {
+                                "text": "Yukon Territory"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Individuals pay federal taxes as well as provincial taxes based on where they are located. Federal individual income tax ranges from 15% to 33%. Income tax is calculated according to progressive rates."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Gross Annual Income (CAD)": "Up to 49,020",
+                                "Tax Rate (%)": "15%"
+                            },
+                            {
+                                "Gross Annual Income (CAD)": "Between 49,020 to 98,040",
+                                "Tax Rate (%)": "20.5%"
+                            },
+                            {
+                                "Gross Annual Income (CAD)": "Between 98,040 to 151,978",
+                                "Tax Rate (%)": "26%"
+                            },
+                            {
+                                "Gross Annual Income (CAD)": "Between 151,978 to 216,511",
+                                "Tax Rate (%)": "29%"
+                            },
+                            {
+                                "Gross Annual Income (CAD)": "Above 216,511",
+                                "Tax Rate (%)": "33%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is generally estimated at 10.17% of the employee salary."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "This is the employer cost for Ontario:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Canada Pension Plan - 5.7%"
+                            },
+                            {
+                                "text": "Employment Health Tax - 1.95%"
+                            },
+                            {
+                                "text": "Employment Insurance - 2.21%"
+                            },
+                            {
+                                "text": "Workers' Compensation - 0.31%"
+                            },
+                            {
+                                "text": "Registered Retirement Saving Plan (Optional pension plan)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard workweek is from Monday to Friday. There are specific requirements depending on the province as well as the industry. Overtime pay is generally mandatory. Certain position types and professions are exempt from overtime requirements such as employees with managerial responsibilities. Exemptions are complex and depend upon the province where the employee is located. Hours outside of standard work hours are considered overtime. Employees can work a maximum of 8 hours of overtime per week"
+                    },
+                    {
+                        "type": "text",
+                        "data": "."
+                    },
+                    {
+                        "type": "text",
+                        "data": "For additional hours, employees are paid 150% of their salary."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Pregnant employees are entitled to 15 weeks of paid leave. The leave can start as early as 12 weeks before the expected date of birth and can end as late as 17 weeks after the actual date of birth. The employee will receive 55% of their average salary during this period, and the government will be responsible for this pay. The maximum salary payment is $638 per week."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee can extend leave through parental leave."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "There is no specific paternity leave required by law separate from parental leave in Canada."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Canada, there are two options for parental leave, standard parental benefits or extended parental benefits. The CRA is responsible for paying for this leave."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Benefit": "Standard parental",
+                                "Leave": "Up to 40 weeks split between both parents, but one parent cannot receive more than 35 weeks of standard benefits",
+                                "Payment (% of salary)": "55%",
+                                "Weekly Maximum": "Up to 638 CAD"
+                            },
+                            {
+                                "Benefit": "Extended parental",
+                                "Leave": "Up to 69 weeks split between both parents, but one parent cannot receive more than 61 weeks of extended benefits",
+                                "Payment (% of salary)": "33%",
+                                "Weekly Maximum": "Up to 383 CAD"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Parental leave can't be extended."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Entitled sick time may vary per province."
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Canada can be complex. There is no at-will termination in Canada for the employer, outside the probation period, and termination must be done for just cause."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "Probation period"
+                                    },
+                                    {
+                                        "text": "A material breach of the provisions of this agreement"
+                                    },
+                                    {
+                                        "text": "Misconduct"
+                                    },
+                                    {
+                                        "text": "Commission of an act of bankruptcy by the employee"
+                                    },
+                                    {
+                                        "text": "Refusal by an employee to perform job duties as assigned in agreement"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Statutory minimums for employee/employer notice vary per province’s ESA (Employment Standards Act). Our contracts have been created with this in mind and have wording which is meant to protect the client should they wish to terminate an employment agreement."
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In Canada, termination pay is paid when an employee is terminated without cause, and severance pay is paid when there is a mutual separation agreement or when an employee has completed a minimum of 12 consecutive months of employment."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "In the federal jurisdiction, eligible employees receive the greater of 2 days' wages per year of service or 5 days' wages. Severance pay varies based on specific provinces."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The vacation allowance varies per province in Canada. As a general policy in Canada Deel requires employers to give full-time employees a minimum of 15 vacation days per year.\n Part-time workers’ vacation accrual is prorated from the standard 15 vacation days per year.\n These are the minimum legal requirements, but common practice for employers in Canada is to give 21 vacation days."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In Canada, public holidays depend on the province the employee is located in. There are both nationwide and province specific days. Nationwide public holidays include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "New Year"
+                            },
+                            {
+                                "text": "Good Friday"
+                            },
+                            {
+                                "text": "Canada Day"
+                            },
+                            {
+                                "text": "Labour Day"
+                            },
+                            {
+                                "text": "Christmas Day"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes 2 business days after the client signs the SOW.. Registration in health insurance is required."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in English or French and can be bilingual. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Employee name"
+                            },
+                            {
+                                "text": "Role"
+                            },
+                            {
+                                "text": "Start date"
+                            },
+                            {
+                                "text": "Compensation"
+                            },
+                            {
+                                "text": "Vacation"
+                            },
+                            {
+                                "text": "Benefits"
+                            },
+                            {
+                                "text": "Termination"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Probation periods are not mandatory. There is no minimum probation period. The maximum probation period is 90 days (3 months)."
+                    }
+                ]
+            }
+        ]
+    }
+}

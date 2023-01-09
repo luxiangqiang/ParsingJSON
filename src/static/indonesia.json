@@ -1,0 +1,442 @@
+{
+    "hireIn": "indonesia",
+    "currency": "Indonesian Rupiah (IDR or Rp)",
+    "capital": "Jakarta",
+    "offical_language": "Bahasa Indonesia",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Social%20Security/ShieldCheck_turquoise.svg",
+            "title": "Social Security Program (BPJS)"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_pink.svg",
+            "title": "Private Healthcare - Unisure (optional)"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Minimum wage ranges from IDR 1,813,011 to IDR 4,452,724 per month depending upon the local province minimum wage regulations."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The individual income tax ranges from 5% to 35%. Income tax is calculated according to progressive rates."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Gross Annual Income (IDR)": "Up to IDR 50 million",
+                                "Tax Rate (%)": "5%"
+                            },
+                            {
+                                "Gross Annual Income (IDR)": "From IDR 60 million to IDR 250 million",
+                                "Tax Rate (%)": "15%"
+                            },
+                            {
+                                "Gross Annual Income (IDR)": "From IDR 250 million to IDR 500 million",
+                                "Tax Rate (%)": "25%"
+                            },
+                            {
+                                "Gross Annual Income (IDR)": "From IDR 500 million to IDR 5 billion",
+                                "Tax Rate (%)": "30%"
+                            },
+                            {
+                                "Gross Annual Income (IDR)": "Above IDR 5 billion",
+                                "Tax Rate (%)": "35%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is generally estimated at 4.24% of the employee salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Provident fund - 3.70%"
+                            },
+                            {
+                                "text": "Death Security - 0.30%"
+                            },
+                            {
+                                "text": "Work-related accident benefit - 0.24%"
+                            },
+                            {
+                                "text": "Healthcare and social security - Rp 480,000"
+                            },
+                            {
+                                "text": "Pension Fund - Rp 175,092"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Standard working hours are 8 hours per day for 5 working days, and 7 hours per day for 6 working days, totalling 40 hours per week. The standard work week is from Monday to Friday."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Overtime in Indonesia is complex. Overtime payment is not mandatory. Hours outside of standard work hours are considered overtime. Employees can work a maximum of 4 hours of overtime per day, and 18 hours of overtime per week. Overtime is paid between 150% to 400% of hourly wage depending on if it is a regular work day or weekend as well as the number of overtime hours worked."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "150% of the hourly rate, the first 1 hours."
+                            },
+                            {
+                                "text": "200% of the hourly rate, the following hours."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "For employees working on the weekend or public holiday overtime is calculated as follows:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "200% of the hourly rate, the first 8 hours."
+                            },
+                            {
+                                "text": "300% of the hourly rate, the following 1 hour."
+                            },
+                            {
+                                "text": "400% of the hourly rate, the following 2 hour."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Pregnant employees are entitled to 3 months of paid leave. 1.5 months must be taken before the child's birth. The remaining 1.5 months must be taken after the child’s birth. The employee will receive 100% of the salary during this period, and the employer will be responsible for this pay."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee cannot extend leave."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to 2 days of paid paternity leave. The employee will receive 100% of their average salary during this period, and the employer will be responsible for this pay."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee cannot extend leave."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Indonesia, no law covers parental leave. However, employees may be entitled to maternity leave and paternity leave."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "There is no maximum number of days that an employee can use sick leave. This leave is paid at different rates by the employer depending upon length:"
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Period": "First 4 months",
+                                "Pay (% of base salary)": "100%"
+                            },
+                            {
+                                "Period": "Next 4 months",
+                                "Pay (% of base salary)": "75%"
+                            },
+                            {
+                                "Period": "Next 4 months (After first 8 months)",
+                                "Pay (% of base salary)": "50%"
+                            },
+                            {
+                                "Period": "For each subsequent month",
+                                "Pay (% of base salary)": "25%"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Indonesia can be complex. There is no at-will termination in Indonesia for employers outside the probation period and termination must be done for just cause."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Death of worker"
+                            },
+                            {
+                                "text": "Completion of assignment"
+                            },
+                            {
+                                "text": "By expiration of the contract"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "probation period"
+                                    },
+                                    {
+                                        "text": "objective grounds"
+                                    },
+                                    {
+                                        "text": "disciplinary dismissal"
+                                    },
+                                    {
+                                        "text": "performance due to unsuitability for the job"
+                                    },
+                                    {
+                                        "text": "merger or acquisition of company"
+                                    },
+                                    {
+                                        "text": "bankruptcy"
+                                    },
+                                    {
+                                        "text": "inability to work due to medical conditions"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In Indonesia there is no minimum notice stipulated in law. Generally termination by the employer lasts:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Notice during probation period - 7 days"
+                            },
+                            {
+                                "text": "Minimum notice period - 30 days"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Termination by employee:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Minimum notice period - 30 days"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In Indonesia, all employees who are terminated are entitled to severance pay. Severance pay will depend on the length of employment and base salary."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Length of employment": "Less than 1 year",
+                                "Severance pay": "1 month wage"
+                            },
+                            {
+                                "Length of employment": "Between 1 to 2 years",
+                                "Severance pay": "2 months wage"
+                            },
+                            {
+                                "Length of employment": "Between 2 to 3 years",
+                                "Severance pay": "3 months wage"
+                            },
+                            {
+                                "Length of employment": "Between 3 to 4 years",
+                                "Severance pay": "4 months wage"
+                            },
+                            {
+                                "Length of employment": "Between 4 to 5 years",
+                                "Severance pay": "5 months wage"
+                            },
+                            {
+                                "Length of employment": "Between 5 to 6 years",
+                                "Severance pay": "6 months wage"
+                            },
+                            {
+                                "Length of employment": "Between 6 to 7 years",
+                                "Severance pay": "7 months wage"
+                            },
+                            {
+                                "Length of employment": "Between 7 to 8 years",
+                                "Severance pay": "8 months wages"
+                            },
+                            {
+                                "Length of employment": "Above 8 years",
+                                "Severance pay": "9 months wage"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Both full-time and part-time employees are entitled to 12 working days of paid time off (PTO) a year. PTO accrues with 1 day of PTO for every 23 days, up to a maximum of 12 days per year. Employees are eligible for annual leave after completing 1 year of employment."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Indonesia celebrates 15 national holidays. National holidays include:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "New Year’s Day\nChinese New Year\nIsra Mi’raj\nHindu New Year\nGood Friday\nLabour Day\nAscension Day of Jesus Christ\nEid Dul Fitri (2 days)\nWaisak Day\nPancasila Day\nIdul Adha\nIslamic New Year\nIndependence Day\nProphet Muhammad's Birthday\nChristmas Day"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding take"
+                    },
+                    {
+                        "type": "text",
+                        "data": "s 3 b"
+                    },
+                    {
+                        "type": "text",
+                        "data": "usiness days."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in Indonesian language and latin alphabet, and can be bilingual. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Name, address of the company, and nature of business"
+                            },
+                            {
+                                "text": "Position"
+                            },
+                            {
+                                "text": "Place of work"
+                            },
+                            {
+                                "text": "Salary and payment method"
+                            },
+                            {
+                                "text": "Terms of employment which cover the rights and obligations of employer and employee"
+                            },
+                            {
+                                "text": "Start date and period of employment agreement"
+                            },
+                            {
+                                "text": "Place and date of the employment agreement is made"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Probation periods are not mandatory. The probation period is 3 months for indefinite contacts. There is no minimum length for definite contracts."
+                    }
+                ]
+            }
+        ]
+    }
+}

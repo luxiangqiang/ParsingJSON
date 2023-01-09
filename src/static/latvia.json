@@ -1,0 +1,397 @@
+{
+    "hireIn": "latvia",
+    "currency": "Euro (EUR)",
+    "capital": "Riga",
+    "offical_language": "Latvian",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Public Health Care"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_pink.svg",
+            "title": "Social Security"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Private Healthcare - Unisure (optional)"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum wage is EUR 500 per month."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The individual income tax ranges from 20% to 31.4%. Income tax is calculated according to progressive rates."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Gross Annual Income (EUR)": "Up to EUR 20,004",
+                                "Tax Rate (%)": "20%"
+                            },
+                            {
+                                "Gross Annual Income (EUR)": "EUR 20,004 - EUR 62,800",
+                                "Tax Rate (%)": "23%"
+                            },
+                            {
+                                "Gross Annual Income (EUR)": "Above EUR 62,800",
+                                "Tax Rate (%)": "31.4%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The employer cost is generally estimated at 24% of the employee salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Employer Social Security Contribution - 23.5%"
+                            },
+                            {
+                                "text": "Business risk fee per employee - €0.36"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Overtime payment is mandatory. Hours outside of standard work hours are considered overtime. Employees can work a maximum of 8 hours of overtime per week."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Overtime cannot exceed 48 hours per month and 200 hours per year. For additional hours, employees are paid a minimum supplement of 100% of the hourly or daily wage rate."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Standard working hours are eight hours per day, 40 hours per week. The standard workweek is from Monday to Friday."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Pregnant employees are entitled to 112 days of paid leave. 56 days must be taken before the child's birth. 56 days must be taken after the child's birth. The employee will receive 80% of their average salary."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The average salary is calculated for the 12-month period, ending two months before the leave is taken. The State Social Security Agency will be responsible for this pay. The employee can extend leave through parental leave."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to 10 days of paid paternity leave. The employee will receive 80% of the employee’s average salary. The State Social Security Agency will be responsible for this pay."
+                    },
+                    {
+                        "type": "text",
+                        "data": "The employee can extend leave using parental leave."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to 18 months of parental leave until the child turns eight years old. Parental leave can be taken in a single period or in parts. Either parent can take parental leave."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Parental leave is paid at different rates based on the following:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Leave taken until the child is one year old is paid at 60% of the average salary"
+                            },
+                            {
+                                "text": "Leave taken by the time the child is aged 1.5 years will be calculated in the amount of 43.75% of the average insurance contribution salary of the beneficiary"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The maximum paid sick leave in Latvia is 52 weeks over a three year period. The first day is unpaid. The rest of the leave days are paid at different rates and by different payers depending upon length:"
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Latvia can be complex. There is no at-will termination in Latvia for employers outside the probation period and termination must be done for just cause. Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Unilaterally by the employer (causes established by Labor Law on section 101)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum notice period is one month and can be shortened if agreed upon in the employment contract."
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Latvia, all employees who are terminated due to the reasons listed below are entitled to severance pay:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Employee lacks adequate occupational competence for performance of work"
+                            },
+                            {
+                                "text": "Employee is unable to perform the contracted work due to his or her state of health and such state is certified with a doctor's opinion"
+                            },
+                            {
+                                "text": "Employee who previously performed the respective work has been reinstated at work"
+                            },
+                            {
+                                "text": "Number of employees is being reduced"
+                            },
+                            {
+                                "text": "Employer is being liquidated"
+                            },
+                            {
+                                "text": "Employee does not perform work due to temporary incapacity"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "data": "Severance pay will depend on the length of employment:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Less than five years of employment - one month of average earnings"
+                            },
+                            {
+                                "text": "Between 5 to 10 years of employment - two months of average earnings"
+                            },
+                            {
+                                "text": "Between 10 to 20 years of employment - three months of average earnings"
+                            },
+                            {
+                                "text": "Over 20 years of employment - four months of average earnings"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Both full-time and part-time employees are entitled to 20 days of paid time off (PTO) a year. PTO accrues monthly with 1.67 paid days (or 2.33 calendar days) days per month. Employees are eligible for annual leave for the first year after six months of work."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Latvia celebrates 14 national holidays. If the public falls on the weekend, the next working day is free."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "New Year’s Day"
+                            },
+                            {
+                                "text": "Good Friday"
+                            },
+                            {
+                                "text": "Easter Sunday"
+                            },
+                            {
+                                "text": "Easter Monday"
+                            },
+                            {
+                                "text": "Labour Day"
+                            },
+                            {
+                                "text": "Declaration of Independence Day"
+                            },
+                            {
+                                "text": "Easter Sunday"
+                            },
+                            {
+                                "text": "Līgo day (Midsummer eve)"
+                            },
+                            {
+                                "text": "Jāņu day (Midsummer eve)"
+                            },
+                            {
+                                "text": "National Day"
+                            },
+                            {
+                                "text": "Christmas Eve"
+                            },
+                            {
+                                "text": "Christmas Day"
+                            },
+                            {
+                                "text": "Christmas second Day"
+                            },
+                            {
+                                "text": "New Year’s Eve"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Note: the length of the working day is reduced by one hour before the public holiday."
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes 3 business days."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Contracts must be in Latvian and can be bilingual if the employee is a foreigner with no knowledge of the official language. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "text",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Employee details (Name, identity number, residential address)"
+                            },
+                            {
+                                "text": "Employer details (Name, identity number, legal address)"
+                            },
+                            {
+                                "text": "Start date"
+                            },
+                            {
+                                "text": "Duration of the contract"
+                            },
+                            {
+                                "text": "Place of work"
+                            },
+                            {
+                                "text": "Position according to the Classification of Occupations"
+                            },
+                            {
+                                "text": "Probation period"
+                            },
+                            {
+                                "text": "The amount and the date of salary payment"
+                            },
+                            {
+                                "text": "Daily and weekly working hours"
+                            },
+                            {
+                                "text": "Duration of the paid annual leave"
+                            },
+                            {
+                                "text": "Term of termination"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees hired using Deel have a probation period of 90 days, this cannot be extended as it is the country maximum. As of January 2022, it's Deel company policy to include probation periods in all employment contracts moving forward."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Probation periods help an employer and the employee ensure they're a hiring match, allowing a company to quickly decide if it's a fit or the employee to see if the job aligns with their career goals."
+                    }
+                ]
+            }
+        ]
+    }
+}

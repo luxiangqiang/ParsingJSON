@@ -1,0 +1,403 @@
+{
+    "hireIn": "brazil",
+    "currency": "BRL",
+    "capital": "Brasília",
+    "offical_language": "Portuguese",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Trust%20Fund/Moneybag_turquoise.svg",
+            "title": "Meal Voucher"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_pink.svg",
+            "title": "Social Security"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "State Pension Fund"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Workers Compensation Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_purple.svg",
+            "title": "Private Healthcare - AMIL (optional)"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum wage is BRL"
+                    },
+                    {
+                        "type": "text",
+                        "data": "1,212"
+                    },
+                    {
+                        "type": "text",
+                        "data": "per month."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The individual income tax ranges from 0% to 27.5%. Income tax is calculated according to progressive rates. Multiple additional factors may impact overall rates such as the marital status and the level of income."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Gross Annual Income (BRL)": "Less than 1,903.98",
+                                "Tax Rate (%)": "0%"
+                            },
+                            {
+                                "Gross Annual Income (BRL)": "1,903.99 - 2,826.65",
+                                "Tax Rate (%)": "7.5%"
+                            },
+                            {
+                                "Gross Annual Income (BRL)": "2,826.66 - 3,751.05",
+                                "Tax Rate (%)": "15.0%"
+                            },
+                            {
+                                "Gross Annual Income (BRL)": "3,751.06 - 4,664.68",
+                                "Tax Rate (%)": "22.5%"
+                            },
+                            {
+                                "Gross Annual Income (BRL)": "Above 4,664.68",
+                                "Tax Rate (%)": "27.5%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is generally estimated at 47.91% of the employee salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "FGTS Contribution - 8.0%"
+                            },
+                            {
+                                "text": "Meal Voucher - BRL 880"
+                            },
+                            {
+                                "text": "Company Social Security Contribution - 28.8%",
+                                "children": [
+                                    {
+                                        "text": "Pension Fund"
+                                    },
+                                    {
+                                        "text": "Public Health Insurance"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "Vacation Bonus - 2.78%"
+                            },
+                            {
+                                "text": "Holiday Allowance - 8.33%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard work week is from Monday to Friday."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Employees can also work for 8 hours per day, 44 hours per week from Monday to Saturday, with 4 hours on Saturdays."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Pregnant employees are entitled to 120 days of paid leave. The employee will receive 100% of their average salary during this period, and the employer will be responsible for this pay. However, the government returns this amount in tax deductions in the same month."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee can extend leave with a doctor’s note. During this period, the employee will receive 100% of the salary covered by the employer."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to 5 calendar days of paid paternity leave. The employee will receive 100% of their average salary during this period, and the employer will be responsible for this pay."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee cannot extend leave."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Brazil, no law covers parental leave. However, employees may be entitled to maternity leave and paternity leave."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "There is no maximum period for employees to take sick leave. This leave is paid at different rates and by different payers depending upon length:"
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Period": "0 - 15 days",
+                                "Pay (% of salary)": "100%",
+                                "Payer": "Employer"
+                            },
+                            {
+                                "Period": "15 days onwards",
+                                "Pay (% of salary)": "91% (maximum amount paid is BRL 6.433,57)",
+                                "Payer": "Social Security Agency (INSS)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Brazil can be complex. There is at-will termination in Brazil for employers except for certain employees (pregnant, suffer an accident at work, or are elected president of the internal commission for accident prevention)."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations in Brazil include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on justified reasons",
+                                "children": [
+                                    {
+                                        "text": "Gross misconduct"
+                                    },
+                                    {
+                                        "text": "Substance abuse"
+                                    },
+                                    {
+                                        "text": "Breach of trade secrets"
+                                    },
+                                    {
+                                        "text": "Disciplinary dismissal"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum notice period is 1 month and will be increased according to the length of employment."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Up to 1 year of employment - 30 days of notice"
+                            },
+                            {
+                                "text": "Above 1 year of employment - the notice period is increased by 3 days for each year worked until the maximum notice period of 90 days is reached"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In Brazil, if employees are terminated without cause, employees are entitled to:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Balance salary"
+                            },
+                            {
+                                "text": "Unused holiday payouts"
+                            },
+                            {
+                                "text": "Proportional 13th salary (bonus payment)"
+                            },
+                            {
+                                "text": "40% of the FGTS paid during employment"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "If employees are terminated with cause, employees are entitled to:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Balance salary"
+                            },
+                            {
+                                "text": "Unused holiday payouts"
+                            },
+                            {
+                                "text": "Proportional 13th salary (bonus payment)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Both full-time and part-time employees are entitled to 30 calendar days of paid time off (PTO) a year. PTO accrues monthly at 2.5 days per month. Employees are eligible for annual leave after 1 year of work. During the first year of employment, an employee is not allowed to take any leave."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Please note: Our platform works in working days and the brazil PTO is in calendar days. (20 working days - 30 calendar days)."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Brazil celebrates around 13 national holidays (a total of 15 days). National public holidays include:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "New Year’s Day\nCarnival (2 Days)\nEaster (2 Days)\nMartyrdom of Tiradentes\nLabor Day\nCorpus Christi\nCatholic Holiday\nIndependence Day\nCatholic Saint\nDay of the dead\nRepublic Day\nCatholic Holiday\nChristmas Day"
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Brazil celebrates 8 regional holidays. Some regional holidays include:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "São Paulo Anniversary\nState Rebellion Day\nBlack Awareness Day\nPublic Holidays in Rio de Janeiro (5 days)"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes 5 business days."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in Portuguese or English, and can be bilingual. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Name"
+                            },
+                            {
+                                "text": "Start date"
+                            },
+                            {
+                                "text": "Place of work"
+                            },
+                            {
+                                "text": "Length of the employment"
+                            },
+                            {
+                                "text": "Job description"
+                            },
+                            {
+                                "text": "Termination conditions"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Probation periods are not mandatory. There is no minimum probation period. The maximum probation period is 90 days (3 months)."
+                    }
+                ]
+            }
+        ]
+    }
+}

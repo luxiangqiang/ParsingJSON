@@ -1,0 +1,248 @@
+{
+    "hireIn": "cambodia",
+    "currency": "Cambodian Riel (KHR)",
+    "capital": "Phnom Penh",
+    "offical_language": "Khmer",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Health Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_pink.svg",
+            "title": "Life Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Workers Compensation Insurance"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum wage in Cambodia varies according to the status of the employee. It ranges from KHR 710,000 to KHR 730,000."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "A Cambodian resident’s worldwide salary is subject to Cambodia salary tax, while non-residents are taxed on Cambodian-sourced salary. The rate for non-residents is a flat 20% of their Cambodian-sourced income only, defined as income earned from employment services in Cambodia. Fringe benefits are also taxable at the flat rate of 20% of the amount paid."
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "2.1% of employee salary."
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The Standard full-time workweek is 48 hours, 8 daily."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Expectant mothers are entitled to 90 days of maternity leave after one year of continuous service. There is no restriction on whether the leave must start before or after the birth."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "There are no provisions in the law regarding paternity leave."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to up to 7 days per event for matters that affect an immediate family member."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to unpaid sick leave up to 6 months. During that period the employer must hold the position provided the employee presents a medical certificate."
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Dismissal must be justified when failing to perform according to reasonable standards made known by the employer to the employee."
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In Cambodia, the notice period is based on the length of the labor relationship:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Up to 6 months of employment - 1 week's notice"
+                            },
+                            {
+                                "text": "6 months - 2 years of employment - 2 weeks' notice"
+                            },
+                            {
+                                "text": "2 - 5 years of employment - 1 month's notice"
+                            },
+                            {
+                                "text": "5 - 10 years of employment - 2 months' notice"
+                            },
+                            {
+                                "text": "10+ years of employment - 3 months' notice"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Severance costs apply at termination, including any untaken holidays and accrued salary."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Organizations are required to give their employees paid annual leave of 1.5 days per month, for a total of 18 days per year. For every 3 years of continuous service, employees are entitled to an additional day of leave per year. For example, after the third year of continuous service, the number of paid annual leave days will be 19 days per year, after 6 years it will be 20 days per year, and so on."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Each year, the Ministry of Labor issues a Prakas determining the number and dates of paid public holidays. Starting year 2020, there are approximately 22 public holidays. If such a holiday is on a Sunday, employees must be given the following Monday off."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "International New Year Day"
+                            },
+                            {
+                                "text": "Victory Over Genocide Day"
+                            },
+                            {
+                                "text": "International Woman’s Day"
+                            },
+                            {
+                                "text": "Khmer New Year"
+                            },
+                            {
+                                "text": "International Labor Day"
+                            },
+                            {
+                                "text": "King Birthday"
+                            },
+                            {
+                                "text": "Visak Bochea Day"
+                            },
+                            {
+                                "text": "Royal Plowing Ceremony"
+                            },
+                            {
+                                "text": "King Mother’s Birthday"
+                            },
+                            {
+                                "text": "Constitution Day"
+                            },
+                            {
+                                "text": "Pchum Ben Day"
+                            },
+                            {
+                                "text": "The commemoration of Former King Norodom Sihanouk"
+                            },
+                            {
+                                "text": "King’s Coronation Day"
+                            },
+                            {
+                                "text": "Independence Day"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employment contracts in Cambodia can be both fixed or indefinite terms. It's common practice to provide a written employment contract in the national language, Khmer. The employee's compensation, benefits, termination requirements, as well as the salary and any compensation amounts are the main elements stated in an employment contract."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The contract should have primary information such as Kind of contract, passport, start date, end date, position, salary and other benefit, job description. Any element of an employment contract that fails to do so is considered invalid."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "To be covered by the Labor Law, a person must: • perform work, be remunerated, and • be under the direction and supervision of another person."
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The maximum probation period in Cambodia is 3 months. This cannot be increased as this is the maximum amount of time the Cambodian government have decided it is acceptable for employees to be in a probation period."
+                    }
+                ]
+            }
+        ]
+    }
+}

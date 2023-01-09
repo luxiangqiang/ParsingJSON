@@ -1,0 +1,473 @@
+{
+    "hireIn": "norway",
+    "currency": "Norwegian Krone (NOK)",
+    "capital": "Oslo",
+    "offical_language": "Norwegian & English",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Occupational Injury Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Pension%20fund/Badge_pink.svg",
+            "title": "Pension"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Public Health Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_purple.svg",
+            "title": "Social Security"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Private Healthcare - Unisure (optional)"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "There is no general minimum wage in Norway. There are specific minimum wages introduced in certain industries."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The individual income tax rate is 22%. Income tax is calculated using a flat tax rate."
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The employer cost is generally estimated at 18.1% of the employee salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Pension plan - 4.0%"
+                            },
+                            {
+                                "text": "Employer Social Security (ER SS) - 14.1%"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "data": "Annual payments:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Vacation bonus - 12.0%"
+                            },
+                            {
+                                "text": "Vacation bonus Employer Social Security (ER SS) - 1.7%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Overtime payment is mandatory. Hours outside of standard work hours are considered overtime. Employees can work a maximum of 10 hours of overtime per week, and 25 hours every 4 weeks. For additional hours, employees are paid:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "140% of salary per hour of overtime during weekdays"
+                            },
+                            {
+                                "text": "200% of salary per hour of overtime during night shifts and weekends"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "data": "Standard working hours are 7.5 hours per day, 37.5 hours per week. The standard workweek is from Monday to Friday."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Pregnant employees, who have worked for a minimum of 6 out of the last 10 months, are entitled to paid maternity leave. The number of combined parental leave days for leave depends on the option chosen by the employee:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "49 weeks at 100% average salary (up to 6G (6G is equal to an annual salary of NOK 638,394 (as of May 2021); or"
+                            },
+                            {
+                                "text": "59 weeks at 80% average salary"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "data": "NAV (Norwegian Labour and Welfare Administration) will be responsible for this pay."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Out of the entire length of leave, the mother has a right to maternal quota:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "15 weeks (if 49 weeks chosen) at 100% average salary"
+                            },
+                            {
+                                "text": "19 weeks (if 59 weeks chosen) at 80% average salary"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "data": "The first 5 weeks must be taken immediately following the birth, with the remaining taken immediately following this or saved for later."
+                    },
+                    {
+                        "type": "text",
+                        "data": "The employee can extend leave for 1 year without pay."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees who have worked for a minimum of 6 out of the last 10 months are entitled to paid paternity leave. The number of combined parental leave days for leave depends on the option chosen by the employee:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "49 weeks at 100% average salary (up to 6G (6G is equal to an annual salary of NOK 638,394 (as of May 2021); or"
+                            },
+                            {
+                                "text": "59 weeks at 80% average salary"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "data": "NAV (Norwegian Labour and Welfare Administration) will be responsible for this pay."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Out of the entire length of leave, the father has a right to paternal quota:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "15 weeks (if 49 weeks chosen) at 100% average salary"
+                            },
+                            {
+                                "text": "19 weeks (if 59 weeks chosen) at 80% average salary"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "data": "Fathers can take the parental quota from the 7th week onwards, after birth, or choose to wait until a later date. The quota can be taken consecutively, divided up, or combined with partial work."
+                    },
+                    {
+                        "type": "text",
+                        "data": "The employee can extend leave for 1 year without pay."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Parents, who have worked for a minimum of 6 out of the last 10 months, are eligible for a combined leave of 49 or 59 weeks. The number of days for leave depends on the option chosen by the employee:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "49 weeks at 100% average salary (up to 6G (6G is equal to an annual salary of NOK 638,394 as of (May 2021); or"
+                            },
+                            {
+                                "text": "59 weeks at 80% average salary"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "data": "NAV (Norwegian Labour and Welfare Administration) will be responsible for this pay. This period of leave is divided into the maternal quota, paternal quota, and joint leave (explained in sections below)."
+                    },
+                    {
+                        "type": "text",
+                        "data": "After employees have used 15 weeks or 19 weeks of maternal and paternal quota, they are entitled to a joint/shared period which is the shared parental benefit. This can be divided equally, or taken entirely by the mother or father. However, if the father/co-parent wants to take benefit of the joint period, the mother must be occupationally active in work, education, or similar."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "There is no maximum number of days for sick leave. Employees can receive sickness benefits for up to 1 year. This leave is paid at different rates and by different payers depending upon length:"
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Norway can be complex. There is no at-will termination in Norway for employers outside the probation period, and termination must be done for just cause. Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Termination without notice is only permitted if the employee is guilty of a gross breach of duty or other serious breaches of the contract of employment"
+                            },
+                            {
+                                "text": "Termination during probation shall be based on the employee’s lack of suitability for the work or lack of proficiency or reliability"
+                            },
+                            {
+                                "text": "Termination with notice shall be objectively justified on the basis of circumstances relating to the undertaking for the employer or the employee"
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum notice period is one month but the notice period increases based on length of employment. Probation period - 14 days notice period"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Up to 5 years of employment - 2 months notice period"
+                            },
+                            {
+                                "text": "Up to 10 years of employment - 3 months notice period"
+                            },
+                            {
+                                "text": "From 10 years of employment onwards, the notice period is:",
+                                "children": [
+                                    {
+                                        "text": "Minimum 4 months after the employee is less than 50 years old"
+                                    },
+                                    {
+                                        "text": "Minimum 5 months after the employee is 55 years old"
+                                    },
+                                    {
+                                        "text": "Minimum  6 months after the employee is 60 years old"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "For an employee, after 10 years of employment, they shall give be given 3 months prior notice"
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Norway, there are no statutory requirements for severance payments. During the notice period, the employee is still entitled to salary payments and additional contractual benefits in accordance with terms of employment."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Full-time employees are entitled to 25 working days of paid time off (PTO) a year. PTO accrues monthly at 2.08 days per month."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Part-time employees are not entitled to PTO. They are allowed to take time off but are not paid a salary for it. They receive holiday money (either at a rate of 10.2% or 12% depending on the company's period  10.2% is the minimum by law) at the end of the year after earning."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Norway celebrates 12 national holidays. National public holidays include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "New Year’s Day"
+                            },
+                            {
+                                "text": "Maundy Thursday"
+                            },
+                            {
+                                "text": "Good Friday"
+                            },
+                            {
+                                "text": "Easter Sunday"
+                            },
+                            {
+                                "text": "Easter Monday"
+                            },
+                            {
+                                "text": "Labor Day"
+                            },
+                            {
+                                "text": "Constitution Day"
+                            },
+                            {
+                                "text": "Ascension Day"
+                            },
+                            {
+                                "text": "Pentecost"
+                            },
+                            {
+                                "text": "Whit Monday"
+                            },
+                            {
+                                "text": "Christmas Day"
+                            },
+                            {
+                                "text": "St Stephens’ Day"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes 2 business days after the client signs the SOW."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in Norwegian or English and can be bilingual. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Name of employee and employer"
+                            },
+                            {
+                                "text": "Workplace"
+                            },
+                            {
+                                "text": "Job description"
+                            },
+                            {
+                                "text": "First day of employment"
+                            },
+                            {
+                                "text": "Duration of employment"
+                            },
+                            {
+                                "text": "Probation period"
+                            },
+                            {
+                                "text": "Holiday entitlement and pay"
+                            },
+                            {
+                                "text": "Salary and any other supplements"
+                            },
+                            {
+                                "text": "Working hours"
+                            },
+                            {
+                                "text": "Length of breaks"
+                            },
+                            {
+                                "text": "Special working-hour arrangement, pursuant to the provisions concerning reduced working hours, flexible working hours, etc."
+                            },
+                            {
+                                "text": "Termination conditions"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees hired using Deel have a probation period of 90 days, which you can extend up to 180 days. As of January 2022, it's Deel company policy to include probation periods in all employment contracts moving forward."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Probation periods help an employer and the employee ensure they're a hiring match, allowing a company to quickly decide if it's a fit and the employee to see if the job aligns with their career goals."
+                    }
+                ]
+            }
+        ]
+    }
+}

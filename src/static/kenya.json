@@ -1,0 +1,317 @@
+{
+    "hireIn": "kenya",
+    "currency": "Kenyan Shilling (KES)",
+    "capital": "Nairobi",
+    "offical_language": "Swahili and English,",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Housing/Building_turquoise.svg",
+            "title": "National Housing Development Fund"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_pink.svg",
+            "title": "National Industrial Training Fund"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "National Social Security Fund"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_purple.svg",
+            "title": "Private Healthcare - Unisure (optional)"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Work Injury Benefits Act (WIBA)"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum wage is KES 13,572 per month."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The individual income tax ranges from 10% to 30%. Income tax is calculated according to progress rates and the government uses a pay-as-you-earn model."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Gross Annual Income": "On the first 288,000",
+                                "Tax Rate (%)": "10%"
+                            },
+                            {
+                                "Gross Annual Income": "On the next 100,000",
+                                "Tax Rate (%)": "25%"
+                            },
+                            {
+                                "Gross Annual Income": "On all remaining income in excess of 388,000",
+                                "Tax Rate (%)": "30%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The employer cost is generally estimated at 6.91% of the employee salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Training Fund Contributions - KES 50"
+                            },
+                            {
+                                "text": "National Social Security Fund - 6.0%"
+                            },
+                            {
+                                "text": "WIBA - 0.91%"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "An additional employer cost may apply once is legislated. At the moment there is no specific date:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "National Housing Development Fund (NHDF) - 1.5%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Overtime payment is not mandatory for senior staff, as extra work hours are factored in their salaries."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Overtime payment is mandatory for junior staff. Hours outside of standard work hours are considered overtime. Employees can work a maximum of 52 hours per week (12 hours of overtime)."
+                    },
+                    {
+                        "type": "text",
+                        "data": "For additional hours, employees are paid 1.5 times the regular hourly salary, and 2 times the regular hourly salary if they work overtime on a rest day or public holiday."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard work week is from Monday to Friday."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Pregnant employees are entitled to 3 months of paid leave. The employee will receive 100% of the salary during this period, and employer will be responsible for this pay."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Maternity leave cannot be extended."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to 2 weeks of paid paternity leave. The employee will receive 100% of their average salary during this period, and the employer will be responsible for this pay."
+                    },
+                    {
+                        "type": "text",
+                        "data": "The employee cannot extend leave."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Kenya, no law covers parental leave. However, employees may be entitled to maternity leave and paternity leave."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "After 2 consecutive months of service with the Company, employees are entitled to sick leave of 30 working days with full pay and thereafter to sick leave of 15 working days with half pay in each period of twelve 12 consecutive months of service with the Company."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Some employers may provide a minimum sick leave of 14 days, depending on the category of the employee."
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Kenya can be complex. There is no at-will termination in Kenya for employers, outside the probation period, and termination must be done for just cause. Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on whether the employee:",
+                                "children": [
+                                    {
+                                        "text": "Misconduct"
+                                    },
+                                    {
+                                        "text": "Incapacity to work (for reasons relating to performance or sickness)"
+                                    },
+                                    {
+                                        "text": "Redundancy"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "By expiration of the contract"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum notice period is 1 month if wages are paid monthly, and may be increased based. There is no statutory requirement of notice period if wages are paid daily."
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Severance pay is only payable where termination is on account of redundancy, and is paid at the rate of 15 days for every year worked."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Both full-time and part-time employees are entitled to 21 days of paid time off (PTO) a year. PTO accrues monthly, with 1.75 days of PTO per month. Employees are eligible for annual leave at the start of their employment as soon as it accrues."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Kenya celebrates 13 public holidays. National public holidays include:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "New Year’s Day\nGood Friday\nEaster Monday\nLabour Day\nId-ul-Fitr\nMadaraka Day\nIdd-ul-Azha\nUtamaduni Day\nMashujaa Day\nJamhuri Day\nChristmas Day\nBoxing Day\nChristmas Holiday"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes 2 business days after the client signs the SOW."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The employer cost is generally estimated at 6.2% of the employee salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Training Fund Contributions - KES 50"
+                            },
+                            {
+                                "text": "National Social Security Fund - 6.0%"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "data": "An additional employer cost may apply once is legislated. At the moment there is no specific date"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "National Housing Development Fund (NHDF) - 1.5%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees hired using Deel have a probation period of 90 days, which you can extend up to 180 days. As of January 2022, it's Deel company policy to include probation periods in all employment contracts moving forward."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Probation periods help an employer and the employee ensure they're a hiring match, allowing a company to quickly decide if it's a fit or the employee to see if the job aligns with their career goals."
+                    }
+                ]
+            }
+        ]
+    }
+}

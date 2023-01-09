@@ -1,0 +1,216 @@
+{
+    "hireIn": "egypt",
+    "currency": "Egyptian Pound (EGP)",
+    "capital": "Cairo",
+    "offical_language": "Modern Standard Arabic",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Social Security"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum wage is 2,400 EGP per month"
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The individual income tax is based on progressive tax brackets that start from 10% up to 25%."
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is estimated at approximately 20% of the employee salary:"
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "- Social insurance - 18.75% with a limit of EGP 9,400"
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "- Social wellness fund - 1.25%"
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The maximum working hours are 8 hours per day, and 48 hours a week."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "90 days of paid maternity leave. Under most contracts, paid maternity leave is eligible twice within 5 years."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "There are no provisions in Egyptian law regarding paternity leave."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Egypt, employees are generally entitled to up to 6 months of sick leave to be paid at between 75% and 100% of the employee’s regular wage."
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The standard notice period is 2 months if the employee has been working for less than 10 years, and 3 months if the employee has been working for more than 10 years."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are generally entitled to 21 days of annual paid leave, once they have worked for 6 months."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Employees who are over the age of 50, or have been employed for over 10 years are entitled to 30 days of leave."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Egypt celebrates 12 days based on the Gregorian calendar, and 2/3 days of holidays based on the lunar calendar."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Orthodox Christmas Day"
+                            },
+                            {
+                                "text": "January 25 Revolution Day"
+                            },
+                            {
+                                "text": "National Police Day"
+                            },
+                            {
+                                "text": "Sinai Liberation Day"
+                            },
+                            {
+                                "text": "Labour Day"
+                            },
+                            {
+                                "text": "Sham Ennessim"
+                            },
+                            {
+                                "text": "Eid al-Fitr"
+                            },
+                            {
+                                "text": "June 30 Revolution"
+                            },
+                            {
+                                "text": "June 30 Uprising in Egypt"
+                            },
+                            {
+                                "text": "Eid al-Adha"
+                            },
+                            {
+                                "text": "Revolution Day"
+                            },
+                            {
+                                "text": "Islamic New Year"
+                            },
+                            {
+                                "text": "Armed Forces Day"
+                            },
+                            {
+                                "text": "Prophet's Birthday"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Onboarding takes 2 business days after the client signs the SOW."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in writing in Egypt, in triplicate and in Arabic. Also, should include an offer letter."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Fixed-term contracts are allowed for up to 5 years."
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Three months is the maximum. This cannot be increased as it is the maximum probation period allowed by law."
+                    }
+                ]
+            }
+        ]
+    }
+}

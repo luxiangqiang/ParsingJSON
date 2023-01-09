@@ -1,0 +1,475 @@
+{
+    "hireIn": "dominican republic",
+    "currency": "Dominican Peso - DOP",
+    "capital": "Santo Domingo",
+    "offical_language": "Spanish",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Social Security"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Training%20Levy/Training_pink.svg",
+            "title": "Training Fund"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Workers Compensation Insurance"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In the Dominican Republic, the minimum wage varies per type of company (private, public), the number of employees, and the company’s annual income. re is no minimum wage by law. The minimum monthly wage can range from DOP 11,900 to DOP 21,000."
+                    },
+                    {
+                        "type": "text",
+                        "data": "For Deel, the minimum wage applicable will be DOP 21,000."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The individual income tax ranges from 0% to 25%. Income tax is calculated according to progressive rates."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Gross Annual Income": "Up to DOP 416,220",
+                                "Tax Rate (%)": "0%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to DOP 624,329",
+                                "Tax Rate (%)": "15%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to DOP 867,123",
+                                "Tax Rate (%)": "20%"
+                            },
+                            {
+                                "Gross Annual Income": "Over DOP 867,123",
+                                "Tax Rate (%)": "25%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is generally estimated at 16.39% of the employee salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Pension Fund - 7.10%"
+                            },
+                            {
+                                "text": "Health Insurance Contribution - 7.09%"
+                            },
+                            {
+                                "text": "INFOTEP - 1%"
+                            },
+                            {
+                                "text": "Occupational Risk Insurance - 1.20%"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Additionally, the employer will have to pay a 13th salary and an annual bonus payment."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Most employer costs have limits, therefore the percentage will vary. Pension Fund limit DOP 325,250 Health Insurance Contribution limit DOP 162,625 Occupational Risk Insurance DOP 65,050"
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard work week is from Monday to Friday. However, the standard work week can be extended, adding 4 additional hours on Saturday."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees who have worked for 12 consecutive months and contributed to Social Security for 8 months are entitled to 14 weeks of paid leave. Leave can start 6 weeks before the child's birth."
+                    },
+                    {
+                        "type": "text",
+                        "data": "The employee will receive 100% of the salary during this period, both Social Security and the employer will be responsible for this pay."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Social Security will be responsible for 50% of the pay, and the employer will pay the remaining 50%. However, Social Security will return through credit 50% of the amount the employer contributed."
+                    },
+                    {
+                        "type": "text",
+                        "data": "The employee can extend leave using paid time off."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to 2 days of paid paternity leave and must be taken the day of the child's birth."
+                    },
+                    {
+                        "type": "text",
+                        "data": "The employee will receive 100% of the salary during this period, and the employer will be responsible for this pay."
+                    },
+                    {
+                        "type": "text",
+                        "data": "The employee can’t extend leave."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Parental leave is a different type of leave from maternity and paternity leave. In some countries, parental/child care leave is granted to the parents on top of the standard leave."
+                    },
+                    {
+                        "type": "text",
+                        "data": "In the Dominican Republic, no law covers parental leave. However, employees may be entitled to maternity leave and paternity leave."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to paid sick leave for up to 90 days. This leave is paid at different rates depending on the type of sickness:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "60% of the base salary for outpatient treatment"
+                            },
+                            {
+                                "text": "40% of the base salary for hospitalizations"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "During this period, the employer will pay the employee. However, it will be reimbursed by the Social Security Institution."
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in the Dominican Republic can be complex. Contracts can be terminated without liability or with responsibility."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations without responsibility:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Mutual agreement"
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            },
+                            {
+                                "text": "Impossibility for execution"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Termination with responsibility:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "Disciplinary dismissal"
+                                    },
+                                    {
+                                        "text": "Performance due to unsuitability for the job"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "Voluntarily by the employee"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum notice period is 7 days and will be increased according to the length of the employment."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "7 days if the length of service is between 3 to 6 months"
+                            },
+                            {
+                                "text": "14 days if the length of service is between 6 to 12 months"
+                            },
+                            {
+                                "text": "28 days if the length of service is more than a year"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "If the employee is dismissed without notice, they will be entitled to payment according to the length of service mentioned above."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "During the probation period, there is no notice period"
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In the Dominican Republic, employees may be entitled to severance pay. Severance pay will be composed of the length of service, bonuses, and time off."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Basic payment"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Between 3 to 6 months of employment - 6 days severance pay"
+                            },
+                            {
+                                "text": "Between 6 to 12 months of employment - 13 days severance pay"
+                            },
+                            {
+                                "text": "Between 1 to 5 years of employment - 21 days severance pay"
+                            },
+                            {
+                                "text": "Over 5 years of employment - 13 days severance pay"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Christmas salary payment: the monthly accrual that would be paid until the end of the year."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Time off payment:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "5 months of employment - 6 days severance pay"
+                            },
+                            {
+                                "text": "6 months of employment - 7 days severance pay"
+                            },
+                            {
+                                "text": "7 months of employment - 8 days severance pay"
+                            },
+                            {
+                                "text": "8 months of employment - 9 days severance pay"
+                            },
+                            {
+                                "text": "9 months of employment - 10 days severance pay"
+                            },
+                            {
+                                "text": "10 months of employment - 11 days severance pay"
+                            },
+                            {
+                                "text": "11 months of employment - 12 days severance pay"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Both full-time and part-time employees are entitled to a minimum of 14 working days of paid time off (PTO) a year. Employees are eligible for annual leave after 12 months of work. Employees must take at least 7 days of PTO in one row."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The length of PTO will vary with the years of service:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Between 1 to 5 years in the company - 14 working days per year"
+                            },
+                            {
+                                "text": "More than 5 years in the company - 14 working days per year with payment for 18 working days"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The Dominican Republic celebrates 12 national holidays."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "National public holidays include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "New Year’s Day"
+                            },
+                            {
+                                "text": "Holy Kings Day"
+                            },
+                            {
+                                "text": "Altagracia Day"
+                            },
+                            {
+                                "text": "Duarte’s Day"
+                            },
+                            {
+                                "text": "Independence Day"
+                            },
+                            {
+                                "text": "Holy Friday"
+                            },
+                            {
+                                "text": "Labor Day"
+                            },
+                            {
+                                "text": "Body of Christ"
+                            },
+                            {
+                                "text": "Restoration Day"
+                            },
+                            {
+                                "text": "Mercedes Day"
+                            },
+                            {
+                                "text": "Constitution Day"
+                            },
+                            {
+                                "text": "Christmas Day"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "3 business days after MSA signature & deposit payment."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in Spanish and can be bilingual. They must be in writing and signed by both parties in wet ink."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Employee’s information: name, age, ID number, and address."
+                            },
+                            {
+                                "text": "Contract term: start date and length of the employment"
+                            },
+                            {
+                                "text": "Working agreements: job title, description of duties, and salary"
+                            },
+                            {
+                                "text": "Termination conditions"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The job title (Puesto de trabajo) and the job description (Descripción del trabajo) must be added in the local language."
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "By law, there is no regulation about the probation period, and therefore can't be applied."
+                    }
+                ]
+            }
+        ]
+    }
+}

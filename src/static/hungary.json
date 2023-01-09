@@ -1,0 +1,365 @@
+{
+    "hireIn": "hungary",
+    "currency": "Hungarian forint (HUF)",
+    "capital": "Budapest",
+    "offical_language": "Hungarian",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Public Health Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_pink.svg",
+            "title": "Social Security"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Private Healthcare - Unisure (optional)"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum wage is HUF 200,000 per month."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The individual income tax in Hungary is 15%. Income tax is calculated using a flat rate."
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is generally estimated at 13.0% of the employee salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Social Contribution Tax - 13.0%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard workweek is from Monday to Friday."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Overtime payment is mandatory. Hours outside of standard work hours are considered overtime. Employees can work a maximum of 4 hours of overtime daily and 8 hours of overtime weekly. For additional hours, employees are paid an additional salary supplement of 50% on weekdays, and 100% on holidays and weekends. For holidays and weekends, employees will receive a salary supplement of 50% if they are compensated with a weekly rest day."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Pregnant employees who have worked for 365 calendar days in the last 2 years are entitled to 24 weeks of paid leave. Four weeks must be taken before the birth of the child."
+                    },
+                    {
+                        "type": "text",
+                        "data": "The employee will generally receive 100% of the monthly average salary of the 2 year period prior to childbirth, and the National Treasury will be responsible for this pay."
+                    },
+                    {
+                        "type": "text",
+                        "data": "The employee cannot extend leave."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees who have worked for 365 days in the last 2 years are entitled to 5 days of paid leave. The employee will be paid by the employer as PTO. The employer can file for a refund with the National Treasury."
+                    },
+                    {
+                        "type": "text",
+                        "data": "The employee cannot extend leave."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Hungary, there are no laws covering parental leave. However, employees may be entitled to maternity leave and paternity leave."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to paid sick leave for up to 15 days per year (prorated for mid-year hires). This leave is paid at different rates and by different payers depending upon length:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "While the National Treasury pays for sick leave after 15 days, the employer still has to compensate the National Treasury 30% of this sick leave pay. If sick leave is due to high-risk pregnancy, a work related accident or illness (including COVID 19), the National Treasury will pay from the first day of leave."
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Hungary can be complex. There is no at-will termination in Hungary for employers, outside the probation period, and termination must be done for just cause."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "Probation period"
+                                    },
+                                    {
+                                        "text": "Objective grounds"
+                                    },
+                                    {
+                                        "text": "Disciplinary dismissal"
+                                    },
+                                    {
+                                        "text": "Performance due to unsuitability for the job"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum notice period is 30 days and will be increased according to the length of the employment:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Up to 2 years of employment - 30 days of notice"
+                            },
+                            {
+                                "text": "3 years of employment - 35 days of notice"
+                            },
+                            {
+                                "text": "5 years of employment - 50 days of notice"
+                            },
+                            {
+                                "text": "10 years of employment - 55 days of notice"
+                            },
+                            {
+                                "text": "15 years of employment - 60 days of notice"
+                            },
+                            {
+                                "text": "18 years of employment - 70 days of notice"
+                            },
+                            {
+                                "text": "20 years of employment - 90 days of notice"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "By mutual agreement of both the parties, the notice period may be extended by up to 6 months."
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In Hungary, severance pay is determined by the length of employment:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "3 years of employment - 1 month of salary"
+                            },
+                            {
+                                "text": "5 years of employment - 2 months of salary"
+                            },
+                            {
+                                "text": "10 years of employment - 3 months of salary"
+                            },
+                            {
+                                "text": "15 years of employment - 4 months of salary"
+                            },
+                            {
+                                "text": "20 years of employment - 5 months of salary"
+                            },
+                            {
+                                "text": "25 years of employment - 6 months of salary"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "If employment is terminated by the employer when there are less than 5 years left until the employee becomes entitled to an old age pension, severance pay is higher:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "3 years of employment - 2 months of salary"
+                            },
+                            {
+                                "text": "5 years of employment - 3 months of salary"
+                            },
+                            {
+                                "text": "10 years of employment - 5 months of salary"
+                            },
+                            {
+                                "text": "15 years of employment - 6 months of salary"
+                            },
+                            {
+                                "text": "20 years of employment - 8 months of salary"
+                            },
+                            {
+                                "text": "25 years of employment - 9 months of salary"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Both full-time and part-time employees are entitled to a minimum of 20 days of paid time off (PTO) a year. The PTO entitlement increases depending on the age of the employee:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "PTO accrues per day of employment and is prorated based on their annual PTO entitlement."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Hungary celebrates around 12 national holidays. National public holidays include:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "New Year’s Day\nMemorial Day\nEaster Friday\nEaster Monday\nLabor Day\nPentecost Monday\nState Foundation Day\nRevolution Memorial Day\nAll Saints’ Day\nChristmas Eve\nChristmas Day\n2nd Day of Christmas"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes 3 business days after the client signs the SOW."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in Hungarian and can be bilingual. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Employer data"
+                            },
+                            {
+                                "text": "Employee data"
+                            },
+                            {
+                                "text": "Base salary"
+                            },
+                            {
+                                "text": "Job position"
+                            },
+                            {
+                                "text": "Length of the employment contract (if this is not there then it will be unlimited)"
+                            },
+                            {
+                                "text": "Place of employment"
+                            },
+                            {
+                                "text": "Probation period"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Probation periods are not mandatory. There is no minimum probation period. The maximum probation period is 90 days (3 months)."
+                    },
+                    {
+                        "type": "text",
+                        "data": "There is no notice period required during probation."
+                    }
+                ]
+            }
+        ]
+    }
+}

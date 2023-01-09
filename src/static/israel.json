@@ -1,0 +1,392 @@
+{
+    "hireIn": "israel",
+    "currency": "New Shekel ILS/NIS",
+    "capital": "Jerusalem",
+    "offical_language": "Hebrew",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Pension%20fund/Badge_turquoise.svg",
+            "title": "Pension Fund"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_pink.svg",
+            "title": "Public Health Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Private Health Insurance - Menorah Mivtachim"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum wage is ILS 5,300 per month."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The individual income tax ranges from 10% to 50%. Income tax is calculated according to progressive rates. Multiple additional factors may impact overall rates such as the marital status and the number of children."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The tax rates change annually. These are the rates for 2021."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Gross Annual Income (ILS)": "Up to 75,480",
+                                "Tax Rate (%)": "10%"
+                            },
+                            {
+                                "Gross Annual Income (ILS)": "75,481- 108,360",
+                                "Tax Rate (%)": "14%"
+                            },
+                            {
+                                "Gross Annual Income (ILS)": "108,361- 173,880",
+                                "Tax Rate (%)": "20%"
+                            },
+                            {
+                                "Gross Annual Income (ILS)": "173,881- 241,680",
+                                "Tax Rate (%)": "31%"
+                            },
+                            {
+                                "Gross Annual Income (ILS)": "241,681- 502,920",
+                                "Tax Rate (%)": "35%"
+                            },
+                            {
+                                "Gross Annual Income (ILS)": "502,921- 647,640",
+                                "Tax Rate (%)": "47%"
+                            },
+                            {
+                                "Gross Annual Income (ILS)": "Above 647,641",
+                                "Tax Rate (%)": "50%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is generally estimated at 23.07% of the employee salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Severance - 8.33%"
+                            },
+                            {
+                                "text": "Pension Fund - 6.50%"
+                            },
+                            {
+                                "text": "Bituah Leumi - 7.60%"
+                            },
+                            {
+                                "text": "Seniority Pay - ILS 156"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Standard working hours are 8.4 hours per day, 5 days a week. The standard workweek is from Sunday to Thursday."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The standard workweek can be extended up to 42 hours per week."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Overtime payment is mandatory for hourly-wage workers. Overtime payment is not mandatory for employees with a fixed salary as it is adjusted for in their salaries. Hours outside of standard work hours are considered overtime. Employees can work a maximum of 12 hours of overtime per day, 16 hours of overtime per week. For the first 2 hours of overtime, employees are paid 125% of their hourly wage. For every hour after that, employees are paid 150% of their hourly wage."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Pregnant employees, who have worked for 12 months for the same employer, are entitled to 26 weeks of paid leave. Employees who have worked for less than 12 months for the same employer or in the same place of employment are entitled to 15 weeks of paid leave."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee is not entitled to be paid a salary, but for some of the period, is entitled to be paid a Maternity Allowance (Maternity Pay) by the National Insurance Institute, based on the period for which national insurance taxes were paid."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Employee who paid national insurance taxes for 10 out of the 14 months - Maternity allowance of 15 weeks"
+                            },
+                            {
+                                "text": "Employee who paid national insurance taxes for 15 out of the 22 months - Maternity allowance of 15 weeks"
+                            },
+                            {
+                                "text": "Employee who paid national insurance taxes for 6 out of the 14 months - Maternity allowance of 8 weeks"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The maternity allowance rate is determined according to the employee's gross salary based on which National Insurance payments are made, up to the maximum amount of ILS 1,485.83 per day."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee is not entitled to any payment or maternity allowance for the remaining weeks of the maternity leave."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees, who have worked for 12 months for the same employer, are entitled to 1 month of paid paternity leave if the mother is back to work. Out of 1 month, 1 week must be overlapping with mother’s leave, and the remaining 3 weeks must be taken while the mother is back at work. The employee will receive 100% of the salary during this period, and Social Security will be responsible for this pay."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Israel, no law covers parental leave. However, employees may be entitled to maternity leave and paternity leave."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to 1.5 days of paid sick leave per month, for up to 18 days. The first day is unpaid and considered as a qualifying period. The sick leave is paid at different rates and by the employer."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Employees can accrue sick leave up to 5 years, a total of 90 days."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Day Number": "1",
+                                "Pay (% of base salary)": "0%",
+                                "Payer": "Employer"
+                            },
+                            {
+                                "Day Number": "2 - 3",
+                                "Pay (% of base salary)": "50%",
+                                "Payer": "Employer"
+                            },
+                            {
+                                "Day Number": "Over 4 days",
+                                "Pay (% of base salary)": "100%",
+                                "Payer": "Employer"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "Unilaterally by the employer for any reason except:",
+                                "children": [
+                                    {
+                                        "text": "Discrimination (based on age, parenthood, fertility treatments, race, sex, nationality, etc.)"
+                                    },
+                                    {
+                                        "text": "Filing a complaint with a legal authority against his employer or an employee of the employer concerning violations of law at the workplace"
+                                    },
+                                    {
+                                        "text": "When an employee is absent from work according to instructions of security forces during an attack or other national emergency"
+                                    },
+                                    {
+                                        "text": "Reasons specified in a collective agreement, employment contract, or case law"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum notice period is 1 day and will be increased according to the length of the employment:"
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Length of Employment": "Between 1 to 6 months of employment",
+                                "Notice Period": "1 day for each month worked"
+                            },
+                            {
+                                "Length of Employment": "Between 6 to 12 months of employment",
+                                "Notice Period": "2.5 days for each month worked"
+                            },
+                            {
+                                "Length of Employment": "For 12 months of employment and over",
+                                "Notice Period": "1 month (regardless of how many years worked)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Israel, all employees are entitled to severance pay. Severance pay is 8.33% of the salary for each year of employment. The amount paid is taken from the Severance fund that the employer must pay towards every month."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Full-time employees are entitled to 12 days of paid time off (PTO) a year for a 5 day work week."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Part-time employees are entitled to the same as full-time employees (pro-rata) or at 70% of full-time wages."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "PTO accrues monthly and is calculated by dividing base pay by 21.67 days per month and multiplying the value, by 10 or 12 (based on employee workweek). The employer must make sure that employees use a minimum of 7 days of PTO per year. Employees are eligible for annual leave after 3 months of work."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Israel celebrates 9 public holidays:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "First Day of Passover\nSeventh Day of Passover\nYom Ha'atzmaut\nShavuot\nRosh Hashanah\nYom Kippur\nFirst day of Sukkot\nShemini Atzeret\nSimchat Torah"
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Additional elections holidays may also apply."
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes 2 business days after the client signs the SOW."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in Hebrew or English and can be bilingual. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Name"
+                            },
+                            {
+                                "text": "Start date"
+                            },
+                            {
+                                "text": "Base Salary"
+                            },
+                            {
+                                "text": "Transportation"
+                            },
+                            {
+                                "text": "Vacation Days"
+                            },
+                            {
+                                "text": "Sick Days"
+                            },
+                            {
+                                "text": "Pension"
+                            },
+                            {
+                                "text": "Termination conditions"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The typical probation period is 3 months. If the person does not have an active pension fund, it can reach six months. Probationary periods are permitted by Israeli law, but an employee would still be considered a regular employee during such a period."
+                    }
+                ]
+            }
+        ]
+    }
+}

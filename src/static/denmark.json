@@ -1,0 +1,372 @@
+{
+    "hireIn": "denmark",
+    "currency": "Danish Korona (DKK)",
+    "capital": "Copenhagen",
+    "offical_language": "Danish",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Holiday%20allowance/Holiday_turquoise.svg",
+            "title": "Holiday Allowance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Labour%20market%20Supplementary%20pension/Letter_pink.svg",
+            "title": "Labor Market Supplementary"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Salary%20Guarantee%20Fund/PiggyBank_blue.svg",
+            "title": "Salary Guarantee Fund"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_purple.svg",
+            "title": "Workers Compensation Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Private pension, healthcare, dental, life, disability, and critical illness insurance - Soderberg & Partners"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "There are no provisions regarding the minimum salary stipulated in the law."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Income tax in Denmark is complex. The individual income tax ranges from 8% to 56.5%. Income tax is calculated according to progressive rates. Multiple additional factors may impact overall rates, such as the household status, the number of children, and the employee's location. Local, Church and state taxes may also apply."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Gross Annual Income": "Up to DKK 50,761",
+                                "Tax Rate (%)": "8%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to DKK 544,800",
+                                "Tax Rate (%)": "42.83%"
+                            },
+                            {
+                                "Gross Annual Income": "Over DKK 544,800",
+                                "Tax Rate (%)": "56.5%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost range is around DKK 915 DKK per month."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Aes labour market insurance - 34.17 kr"
+                            },
+                            {
+                                "text": "Financing contribution (FIB)- 68.75 kr"
+                            },
+                            {
+                                "text": "ATP (Labour Market Supplementary Pension) - 189.35 kr"
+                            },
+                            {
+                                "text": "Barsel.dk"
+                            },
+                            {
+                                "text": "AUB (Education contribution) -233.58 kr"
+                            },
+                            {
+                                "text": "AFU (Labor Market Fund for Secondary Persons) -1.42 kr"
+                            },
+                            {
+                                "text": "Administration of holiday fund - 10.20 kr"
+                            },
+                            {
+                                "text": "Administration of frozen holiday pay - 2.00 kr"
+                            },
+                            {
+                                "text": "Compulsory occupational injury insurance - 273.60 kr"
+                            },
+                            {
+                                "text": "Ferietillæg - 1% of employee’s gross salary"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Standard working hours are 7.5 hours per day, 37.5 hours per week. The standard workweek is from Monday to Friday."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Maternity leave in Denmark is complex."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Pregnant employees who have worked for 160 hours in the last 4 months are entitled to 18 weeks of paid leave. 4 weeks can be taken before the child's birth. After 14 weeks, an additional 32 weeks can be divided between the mother and father."
+                    },
+                    {
+                        "type": "text",
+                        "data": "The employee will receive 50%, of their average salary during this period, and Social Security will be responsible for this pay."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Additional situations and conditions may apply"
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Paternity leave in Denmark can be complex."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Employees who have worked for at least 160 hours within the last 4 whole months are entitled to 2 weeks of paid paternity leave. The 2 weeks must be taken before the child reaches 14 weeks."
+                    },
+                    {
+                        "type": "text",
+                        "data": "The employee will receive 50% of the salary during this period, and Social Security will be responsible for this pay."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Parental leave in Denmark is complex. Parents are entitled to choose an additional 8 or 14 weeks of parental leave between them. Both parents can decide how to distribute the time off, which should be taken after the initial 52 weeks of maternity and paternity leave are used. This leave is unpaid."
+                    },
+                    {
+                        "type": "text",
+                        "data": "One of the parents is also entitled to use between 8 and 13 weeks of the parental leave to be taken before the child is 9 years old."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Additional situations and conditions may apply"
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to paid sick leave for up to 26 weeks. This leave is paid at different rates and by different payers depending upon length:"
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Period": "0 - 30 days",
+                                "Pay": "100%",
+                                "Payer": "Employer"
+                            },
+                            {
+                                "Period": "31 - 154 days",
+                                "Pay": "DKK 4,405 per week or the employee's regular salary if that is lower.",
+                                "Payer": "Social Security"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Denmark can be complex. There is no at-will termination in Denmark for employers. Terminations can be done for just cause subject to certain conditions."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "Probation period"
+                                    },
+                                    {
+                                        "text": "Objective grounds"
+                                    },
+                                    {
+                                        "text": "Disciplinary dismissal"
+                                    },
+                                    {
+                                        "text": "Performance due to unsuitability for the job"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum notice period is 2 weeks and will be increased according to the length of the employment."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Up to 3 months of employment - 2 weeks’ notice"
+                            },
+                            {
+                                "text": "Up to 6 months of employment - 1 month’s notice"
+                            },
+                            {
+                                "text": "Up to 3 years of employment - 3 months’ notice"
+                            },
+                            {
+                                "text": "Up to 6 years of employment - 4 months’ notice"
+                            },
+                            {
+                                "text": "Up to 9 years of employment - 5 months’ notice"
+                            },
+                            {
+                                "text": "Over 9 years of employment - 6 months’ notice"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Denmark, generally, there are no statutory requirements on severance pay. Employees who have been in continuous employment for between 12 to 17 years are entitled to a severance payment of between one to three months."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Full-time employees are entitled to 25 days of paid time off (PTO) a year. Part-time employees’ PTO is pro-rated based on how many days they work per week. PTO accrues monthly at 2.08 days per month. Employees are eligible for PTO as soon as it has accrued. During the first year of employment, an employee can negotiate with the employer to take leave over what they have accrued."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Denmark celebrates 11 national holidays:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "New Year’s day\nMaundy Thursday\nGood Friday\nEaster Monday\nGeneral prayer day\nAscension day\nPentecost Monday or Whit-Monday\nConstitution day\nChristmas Eve\nChristmas\nSecond Christmas"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes 2 business days after the client signs the SOW."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "There are no specific rules governing the language for employment contracts as long as the employee understands the contract language. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Name"
+                            },
+                            {
+                                "text": "Start date"
+                            },
+                            {
+                                "text": "Length of the employment"
+                            },
+                            {
+                                "text": "Job description"
+                            },
+                            {
+                                "text": "Termination conditions"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Probation periods are not mandatory. The maximum probation period is 90 days."
+                    }
+                ]
+            }
+        ]
+    }
+}

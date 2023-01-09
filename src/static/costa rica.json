@@ -1,0 +1,405 @@
+{
+    "hireIn": "costa rica",
+    "currency": "CRC",
+    "capital": "San José",
+    "offical_language": "Spanish",
+    "payroll_cycle": "Bi-monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Social%20Security/ShieldCheck_turquoise.svg",
+            "title": "Social Security (CCSS)"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Work%20Accident%20compensation%20insurance/AccidentFunds_pink.svg",
+            "title": "Work Accident Compensation Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Private Healthcare - Unisure (optional)"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum wage depends on the occupation and education of the worker:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Worker in specialized occupation: CRC 13,914.32"
+                            },
+                            {
+                                "text": "Worker in higher education CRC 21,593.60"
+                            },
+                            {
+                                "text": "Higher Education Technician CRC 464,335.77"
+                            },
+                            {
+                                "text": "University Bachelor CRC 568,819.96"
+                            },
+                            {
+                                "text": "University Degree CRC 682,607.23"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The individual income tax ranges from 0% to 25%. Income tax is calculated according to progressive rates."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Gross Annual Income (CRC)": "Upto 863,000",
+                                "Tax Rate (%)": "0%"
+                            },
+                            {
+                                "Gross Annual Income (CRC)": "863,000 - 1,267,000",
+                                "Tax Rate (%)": "10%"
+                            },
+                            {
+                                "Gross Annual Income (CRC)": "1,267,000 - 2,223,000",
+                                "Tax Rate (%)": "15%"
+                            },
+                            {
+                                "Gross Annual Income (CRC)": "2,223,000 - 4,445,000",
+                                "Tax Rate (%)": "20%"
+                            },
+                            {
+                                "Gross Annual Income (CRC)": "Above 4,445,000",
+                                "Tax Rate (%)": "25%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is generally estimated at 38.08% of the employee salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Social Security (CCSS) - 26.5%"
+                            },
+                            {
+                                "text": "Workman Compensation - 3.25%"
+                            },
+                            {
+                                "text": "13th Month Salary Accrual (Aguinaldo) - 8.33%"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "One-time costs:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Vacation Pay - 4.16%"
+                            },
+                            {
+                                "text": "Preaviso - 8.33%"
+                            },
+                            {
+                                "text": "Cessentia - 5.50%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard workweek is from Monday to Friday."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Pregnant employees, who have worked for a minimum of 90 days, are entitled to 120 days of paid leave. 30 days must be taken before the child's birth. 90 days must be taken after the child's birth."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee will receive 100% of the salary during this period, where 50% of the salary is covered by the employer, and the remaining 50% of the salary is covered by CCSS."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "In the case of illness caused by pregnancy or childbirth, the employee can extend leave up to 6 months."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Only employees working in the public sector are entitled to 1 month of paid paternity leave. There is no statutory paternity leave for employees in the private sector."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Costa Rica, no law covers parental leave. However, employees may be entitled to maternity leave and paternity leave."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "There is no maximum limit for employees to take sick leave."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee gets 100% of their salary on the first 3 days of the sick leave, this cost is covered by the employer. From the 4th day onwards, until the end of the disability, the CCSS pays 60% of the salary."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "During this time, the employer is still obligated to pay the CCSS premium for the employee during the disability."
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Costa Rica can be complex. There is no at-will termination in Costa Rica for employers, outside the probation period, and termination must be done for just cause."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "As agreed on in the Employment Agreement"
+                            },
+                            {
+                                "text": "Retirement"
+                            },
+                            {
+                                "text": "Resignation"
+                            },
+                            {
+                                "text": "Dismissal by the employer"
+                            },
+                            {
+                                "text": "Mutual agreement"
+                            },
+                            {
+                                "text": "For serious breach of the obligations by the employee"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum notice period is 1 week and will be increased according to the length of the employment."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Less than 3 months of employment or Probation period - no obligation"
+                            },
+                            {
+                                "text": "Between 3 to 6 months of employment - 1 week of notice"
+                            },
+                            {
+                                "text": "Between 6 to 12 months of employment - 2 weeks of notice"
+                            },
+                            {
+                                "text": "Above 12 months of employment - 1 month of notice"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "All employees who quit for cause, or who are terminated without cause by the employer, are entitled to severance pay. Severance pay is based on the length of employment and the amount of the salary."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Severance is based on the average salaries earned and paid over the past 6 months or 12 months depending on the situation."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Length of employment": "Between 3 to 6 months",
+                                "Amount of severance pay": "7 days"
+                            },
+                            {
+                                "Length of employment": "Between 6 to 12 months",
+                                "Amount of severance pay": "14 days"
+                            },
+                            {
+                                "Length of employment": "1 year",
+                                "Amount of severance pay": "19.5 days"
+                            },
+                            {
+                                "Length of employment": "2 years",
+                                "Amount of severance pay": "20 days"
+                            },
+                            {
+                                "Length of employment": "3 years",
+                                "Amount of severance pay": "20.5 days"
+                            },
+                            {
+                                "Length of employment": "4 years",
+                                "Amount of severance pay": "21 days"
+                            },
+                            {
+                                "Length of employment": "5 years",
+                                "Amount of severance pay": "21.25"
+                            },
+                            {
+                                "Length of employment": "6 years",
+                                "Amount of severance pay": "21.5"
+                            },
+                            {
+                                "Length of employment": "7 - 13 years",
+                                "Amount of severance pay": "22 days"
+                            },
+                            {
+                                "Length of employment": "13 or more years",
+                                "Amount of severance pay": "20 days"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "In all cases, the employee must be paid any accrued vacation and earned bonuses."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Both full-time and part-time employees are entitled to 10 days of PTO after working for 50 weeks. Following 50 weeks, employees accrue PTO monthly"
+                    },
+                    {
+                        "type": "text",
+                        "data": ", at 1.25 days per month."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Costa Rica celebrates 10 national holidays. National public holidays include:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "New Year's Day\nSemana Santa (2 days)\nJuan Santamaria Day\nLabor Day\nAnnexation of Nicoya\nVirgen de los Ángeles\nMother's Day\nIndependence Day\nMilitary Abolition Day\nChristmas Day"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes 3 business days."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in Spanish and can be bilingual. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Name"
+                            },
+                            {
+                                "text": "Hours of work"
+                            },
+                            {
+                                "text": "Compensation"
+                            },
+                            {
+                                "text": "Duties and responsibilities"
+                            },
+                            {
+                                "text": "Termination conditions"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Probation periods are not mandatory. The minimum probation period is 30 days and the maximum probation period is 90 days (3 months)."
+                    }
+                ]
+            }
+        ]
+    }
+}

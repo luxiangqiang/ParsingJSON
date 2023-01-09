@@ -1,0 +1,386 @@
+{
+    "hireIn": "bosnia herzegovina",
+    "currency": "BAM",
+    "capital": "Sarajevo",
+    "offical_language": "Bosnian, Serbian & Croatian",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Health Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Pension%20fund/Badge_pink.svg",
+            "title": "Pension Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Unemployment/Briefcase_blue.svg",
+            "title": "Unemployment Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_purple.svg",
+            "title": "Private Healthcare - Unisure (optional)"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum wage is BAM 616,00 per month."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The individual income tax is 10%. Income tax is calculated using a flat rate. Additional factors may impact overall rates such as the number of dependent family members. The base for income tax is gross salary reduced by the amount of contributions from salaries and personal allowances."
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is generally estimated at 12.48% of the employee salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Pension Insurance - 6.0%"
+                            },
+                            {
+                                "text": "Health Insurance - 4.0%"
+                            },
+                            {
+                                "text": "Unemployment - 0.5%"
+                            },
+                            {
+                                "text": "Fees for disabled people - 0.5%"
+                            },
+                            {
+                                "text": "Tax natural disaster - 0.5%"
+                            },
+                            {
+                                "text": "Water tax - 0.5%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard work week is from Monday to Friday."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Pregnant employees are eligible for a minimum of 42 days, and a maximum of 1 year of maternity leave. 28 days must be taken before the child's birth. The employee will receive a salary based on the specific region, and the Center for Social Work (Centar za socijalni rad) will be responsible for this pay."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee cannot extend leave."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Salaries paid to employees, based on region:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Federation BiH: 50-80% of the reference wage, depending upon the various cantonal regulations of the Federation of Bosnia and Herzegovina"
+                            },
+                            {
+                                "text": "Republik of Srpska: 100% of the salary the employee was earning during the last six months before the starting date of the maternity leave."
+                            },
+                            {
+                                "text": "District of Brcko: 100% of salary"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees have the right to paternity leave during the period that remains after the end of the first 6 weeks following the date of the birth, provided that the female worker has agreed in writing to waive the equivalent period of her maternity leave. The employee will receive the same amount of salary as the mother this period, and the Center for Social Work will be responsible for this pay."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Salaries paid to employees, based on region:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Federation BiH: 50-80% of the reference wage, depending upon the various cantonal regulations of the Federation of Bosnia and Herzegovina"
+                            },
+                            {
+                                "text": "Republik of Srpska: 100% of the salary the employee was earning during the last six months before the starting date of the maternity leave."
+                            },
+                            {
+                                "text": "District of Brcko: 100% of salary"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee cannot extend leave."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Bosnia and Herzegovina, no law covers parental leave. However, employees may be entitled to maternity leave and paternity leave."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "There is no maximum number of days for sick leave, it lasts as necessary. This leave is paid at different rates and by different payers depending upon length:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Up to 42 days, a 80% of base salary paid by the employer"
+                            },
+                            {
+                                "text": "After 42 days, the salary amount depends on specific Canton regulations and is paid by the employer (Reimbursed by the Institute of Health)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Bosnia and Herzegovina can be complex."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Death of the employee"
+                            },
+                            {
+                                "text": "Agreement between the employer and employee"
+                            },
+                            {
+                                "text": "After the employee completes 65 years of age and 20 years of insurance record"
+                            },
+                            {
+                                "text": "Work disability"
+                            },
+                            {
+                                "text": "Voluntarily by employee"
+                            },
+                            {
+                                "text": "Voluntarily by employer"
+                            },
+                            {
+                                "text": "Expiration of contract"
+                            },
+                            {
+                                "text": "The employee is convicted to serve prison punishment longer than 3 months"
+                            },
+                            {
+                                "text": "If the employee is imposed a security, corrective, or protection measure in the duration of over 3 months"
+                            },
+                            {
+                                "text": "The decision of the competent court resulted in the termination of employment"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum notice period is 7 days if the employee cancels the contract, and 14 days if the employer cancels the contract. The maximum notice period is 1 month if the employee cancels the contract, and 3 months if the employer cancels the contract. The notice period is based on employer’s discretion and should be included on the employment agreement."
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In Bosnia and Herzegovina, severance pay is eligible in the following situations:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Employee concluding employment contract that was set for an indefinite period of time"
+                            },
+                            {
+                                "text": "The employer terminates the employment contract after the employment relationship lasted a minimum of 2 consecutive years"
+                            },
+                            {
+                                "text": "When a contract is not terminated due to breach of employment obligation or due to non-fulfillment of obligations under an employment contract"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Severance pay cannot be less than 1/3rd of the average monthly salary (salary in the last 3 months) paid to the employee for each year of employment with the employer. The exact severance paid is determined based on the employment agreement."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Both full-time and part-time employees are entitled to 20 working days of paid time off (PTO) a year. PTO accrues monthly, with 1.6 days per month. Employees are eligible for 6 days of PTO after the first 6 months of employment."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Bosnia and Herzegovina celebrates 2 national holidays (New Year and Labor Day) and 8 regional holiday based on the employee's location.In addition to public and entity holidays, all citizens are entitled to PTO for religious holidays based on their religion (Orthodox, Catholic, Muslim)."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "- All: New Year, Labor Day, Easter Monday (Orthodox and Catholic population), Christmas (Orthodox and Catholic population), Ramadan Eid (Muslim population)."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "- Republic Srpska: Orthodox Christmas, Republic Day, Orthodox New Year, Orthodox Good Friday and Easter Monday."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "- Federation of Bosnia and Herzegovina: Labour Day, Independence Day, Statehood Day"
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "- Brčko District: District Day"
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The Jewish community also has the right to take paid time off for religious holidays and this is the practice (based on Sejdic - Finci court decision) but is still not implemented in the law.The employer is obliged to provide the employee with a leave of absence of up to four working days in one calendar year, in order to meet their religious or traditional needs, with the provision that the leave of two days is used with remuneration - paid leave. If the public holiday is on Sunday, Monday is non working day."
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes 3 business days."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in one of the official languages (Bosnian/Croatian/Serbia) and can be bilingual. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Name and registered office of the employer"
+                            },
+                            {
+                                "text": "The personal name of the employee, place of residence"
+                            },
+                            {
+                                "text": "Type and level of education"
+                            },
+                            {
+                                "text": "Name and description of the work that the employee should perform"
+                            },
+                            {
+                                "text": "Place of work"
+                            },
+                            {
+                                "text": "Type of employment (fixed-term or indefinite)"
+                            },
+                            {
+                                "text": "Start date"
+                            },
+                            {
+                                "text": "Working hours"
+                            },
+                            {
+                                "text": "Gross salary"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Probation periods are not mandatory. Ther"
+                    },
+                    {
+                        "type": "text",
+                        "data": "e is no minimum"
+                    },
+                    {
+                        "type": "text",
+                        "data": "probation period. The maximum probation period is 6 months."
+                    }
+                ]
+            }
+        ]
+    }
+}

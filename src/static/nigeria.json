@@ -1,0 +1,327 @@
+{
+    "hireIn": "nigeria",
+    "currency": "Nigerian Naira (NGN)",
+    "capital": "Abuja​",
+    "offical_language": "English",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Industrial Training Fund"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_pink.svg",
+            "title": "National Provident Fund"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Pension%20fund/Badge_blue.svg",
+            "title": "Pension"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_purple.svg",
+            "title": "Private Healthcare - Unisure (optional)"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum wage is NGN 30,000 per month."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The individual income tax ranges from 7% to 24%. Income tax is calculated based on income tax bands."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Gross Annual Income (NGN)": "Up to 300,000",
+                                "Tax Rate (%)": "7%"
+                            },
+                            {
+                                "Gross Annual Income (NGN)": "Up to 600,000",
+                                "Tax Rate (%)": "11%"
+                            },
+                            {
+                                "Gross Annual Income (NGN)": "Up to 1,110,000",
+                                "Tax Rate (%)": "15%"
+                            },
+                            {
+                                "Gross Annual Income (NGN)": "Up to 1,600,000",
+                                "Tax Rate (%)": "19%"
+                            },
+                            {
+                                "Gross Annual Income (NGN)": "Up to 3,200,000",
+                                "Tax Rate (%)": "21%"
+                            },
+                            {
+                                "Gross Annual Income (NGN)": "Over 3,200,000",
+                                "Tax Rate (%)": "24%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is generally estimated at 12.0% of the employee salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Pension - 10.0%"
+                            },
+                            {
+                                "text": "Industrial training fund - 1.0%"
+                            },
+                            {
+                                "text": "National provident fund - 1.0%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Overtime payment is not mandatory. Hours outside of standard work hours are considered overtime. There are no maximum working hours. There is no rate of pay for overtime specified by law, rather it is based on the employer’s discretion."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard workweek is from Monday to Friday."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Pregnant employees who have worked for six consecutive months or more are entitled to 12 weeks of paid leave. six weeks must be taken before the child's birth, and six weeks must be taken after the child's birth. The employee will receive a minimum of 50% of the salary during this period, and the employer will be responsible for this pay."
+                    },
+                    {
+                        "type": "text",
+                        "data": "The employee can extend leave in case of illness, certified by the registered medical practitioner."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "There is no paternity leave currently required by law."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Nigeria, no law covers parental leave. However, employees may be entitled to maternity leave and paternity leave."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to paid sick leave for up to 12 days. The leave can be taken in the case of illnesses certified by a registered medical practitioner. During this leave, employees are entitled to 100% of their base salary, and the employer is responsible for this pay."
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Nigeria can be complex. There is no at-will termination in Nigeria for employers and termination must be done for just cause. Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "Objective grounds"
+                                    },
+                                    {
+                                        "text": "Disciplinary dismissal"
+                                    },
+                                    {
+                                        "text": "Criminal offense"
+                                    },
+                                    {
+                                        "text": "Performance due to unsuitability for the job"
+                                    },
+                                    {
+                                        "text": "Permanent incapacity due to accident or ill-health"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Nigeria, there is no statutory requirement to provide a notice period. However, best practice includes 30 days notice for non-senior employees and a minimum of 30 days for senior employees."
+                    },
+                    {
+                        "type": "text",
+                        "data": "In cases regarding allegations of misconduct, the employer is not required to provide notice."
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "For employees not covered by the Labour Act, there are no statutory requirements for severance payments. During the notice period, the employee will receive standard salary wages."
+                    },
+                    {
+                        "type": "text",
+                        "data": "All manual and clerical employees (covered by the Labour Act) are entitled to redundancy pay. There is no legal requirement for the amount of redundancy pay; it is based on the employer’s discretion."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Full-time employees are entitled to 6 days of paid time off (PTO) a year. PTO accrues monthly, 0.5 days per month. Employees are eligible for annual leave after 12 months of work."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Full-time employees under the age of 16 are entitled to 12 days of paid time off (PTO) a year."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Nigeria celebrates 10 national holidays and 2 regional holidays. National public holidays include:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "New Year’s Day\nGood Friday\nEaster Monday \nWorker’s Day\nSallah National Holiday (2 days)\nDemocracy Day\nId el Kabir (Feast of Sacrifice)\nIndependence Day\nChristmas Day\nBoxing Day"
+                    },
+                    {
+                        "type": "text",
+                        "data": "Nigeria celebrates 2 regional holidays:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "Public holiday (Anambra)\nSambisa Memorial Day (in Borno)"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes 2 business days after the client signs the SOW."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Contracts must be in English and can be bilingual. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "text",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Name"
+                            },
+                            {
+                                "text": "Start date"
+                            },
+                            {
+                                "text": "Duties and responsibilities"
+                            },
+                            {
+                                "text": "Hours of work"
+                            },
+                            {
+                                "text": "Compensation and other benefits"
+                            },
+                            {
+                                "text": "Termination conditions"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees hired using Deel have a probation period of 90 days, which you can extend up to 180 days. As of January 2022, it's Deel company policy to include probation periods in all employment contracts moving forward."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Probation periods help an employer and the employee ensure they're a hiring match, allowing a company to quickly decide if it's a fit and the employee to see if the job aligns with their career goals."
+                    }
+                ]
+            }
+        ]
+    }
+}

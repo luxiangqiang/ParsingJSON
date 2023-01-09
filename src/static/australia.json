@@ -1,0 +1,379 @@
+{
+    "hireIn": "australia",
+    "currency": "AUD",
+    "capital": "Canberra",
+    "offical_language": "English",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Social Security"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_pink.svg",
+            "title": "Workers Compensation Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Private Health Insurance - Bupa (optional)"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum wage is AUD 3090.40 per month."
+                    },
+                    {
+                        "type": "text",
+                        "data": "However, the minimum wage may be higher for specific industries. Please see the following link to calculate:"
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The individual income tax ranges from 0% to 45%. Income tax is calculated according to progressive rates. Multiple additional factors may impact overall rates such as the household status, number of children, location, age, and marital status."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Gross Annual Income": "0 Up to AUD 18,200",
+                                "Tax Rate (%)": "0%"
+                            },
+                            {
+                                "Gross Annual Income": "AUD 18,201 Up to AUD 45,000",
+                                "Tax Rate (%)": "19%"
+                            },
+                            {
+                                "Gross Annual Income": "AUD 45,001 Up to AUD 120,000",
+                                "Tax Rate (%)": "32.5%"
+                            },
+                            {
+                                "Gross Annual Income": "AUD 120,001 Up to AUD 180,000",
+                                "Tax Rate (%)": "37%"
+                            },
+                            {
+                                "Gross Annual Income": "Over AUD $180,001",
+                                "Tax Rate (%)": "45%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is generally estimated at roughly 16% of the employee's salary. However, the total charge may vary depending on the state the employee lives in."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Superannuation guarantee charge - 10%"
+                            },
+                            {
+                                "text": "Workers cover - 0.25%"
+                            },
+                            {
+                                "text": "Payroll tax - 4.85%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Standard working hours are 7.6 hours per day, 38 hours per week (1967 hours per year). The standard workweek is"
+                    },
+                    {
+                        "type": "text",
+                        "data": "from Monday to Friday."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Pregnant employees who have worked for 12 months are entitled to 18 weeks of paid leave. The remaining days can be divided into periods of a minimum of 1 week. The employee will receive national minimum wage during this period and Social Security will be responsible for this pay."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee can extend leave additional 24 months unpaid via parental leave."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees who have worked for 12 months are entitled to 2 weeks of paid paternity leave. The employee will receive national minimum wage during this period and Social Security will be responsible for this pay."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In addition to the paid maternity leave, employees are entitled to 12 months of parental leave. Parental leave can be extended an additional 12 months. Both parents can decide how to distribute the time off. Either parent can take parental leave. This leave is unpaid."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to paid sick leave for up to 10 days. Employees receive their normal wage during this period which will be paid by the employer."
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Australia can be complex. There is no at-will termination in Australia for employers outside the probation period and termination must be done for just cause."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "Probation period"
+                                    },
+                                    {
+                                        "text": "Objective grounds"
+                                    },
+                                    {
+                                        "text": "Disciplinary dismissal"
+                                    },
+                                    {
+                                        "text": "Performance due to unsuitability for the job"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum notice period is 1 week and will be increased according to the length of the employment."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Less than 1 year of employment - 1 week’s notice"
+                            },
+                            {
+                                "text": "1 - 3 years of employment - 2 weeks’ notice"
+                            },
+                            {
+                                "text": "3 - 5 years of employment - 3 weeks’ notice"
+                            },
+                            {
+                                "text": "5 years of employment - 4 weeks’ notice"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "In case the employee is older than 45 years old and has worked for the same employer for 2 years, they will be entitled to an additional week of notice."
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Severance pay will depend on the number of years an employee has worked at the company."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Less than 1 year at the company receives no severance pay."
+                            },
+                            {
+                                "text": "1-2 years = 4 weeks’ severance pay."
+                            },
+                            {
+                                "text": "2-3 years = 6 weeks’ severance pay."
+                            },
+                            {
+                                "text": "3-4 years = 7 weeks’ severance pay."
+                            },
+                            {
+                                "text": "4-5 years = 8 weeks’ severance pay."
+                            },
+                            {
+                                "text": "5-6 years = 10 weeks’ severance pay."
+                            },
+                            {
+                                "text": "6-7 years = 11 weeks’ severance pay."
+                            },
+                            {
+                                "text": "7-8 years = 13 weeks’ severance pay."
+                            },
+                            {
+                                "text": "8-9 years = 14 weeks’ severance pay."
+                            },
+                            {
+                                "text": "More than 10 years = 16 weeks’ severance pay."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Both full-time and part-time employees are entitled to 20 days of paid time off (PTO) a year. PTO accrues monthly 1.67 days per month."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Employees are eligible for annual leave after they have accused enough leave to take."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Australia celebrates 7 national and several regional holidays based on the location of the employee. National public holidays include:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "New Year's Day\nAustralia Day\nGood Friday\nEaster Monday\nAnzac Day\nChristmas Day\nBoxing Day"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes 2 business days after the client signs the SOW."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be written in English. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Annual Salary, Position"
+                            },
+                            {
+                                "text": "Roles & Responsibilities"
+                            },
+                            {
+                                "text": "Commencement Date"
+                            },
+                            {
+                                "text": "Pay Frequency, Termination"
+                            },
+                            {
+                                "text": "Notice period"
+                            },
+                            {
+                                "text": "Working hours, Bonuses"
+                            },
+                            {
+                                "text": "Holiday leave"
+                            },
+                            {
+                                "text": "Sick leave"
+                            },
+                            {
+                                "text": "Long Service Leave"
+                            },
+                            {
+                                "text": "Annual Leave"
+                            },
+                            {
+                                "text": "Superannuation entitlements."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees hired using Deel have a probation period of 90 days, which you can extend up to 180 days. As of January 2022, it's Deel company policy to include probation periods in all employment contracts moving forward."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Probation periods help an employer and the employee ensure they're a hiring match, allowing a company to quickly decide if it's a fit or the employee to see if the job aligns with their career goals."
+                    }
+                ]
+            }
+        ]
+    }
+}

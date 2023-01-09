@@ -1,0 +1,363 @@
+{
+    "hireIn": "turkey",
+    "currency": "Turkish Lira (TRY)",
+    "capital": "Ankara",
+    "offical_language": "Turkish",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Pension%20fund/Badge_turquoise.svg",
+            "title": "Private Pension BES"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_pink.svg",
+            "title": "Social Security"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_purple.svg",
+            "title": "Minimum Living Allowance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Private Healthcare - Unisure (optional)"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "he monthly minimum wage is 10.008.00 TL gross and 8.506.00 net, effective 1 January 2023."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The individual income tax ranges from 15% to 40%. Income tax is calculated according to progressive rates."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Gross Annual Income in TRY": "0 – 32,000",
+                                "Tax Rate (%)": "15%"
+                            },
+                            {
+                                "Gross Annual Income in TRY": "32,000 – 70,000",
+                                "Tax Rate (%)": "20%"
+                            },
+                            {
+                                "Gross Annual Income in TRY": "70,000 – 250,000",
+                                "Tax Rate (%)": "27%"
+                            },
+                            {
+                                "Gross Annual Income in TRY": "250,001 – 800,000",
+                                "Tax Rate (%)": "35%"
+                            },
+                            {
+                                "Gross Annual Income in TRY": "Above 800,000",
+                                "Tax Rate (%)": "40%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is generally estimated at 17.5% of the employee salary:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Disability death and retirement - 5.0%"
+                            },
+                            {
+                                "text": "General Health Insurance - 10.5%"
+                            },
+                            {
+                                "text": "Unemployment tax - 2.0%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Standard working hours are 9 hours per day, 5 days per week. The standard workweek is from Monday to Friday."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Pregnant employees are entitled to 16 weeks of paid leave. 8 weeks must be taken before the child's birth, and 8 weeks must be taken after the child's birth. The employee will receive two-thirds (66.67%) of the salary during this period. Social Security Institution will be responsible for this pay given that 90 days of SGK premium has been paid within the last 12 months from the upper limit of SGK premium."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Eight weeks after birth, the employee is given 1.5 hours daily for lactation until the child is 1 year old. These daily 1.5 hours can be used collectively."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee can extend leave by means of leave, without receiving salary and without the submission of a medical report."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to 5 days of paid paternity leave. These 5 days must be taken after the child's birth. The employee will receive 100% of the salary during this period, and the employer will be responsible for this pay."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Legally, the employee cannot extend leave, however, it is based on the employer's discretion."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Turkey, no law covers parental leave. However, employees may be entitled to maternity leave and paternity leave."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to 1 week of paid sick leave. The employee receives an allowance paid by Social Security. Sick leave can be extended but it is unpaid."
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Turkey can be complex. There is no at-will termination in Turkey for employers, outside the probation period, and termination must be done for just cause."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "Probation period"
+                                    },
+                                    {
+                                        "text": "Immoral, dishonorable or malicious conduct or other similar behavior"
+                                    },
+                                    {
+                                        "text": "Medical reasons causing incapacity for job"
+                                    },
+                                    {
+                                        "text": "Sexual harassment allegations"
+                                    },
+                                    {
+                                        "text": "Misconduct"
+                                    },
+                                    {
+                                        "text": "Disciplinary dismissal"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum notice period is 2 weeks and will be increased according to the length of the employment."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Up to 6 months of employment - 2 weeks of leave"
+                            },
+                            {
+                                "text": "Between 6 months to 18 months of employment - 4 weeks of leave"
+                            },
+                            {
+                                "text": "Between 18 months to 36 months of employment - 6 weeks of leave"
+                            },
+                            {
+                                "text": "Above 36 months of employment - 8 weeks of leave"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "No notice period is required during probation."
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In Turkey, all employees who have been with the employer for a minimum of one consecutive year, and those with the annulment of contracts (due to military service, etc.) are eligible for severance pay."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Severance pay is one month’s salary for each year of service (up to a limit of TL 15,371.40)."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Paid time off (PTO) for both full-time and part-time employees is based on the length of employment. PTO accrues monthly, prorated based on the length of the leave the employee is eligible for. Employees are eligible for annual leave after 12 months of work."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Years of Employment": "1-5 years",
+                                "Amount of leave (Annually)": "14 days"
+                            },
+                            {
+                                "Years of Employment": "5+ years",
+                                "Amount of leave (Annually)": "20 days"
+                            },
+                            {
+                                "Years of Employment": "15+ years",
+                                "Amount of leave (Annually)": "26 days"
+                            },
+                            {
+                                "Years of Employment": "For employees below the age of 18, or above the age of 50",
+                                "Amount of leave (Annually)": "20 days"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "There is no limit to carry-forward leaves. The leaves can either lapse or they can be paid out."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Turkey celebrates 9 national holidays. National public holidays include:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "New Year's Day\nNational Sovereign and Children’s Day\nLabor Day\nRemembrance  of Atatürk and Youth Day\nDemocracy and National Unity Day\nVictory Day\nRepublic’s Day\nRamadan Holiday\nEid-al Adha Feasting Holiday"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes 3 business days."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in Turkish and can be bilingual. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Name"
+                            },
+                            {
+                                "text": "Start date"
+                            },
+                            {
+                                "text": "Length of the employment"
+                            },
+                            {
+                                "text": "Hours of work"
+                            },
+                            {
+                                "text": "Job description"
+                            },
+                            {
+                                "text": "Compensation and benefits"
+                            },
+                            {
+                                "text": "Termination conditions"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Probation periods are legally not mandatory but are determined based on the employment contract. However, the best practice is to have a probation period. The minimum probation period depends on the employer, and the maximum probation period is 60 days (2 months)."
+                    }
+                ]
+            }
+        ]
+    }
+}

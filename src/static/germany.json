@@ -1,0 +1,396 @@
+{
+    "hireIn": "germany",
+    "currency": "Euro (EUR)",
+    "capital": "Berlin",
+    "offical_language": "German",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Health Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Parental%20Leave/ParentalLeave_pink.svg",
+            "title": "Maternity"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Nursing%20Care%20insurance/UserGroupPlus_blue.svg",
+            "title": "Nursing care insurance (Long term insurance fee)"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Pension%20fund/Badge_purple.svg",
+            "title": "Pension Fund"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Unemployment/Briefcase_turquoise.svg",
+            "title": "Unemployment Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Workers Compensation Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Private Healthcare - Unisure (optional)"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum wage is EUR"
+                    },
+                    {
+                        "type": "text",
+                        "data": "1,702.13"
+                    },
+                    {
+                        "type": "text",
+                        "data": "per month."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The individual income tax ranges from 14% to 45%. Income tax is calculated according to progressive rates. The rate is based on the employee tax class (marital status, employees with one or more income source, etc.) and the amount of monthly wages."
+                    },
+                    {
+                        "type": "text",
+                        "data": "These rates are updated annually by the Federal Government."
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is generally estimated at 22.33% of the employee salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Retirement - 9.30%"
+                            },
+                            {
+                                "text": "Health insurance - 7.30%"
+                            },
+                            {
+                                "text": "Unemployment security - 1.20%"
+                            },
+                            {
+                                "text": "Long term insurance fee - 1.53%"
+                            },
+                            {
+                                "text": "Accident security - 2.0%"
+                            },
+                            {
+                                "text": "Maternity - 1.0%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard workweek is from Monday to Friday."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Overtime payment is not mandatory. Overtime can be compensated in time off or financially, based on the employer's discretion. Hours outside of standard work hours are considered overtime. Employees can work a maximum of 2 hours of overtime a day, and 12 hours a week. For additional hours, employees are paid the same hourly wage as their regular salary. For planned overtime, the employee is required to inform the employer 4 days in advance."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Pregnant employees are entitled to 14 weeks of paid leave. 6 weeks must be taken before the child's birth, and the remaining 8 weeks must be taken after the child's birth."
+                    },
+                    {
+                        "type": "text",
+                        "data": "The employee will receive 100% of the average net salary of the last 3 months during this period. The employer and health insurance company are responsible to pay parts of the salary. However, the employer gets a 100% refund from the health insurance company during the \"U2-process\"."
+                    },
+                    {
+                        "type": "text",
+                        "data": "The employee is required to submit a medical certificate with the expected date of birth to the employer."
+                    },
+                    {
+                        "type": "text",
+                        "data": "A special regulation applies to premature or multiple births as well as to children with disabilities, in which case there is maternity protection for as long as 12 weeks after the birth."
+                    },
+                    {
+                        "type": "text",
+                        "data": "The employee cannot extend leave, however, they can take unpaid parental leave."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Germany, no law specifically covers paternity leave. However, employees are entitled to parental leave."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to a maximum of 3 years of parental leave per child, to be taken until the third birthday of the child. The employee will be given a minimum of EUR 300 and a maximum of EUR 1,800."
+                    },
+                    {
+                        "type": "text",
+                        "data": "This payment will be made if the employee has worked before the parental leave, and will be calculated by “Elterngeldstelle” (state parental allowance fund) based on the last 12 months gross salary and after subtracting the flat rate for tax and health insurance."
+                    },
+                    {
+                        "type": "text",
+                        "data": "The employee needs to provide a notice of 7 weeks before they intend to start parental leave."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Parental leave can't be extended."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "There is no maximum limit for paid sick leave in Germany. The employee will be paid 100% of their salary during sick leave. The first 6 weeks (42 days) of leave are paid by the employer, after which the health insurance company covers the leave."
+                    },
+                    {
+                        "type": "text",
+                        "data": "To claim leave, the employee has to submit a sick note to the employer and health insurance company."
+                    },
+                    {
+                        "type": "text",
+                        "data": "The employee has to work for a minimum of 4 weeks before being entitled to sick pay by the employer. If the employee falls sick in the first 4 weeks of employment, the leave will be covered by health insurance. To claim insurance, the employee has to apply and send a sick note to the health insurance company."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Employees can get 30 days of paid leave per parent if their child is sick. This payment is made by the health insurance company. To claim leave, the employee has to submit a sick note for the child and has to apply for it with the health insurance provider."
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Germany can be complex. There is no at-will termination in Germany for employers, outside the probation period, and termination must be done for just cause."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "Probation period"
+                                    },
+                                    {
+                                        "text": "Conduct-related dismissal: breach of employment terms"
+                                    },
+                                    {
+                                        "text": "Person-related dismissal: employee unsuitable to work due to illness"
+                                    },
+                                    {
+                                        "text": "Business-related dismissal: operational reasons (job position no longer required)"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum statutory notice period for employees is four weeks prior to either the 15th or the last day of the next month. The length will depend on how long the employee to be terminated has been working for the company. If the employee has worked for the company for:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Up to 2 years of employment - 4 weeks notice prior to either the 15th or the last day of the next month"
+                            },
+                            {
+                                "text": "Between 2 to 4 years of employment - 1-month notice prior to the last day of the next month"
+                            },
+                            {
+                                "text": "Between 5 to 7 years of employment - 2 months’ notice prior to the last day of the next month"
+                            },
+                            {
+                                "text": "Between 8 to 9 years of employment - 3 months’ notice prior to the last day of the next month"
+                            },
+                            {
+                                "text": "Between 10 to 11 years of employment - 4 months’ notice prior to the last day of the next month"
+                            },
+                            {
+                                "text": "Between 12 to 14 years of employment - 5 months’ notice prior to the last day of the next month"
+                            },
+                            {
+                                "text": "Between 15 to 19 years of employment - 6 months’ notice prior to the last day of the next month"
+                            },
+                            {
+                                "text": "Over 20 years of employment - 7 months’ notice prior to the last day of the next month"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The parties may agree to set the 2 months notice, however, if the employee exceeds 7 years with the same employer, the notice period will be 3 months."
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Germany, there is no legal entitlement to severance pay."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Both full-time and part-time employees are entitled to 20 days of paid time off (PTO) a year. Part-time employees working less than a 5 day work week get leave on a pro-rata. PTO accrues monthly at 1.67 days per full month of employment."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Germany celebrates 9 national holidays and up to 8 regional holidays based on the location of the employee."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "National public holidays include:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "New Year's Day\nGood Friday\nEaster Monday\nLabor Day\nAscension Day\nWhit Monday\nGerman Unity Day\nChristmas Day\nSecond Day of Christmas"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Onboarding takes up to 6 business days after SOW signing."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in English or German and can be bilingual. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Name (Both parties)"
+                            },
+                            {
+                                "text": "Address (Both parties)"
+                            },
+                            {
+                                "text": "Start date"
+                            },
+                            {
+                                "text": "End date (If applicable)"
+                            },
+                            {
+                                "text": "Place of work"
+                            },
+                            {
+                                "text": "Job description"
+                            },
+                            {
+                                "text": "Salary (including all supplements)"
+                            },
+                            {
+                                "text": "Payment date"
+                            },
+                            {
+                                "text": "Working hours"
+                            },
+                            {
+                                "text": "Duration of annual holidays"
+                            },
+                            {
+                                "text": "Notice periods"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Probation periods are not mandatory. There is no minimum probation period. The maximum probation period is 6 months (180 days)."
+                    }
+                ]
+            }
+        ]
+    }
+}

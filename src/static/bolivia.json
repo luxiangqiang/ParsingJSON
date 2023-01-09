@@ -1,0 +1,300 @@
+{
+    "hireIn": "bolivia",
+    "currency": "Boliviano",
+    "capital": "Sucre",
+    "offical_language": "Spanish",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Housing/Building_turquoise.svg",
+            "title": "Housing Fund"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_pink.svg",
+            "title": "Public Health Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Pension%20fund/Badge_blue.svg",
+            "title": "State Pension Fund"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Worker Compensation Accident Insurance"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum wage is BOB 2,164 per month. The minimum wage is updated every May 1° by the supreme court."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The individual income tax is a flat rate of 13%"
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The employer cost is generally estimated at 33% of the employee salary."
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Standard working hours are 8 hours per day, and 40 hours per week. The standard workweek is from Monday to Friday."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees, who have worked for 120 consecutive days, are entitled to 90 days of paid leave. 45 days must be taken before the child's birth. The employee will receive 100% of the salary during this period, the employer will pay the wages, and Social Security will reimburse 90% of the wage."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees who have worked for 120 consecutive days are entitled to 3 days of paid paternity leave that must be taken after the child's birth."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Bolivia has no parental leave policy. However, employees can request a license due to accidents or serious illnesses of children under 12 years of age. The length is 3 days with 100% of their salary."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to unlimited paid sick leave. This leave is paid at different rates and by different payers depending upon length:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Up to the third day, the employee will receive 100% of the base salary paid by the employer"
+                            },
+                            {
+                                "text": "From the fourth day, the employee will receive 75% of the base salary paid by Social Security"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Bolivia can be complex. Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "Termination with a cause:",
+                                "children": [
+                                    {
+                                        "text": "material damage caused intentionally in the work instruments"
+                                    },
+                                    {
+                                        "text": "disclosure of the company’s privacy"
+                                    },
+                                    {
+                                        "text": "total or partial breach of the agreement"
+                                    },
+                                    {
+                                        "text": "theft or robbery by the worker."
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Bolivia, there is no notice period required by law. However, parties usually agree on a notice between 30 to 90 days maximum."
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Bolivia, all employees who are terminated as a voluntary retirement are entitled to severance pay after 5 years of employment or without just cause. Severance pay is 30 days of salary per year of service."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Full-time and part-time employees are entitled to a minimum of 15 working days of paid time off (PTO) a year. PTO and aural rate varies depending on the length of services. Employees are eligible for annual leave after 12 months of work."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Bolivia celebrates both 10 national and 1 regional holiday based on the location of the employee. If holidays fall on a Sunday, the celebration is moved to the next business day."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "National public holidays include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "New Year"
+                            },
+                            {
+                                "text": "Plurinational State Day"
+                            },
+                            {
+                                "text": "Carnivals (2 days)"
+                            },
+                            {
+                                "text": "Holy Friday"
+                            },
+                            {
+                                "text": "Labor Day"
+                            },
+                            {
+                                "text": "Corpus Christi"
+                            },
+                            {
+                                "text": "Aymara New Year"
+                            },
+                            {
+                                "text": "National Day"
+                            },
+                            {
+                                "text": "All Saints Day"
+                            },
+                            {
+                                "text": "Christmas Day"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes 7 business days. The onboarding process includes a mandatory medical exam."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in Spanish and can be bilingual. They must be in writing and signed by both parties. A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "name"
+                            },
+                            {
+                                "text": "start date"
+                            },
+                            {
+                                "text": "length of the employment"
+                            },
+                            {
+                                "text": "job description"
+                            },
+                            {
+                                "text": "termination conditions"
+                            },
+                            {
+                                "text": "applicable regulations"
+                            },
+                            {
+                                "text": "the object of the contract"
+                            },
+                            {
+                                "text": "remuneration"
+                            },
+                            {
+                                "text": "worker's rights"
+                            },
+                            {
+                                "text": "the obligations of the worker"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Probation periods are mandatory. The probation lasts 90 days."
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,435 @@
+{
+    "hireIn": "russia",
+    "currency": "Russian Ruble (RUB)",
+    "capital": "Moscow",
+    "offical_language": "Russian",
+    "payroll_cycle": "Bi-monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Health Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Life Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Pension%20fund/Badge_turquoise.svg",
+            "title": "Pension Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_pink.svg",
+            "title": "Public Health Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Social Security"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Work%20Accident%20compensation%20insurance/AccidentFunds_purple.svg",
+            "title": "Work Accident Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Private Healthcare - Unisure (optional)"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum wage is RUB 12,792 per month. There are region-specific minimum wages:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Moscow - RUB 20,589"
+                            },
+                            {
+                                "text": "St. Petersburg - RUB 19,000"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The individual income tax ranges from 13% to 15%. Income tax is calculated using simple progressive rates based on income."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Up to RUB 5 million annually - 13%"
+                            },
+                            {
+                                "text": "Above RUB 5 million annually - 15%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is generally estimated at 30% of the employee salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Pension Insurance - 22.0%"
+                            },
+                            {
+                                "text": "Medical Insurance - 5.1%"
+                            },
+                            {
+                                "text": "Social Insurance - 2.9%"
+                            },
+                            {
+                                "text": "Accident Insurance - 0.02%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard workweek is from Monday to Friday."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Overtime payment is mandatory. Hours outside of standard work hours are considered overtime. Employees can work a maximum of 4 hours of overtime over 2 consecutive days and can work a maximum of 120 hours of overtime per year. For additional hours, employees are paid:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "150% of the hourly rate for the first 2 hours"
+                            },
+                            {
+                                "text": "200% of the hourly rate for the following hours"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Pregnant employees are entitled to 140 days of paid leave. 70 days must be taken before the child's birth and 70 days must be taken after the child’s birth. The employee will receive 100% of the average salary of the last 2 years up to a maximum daily amount. The Social Insurance Fund will be responsible for this pay. The maximum daily amount in 2022 was RUB 2,572.60."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee can extend leave for medical reasons in the following events:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Complicated delivery – 86 days"
+                            },
+                            {
+                                "text": "Birth of two or more children – 110 days"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "There is no paternity leave currently required by law."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to 1.5 or 3 years of parental leave, the duration of the leave taken is based on the parents’ discretion. Either parent can take parental leave. The FSS will pay 40% of the average salary of the last 2 years until the child is 1.5 years old."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Parental leave can't be extended."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to paid sick leave for up to 15 days. This leave is paid at different rates, ranging from 60% to 100%, based on the employee's average salary over the past 2 years. The first 3 days are paid by the employer, after which each additional day is paid by Social Security."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "If the employee is sick for longer than 15 days, a commission is appointed which can extend the sick leave up to 12 months. The employee must visit a doctor every 15 days to extend the sick leave."
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Russia can be complex. There is no at-will termination in Russia for employers and termination must be done for just cause."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "Unilaterally by the employer in accordance with legislation",
+                                "children": [
+                                    {
+                                        "text": "Probation period"
+                                    },
+                                    {
+                                        "text": "Liquidation of organization"
+                                    },
+                                    {
+                                        "text": "Reduction of the number of staff of employees of the organization"
+                                    },
+                                    {
+                                        "text": "Repeated failure by an employee to perform work duties without valid reasons"
+                                    },
+                                    {
+                                        "text": "Gross violations (violation of labor protection requirements, etc.)"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The notice period depends on the type of termination."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Reason of termination": "Probation period",
+                                "Notice period": "3 days"
+                            },
+                            {
+                                "Reason of termination": "Liquidation of the organization",
+                                "Notice period": "2 months"
+                            },
+                            {
+                                "Reason of termination": "Reduction of the number or staff of employees of the organization",
+                                "Notice period": "2 months"
+                            },
+                            {
+                                "Reason of termination": "Changes in company ownership",
+                                "Notice period": "If the owner of the organization's property changes, the new owner has the right to terminate the employment contract with the head of the organization, his deputies and the chief accountant no later than 3 months from the date of his ownership right"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In Russia, severance pay will depend on the grounds of dismissal and duration of employment."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Grounds for dismissal": "Liquidation of the company",
+                                "Severance pay": "If the duration of the employee's employment period exceeds one month, the employer is obliged to pay the average monthly earnings for the second month from the date of dismissal. In exceptional cases, the employer is obliged to pay the employee the average monthly earnings for the third month from the date of dismissal."
+                            },
+                            {
+                                "Grounds for dismissal": "Reduction of the number of employees or staff",
+                                "Severance pay": "If the duration of the employee's employment period exceeds one month, the employer is obliged to pay the average monthly earnings for the second month from the date of dismissal. In exceptional cases, the employer is obliged to pay the employee the average monthly earnings for the third month from the date of dismissal."
+                            },
+                            {
+                                "Grounds for dismissal": "Refusal to transfer to another position for medical reasons",
+                                "Severance pay": "Two weeks"
+                            },
+                            {
+                                "Grounds for dismissal": "Conscription",
+                                "Severance pay": "Two weeks"
+                            },
+                            {
+                                "Grounds for dismissal": "As a result of the reinstatement of an employee who previously performed work, by a court decision or labor inspection",
+                                "Severance pay": "Two weeks"
+                            },
+                            {
+                                "Grounds for dismissal": "Refusal to transfer together with the organization to another locality",
+                                "Severance pay": "Two weeks"
+                            },
+                            {
+                                "Grounds for dismissal": "Recognition by medical conclusion completely unable to perform the relevant duties",
+                                "Severance pay": "Two weeks"
+                            },
+                            {
+                                "Grounds for dismissal": "Refusal to work under new conditions",
+                                "Severance pay": "Two weeks"
+                            },
+                            {
+                                "Grounds for dismissal": "Violation of the rules for concluding an employment contract established by law, which occurred through no fault of the employee, if such violation excludes the transfer or continuation of activity",
+                                "Severance pay": "1 Month"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Both full-time and part-time employees are entitled to 20 days of paid time off (PTO) a year. PTO accrues monthly at 1.6 days per month. Employees are eligible for PTO after 1 month of work."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Russia celebrates 14 national holidays. National public holidays include:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "New Year (7 days)\nOrthodox Christmas\nDefender of Motherland Day\nInternational Women's Day\nSpring and Labour Day\nVictory Day\nRussia Day\nNational Unity Day"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "7 business days"
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in Russian and can be bilingual. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Term of an employment contract"
+                            },
+                            {
+                                "text": "Type of contract (main or part-time)"
+                            },
+                            {
+                                "text": "Date of receipt"
+                            },
+                            {
+                                "text": "Place of work"
+                            },
+                            {
+                                "text": "Probationary conditions"
+                            },
+                            {
+                                "text": "Job title nature of work"
+                            },
+                            {
+                                "text": "Duties of the parties"
+                            },
+                            {
+                                "text": "Responsibility of the parties"
+                            },
+                            {
+                                "text": "Salary"
+                            },
+                            {
+                                "text": "Work and rest hours"
+                            },
+                            {
+                                "text": "Vacation"
+                            },
+                            {
+                                "text": "Working conditions in the workplace"
+                            },
+                            {
+                                "text": "Compulsory insurance clause"
+                            },
+                            {
+                                "text": "Other additional conditions"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees hired using Deel have a probation period of 90 days, which you can extend up to 180 days for more senior roles. As of January 2022, it's Deel company policy to include probation periods in all employment contracts moving forward."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Probation periods help an employer and the employee ensure they're a hiring match, allowing a company to quickly decide if it's a fit or the employee to see if the job aligns with their career goals."
+                    }
+                ]
+            }
+        ]
+    }
+}

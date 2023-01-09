@@ -1,0 +1,298 @@
+{
+    "hireIn": "netherlands",
+    "currency": "Euro (EUR)",
+    "capital": "Amsterdam",
+    "offical_language": "Dutch",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Pension%20fund/Badge_turquoise.svg",
+            "title": "Pension"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_pink.svg",
+            "title": "Public Health Care"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Social Security"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Unemployment/Briefcase_purple.svg",
+            "title": "Unemployment Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Dutch Health Insurance"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In the Netherlands, the minimum wage is €1,756.20 per month for employees 21 years and older. Minimum wage is lower for employees 20 years and younger."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The individual income tax ranges from 37.07% to 49.50%. Income tax is calculated according to progressive rates. Multiple additional factors may impact overall rates such as the household status and the number of children."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Gross Annual Income": "Up to EUR 69,397",
+                                "Applicable tax rate": "37.07 %"
+                            },
+                            {
+                                "Gross Annual Income": "Over EUR 69,398",
+                                "Applicable tax rate": "49.50 %"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is generally estimated at approximately 20% of the employee salary, estimated on a salary of €66,956 gross, being the maximum salary for social security contributions. Anything below or under this salary will result in different percentages."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Please note that in The Netherlands, by local labor law, employees are entitled to a yearly holiday allowance (8% of salary) which is included in the base monthly salary and invoiced as an employer cost. Depending inter alia on the sector and preferences of offering a pension scheme, a private pension contribution might come on top of the below contributions, which amounts to another 15,7%."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Social security employer costs"
+                            },
+                            {
+                                "text": "Unemployment tax: 2.64%"
+                            },
+                            {
+                                "text": "WGA and ZW - Disability and Sickness social security: 1.25%"
+                            },
+                            {
+                                "text": "ZVW - Healthcare contribution: 6.68%"
+                            },
+                            {
+                                "text": "Disability: 7.11%"
+                            },
+                            {
+                                "text": "Child care social security: 0.50%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Overtime payment is not mandatory."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard workweek is from Monday to Friday."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Expectant mothers who are employed are entitled to take up to 16 weeks paid pregnancy leave (which includes a 4-week compulsory leave period). In the case of multiple births, employees are entitled to take up to 20 weeks of paid pregnancy leave. Usually, 4-6 weeks of pregnancy leave is taken before the expected date of childbirth. Pregnancy leave will be extended if the female employee continues to be unable to work as a result of her pregnancy or childbirth. Time off for antenatal appointments are paid for by the employer.Pregnancy leave is paid by the employer at 100% of the gross salary, up to a maximum of 100% of the maximum daily earnings. The employer can request reimbursement of the statutory amount through the Dutch Employee Insurance Agency (UWV). There is no qualifying period of service for pregnancy leave"
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The partner of an employee who has given birth has the right to paid leave for a period equal to their weekly working hours (5 working days in the case of full time employment). This paid leave needs to be taken during the first four weeks after the childbirth. In addition to this, the employee is entitled to take so-called \"short absence leave\" for the birth itself. Birth leave is paid by the employer. During the first six months after birth, there is an additional leave of 5 weeks for full-time employees (“additional birth leave”). This leave is not paid by the employer. An employee who takes this additional leave is eligible for state benefits consisting of 70% of their last earned salary (capped at 70% of the maximum daily wage), which will be granted by the Dutch Employee Insurance Agency (UWV)."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In addition to maternity and paternity leave, parents with children under the age of 8 years old are entitled to parental leave of 26 times the number of hours they work per week for every child they have. 9 first weeks are paid, while the remaining 17 are unpaid. It is possible to discuss when employees take this leave, which can be spread out over those 8 years. Parents are entitled to take parental leave for each child. The first 9 weeks of parental leave is government-paid at 70% of their regular salary, with the cap of 70% of the maximum daily wage. There is flexibility to take it but the total amount of hours for the leave need to be equal to an employee's full working week. Paid parental leave can only be taken until the child turns one. Employers are able to apply for an allowance for the paid parental leave of its employees through the Dutch Employee Insurance Agency (UWV)."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employers are obliged to pay ill employees their salary for a period of 2 years.The payment of wages consists of 70% of the last earned salary – as long as the salary does not exceed the maximum daily wage, in which case the continued payment of wages is capped at 70% of the maximum daily wage – and in the first-year entails at least the statutory minimum wage. In general, employment contracts often state that the employer will pay 70% or 100% of the employee's full salary (the amount is not capped) for the 1st year of illness and 70% of the employee's salary (the amount can be capped) during the 2nd year of illness."
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "An employer can only come towards a termination of an employment agreement on the basis of a valid reason in combination with the fact that there is no longer a suitable redeployment for the employee within the company. The following reasons are specified in the Dutch legislation:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Redundancy due to economic circumstances"
+                            },
+                            {
+                                "text": "Long-term disability (two years)"
+                            },
+                            {
+                                "text": "Frequent absence due to illness or disability which results in unacceptable consequences for business operations"
+                            },
+                            {
+                                "text": "Underperformance"
+                            },
+                            {
+                                "text": "Misconduct"
+                            },
+                            {
+                                "text": "Refusal to perform contractual duties due to conscientious or religious objection"
+                            },
+                            {
+                                "text": "Disturbed relationship"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in the Netherlands can be complex. As a general rule you cannot unilaterally terminate an employee in the Netherlands without the permission of the Dutch Courts or the Dutch Unemployment Agency (UWV). In most cases it is therefore preferred to seek mutual consent to a termination in which case the governmental permission is not required."
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum notice period is 1 month and will be increased according to the length of the employment."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Up to 5 years of employment - 1 month's notice"
+                            },
+                            {
+                                "text": "5 - 10 years of employment - 2 months' notice"
+                            },
+                            {
+                                "text": "10 - 15 years of employment - 3 months' notice"
+                            },
+                            {
+                                "text": "15+ years of employment - 4 months' notice"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The statutory notice period for the employee is one month. It is not possible to unilaterally terminate an employee by providing notice."
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "When a termination is done by mutual consent, severance payments are often required in order to obtain the employee’s consent. Typically, the amounts for severance by mutual agreement can be equivalent to 2-6 months of salary or more depending on the strength of the case. In case of a termination by the court or the Dutch Unemployment Agency (UWV) the statutory severance needs to be paid which is roughly 1/3 gross monthly salary per each year worked."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The legal minimum number of vacation days for an employee in the Netherlands per year is four times the number of days worked per week."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "This typically means 20 holidays in the case of a full-time employee working for five days a week. Most employers in the Netherlands grant their employees 25 days of paid holidays."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The Netherlands celebrates 11 national holidays."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "National public holidays include:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "New Year’s Day\nGood Friday\nEaster Sunday\nEaster Monday\nKing’s Day\nLiberation Day (once every 5 years)\nAscension Day\nWhit Sunday\nWhit Monday\nChristmas Day\nBoxing Day"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes 2 business days after the client signs the SOW."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "A Dutch version of the employment agreement is not required under Dutch law. An English-only version is permitted under Dutch law and is common practice in the Netherlands.\nA contract must include:\n\nName\nStart date\nLength of the employment\nJob description\nTermination conditions"
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Probationary periods can be for a maximum of 2 months for indefinite term employment agreements and for fixed term employment agreements for 2 years or more. For fixed term contracts of less than 2 years (but a minimum of 6 months) a probation period of 1 month can be agreed upon. This cannot be extended under Dutch law."
+                    }
+                ]
+            }
+        ]
+    }
+}

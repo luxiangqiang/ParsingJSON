@@ -1,0 +1,420 @@
+{
+    "hireIn": "united states",
+    "currency": "US Dollar (USD)",
+    "capital": "Washington, D.C.",
+    "offical_language": "English",
+    "payroll_cycle": "Semi-Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Federal Unemployment"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_pink.svg",
+            "title": "Medicare"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Social Security"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Unemployment/Briefcase_pink.svg",
+            "title": "State Unemployment"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Workers Compensation Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Pension - Vestwell (optional)"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Private Healthcare"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The national (federal) minimum wage is USD 7.25 per hour or USD 1,160 per month. There is additional state-by-state minimum wage laws."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The national (federal) minimum wage is USD 7.25 per hour or USD 1,160 per month. There is additional state-by-state minimum wage laws."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Gross Annual Income (USD)": "Up to 9,950",
+                                "Federal Tax Rate (%)": "10%"
+                            },
+                            {
+                                "Gross Annual Income (USD)": "Between 9,951 to 40,525",
+                                "Federal Tax Rate (%)": "12%"
+                            },
+                            {
+                                "Gross Annual Income (USD)": "Between 40,526 to 86,375",
+                                "Federal Tax Rate (%)": "22%"
+                            },
+                            {
+                                "Gross Annual Income (USD)": "Between 86,376 to 164,925",
+                                "Federal Tax Rate (%)": "24%"
+                            },
+                            {
+                                "Gross Annual Income (USD)": "Between 164,926 to 209,425",
+                                "Federal Tax Rate (%)": "32%"
+                            },
+                            {
+                                "Gross Annual Income (USD)": "Between 209,426 to 523,600",
+                                "Federal Tax Rate (%)": "35%"
+                            },
+                            {
+                                "Gross Annual Income (USD)": "Over 523,601",
+                                "Federal Tax Rate (%)": "37%"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The above is based on a single employee with no partner or dependents"
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is generally estimated at 11.2% of the employee salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Social Security - 6.2%"
+                            },
+                            {
+                                "text": "Medicare - 1.45%"
+                            },
+                            {
+                                "text": "Federal Unemployment - 0.60%"
+                            },
+                            {
+                                "text": "State Unemployment - 2.7%"
+                            },
+                            {
+                                "text": "Workers' Compensation - 0.25%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard work week is from Monday to Friday."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Overtime payment is mandatory for certain types of work and roles at both the Federal level under The Fair Labor Standards Act (FLSA) and in certain states. Certain roles and types of work may, however, be exempt from mandatory overtime requirements. For these exempt roles. Overtime is considered included in the salary."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "For non-exempt roles, hours outside of standard work hours are considered overtime. Federally, the FLSA has not established a limit on the maximum working hours. For additional hours, the minimum overtime payment rate is 150% of the average salary. This can be increased based on the employer’s discretion."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In the US, pregnancy is a specific qualifying criteria for protected unpaid leave under Federal law with the Family and Medical Leave Act (FMLA). Under the FMLA, pregnant employees are entitled to 12 weeks of unpaid leave. This leave must be contiguous unless otherwise granted by an employer."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are eligible for FMLA leave if:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "They have worked for their employer for at least 12 months"
+                            },
+                            {
+                                "text": "Have worked for their employee at least 1,250 hours over the past 12 months"
+                            },
+                            {
+                                "text": "Work at a location where the employer employs 50 or more employees within 75 miles"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In the US, there are no specific Federal paternity regulations outside of the parental leave granted in the Family and Medical Leave Act (FMLA)."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In the US, Federal law allows for parental leave under the Family and Medical Leave Act (FMLA). Either or both parents can go on family leave within the first year after the adoption or birth of a child. Employees are entitled to 12 weeks of unpaid leave. This leave must be contiguous unless otherwise granted by an employer."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are eligible for FMLA leave if:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "They have worked for their employer for at least 12 months"
+                            },
+                            {
+                                "text": "Have worked for their employee at least 1,250 hours over the past 12 months"
+                            },
+                            {
+                                "text": "Work at a location where the employer employs 50 or more employees within 75 miles"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In the US, sick leave is covered under the Family and Medical Leave Act (FMLA) and only applies to serious illnesses. The FMLA provides up to 12 weeks of unpaid leave for an employee."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are eligible for FMLA leave if:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "They have worked for their employer for at least 12 months"
+                            },
+                            {
+                                "text": "Have worked for their employee at least 1,250 hours over the past 12 months"
+                            },
+                            {
+                                "text": "Work at a location where the employer employs 50 or more employees within 75 miles"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "To qualify as serious illness, either the employee or a member of the employee's immediate family must have an illness, injury, impairment, or physical or mental condition that involves either:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Inpatient care in a hospital, hospice, or residential medical care facility"
+                            },
+                            {
+                                "text": "Continuing treatment by a health care provider."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Every Federal, State, and City ordinance must be followed by employers while dismissing a worker. Termination cost might include Consolidated Omnibus Budget Reconciliation Act of 1985 (COBRA), which is a federal law that allows employees to continue with their health insurance while unemployed."
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employment at will means that both parties can terminate the contract at any time. However, the common practice in the USA is to give 2 weeks' notice."
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "There are no statutory severance provisions in the USA."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "While there is no federal requirement to pay employees for time off such as vacations and holidays, Deel employees in the US are entitled to a minimum of 15 days Paid Time Off (PTO). This entitlement is for vacation and sick leave."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Deel recognizes 9 national public holidays in the United States"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": ""
+                            },
+                            {
+                                "text": ""
+                            },
+                            {
+                                "text": ""
+                            },
+                            {
+                                "text": ""
+                            },
+                            {
+                                "text": ""
+                            },
+                            {
+                                "text": ""
+                            },
+                            {
+                                "text": ""
+                            },
+                            {
+                                "text": ""
+                            },
+                            {
+                                "text": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Onboarding takes 2 business days after the client signs the SOW. Enrollment in health insurance is required."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "🔺 Important note: we are unable to accept part-time EORs in the USA. This means we may only hire full-time EORs."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in English and can be bilingual. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Name"
+                            },
+                            {
+                                "text": "Start date"
+                            },
+                            {
+                                "text": "Contract term"
+                            },
+                            {
+                                "text": "Probation period"
+                            },
+                            {
+                                "text": "Job role"
+                            },
+                            {
+                                "text": "Job description"
+                            },
+                            {
+                                "text": "Place of work"
+                            },
+                            {
+                                "text": "Manager"
+                            },
+                            {
+                                "text": "Employment type"
+                            },
+                            {
+                                "text": "Holidays/leaves"
+                            },
+                            {
+                                "text": "Notice period"
+                            },
+                            {
+                                "text": "Salary"
+                            },
+                            {
+                                "text": "Payment terms"
+                            },
+                            {
+                                "text": "Termination"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Probation periods are not statutory in the USA because there is at-will employment. We do not accept probation period for the US."
+                    }
+                ]
+            }
+        ]
+    }
+}

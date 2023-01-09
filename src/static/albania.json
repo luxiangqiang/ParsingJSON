@@ -1,0 +1,346 @@
+{
+    "hireIn": "albania",
+    "currency": "Albanian lek (ALL)",
+    "capital": "Tirana",
+    "offical_language": "Albanian",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Health Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_pink.svg",
+            "title": "Social Security"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Private Healthcare - Unisure (optional)"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "30,000 ALL (Monthly)"
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The individual income tax ranges from 0% to 23%. Income tax is calculated according to progressive rates."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Gross Annual Income (in ALL)": "0 - 30,000",
+                                "Tax Rate (%)": "0"
+                            },
+                            {
+                                "Gross Annual Income (in ALL)": "30,000 - 150,000",
+                                "Tax Rate (%)": "13"
+                            },
+                            {
+                                "Gross Annual Income (in ALL)": "Above 150,000",
+                                "Tax Rate (%)": "23"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is generally estimated at 16.7% of the employee salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Social security - 15.0%"
+                            },
+                            {
+                                "text": "Health Insurance Contribution - 1.7%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard workweek is from Monday to Friday."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Overtime payment is mandatory. Hours outside of standard work hours are considered overtime. Employees can work a maximum of 48 hours of overtime per week. Employees can work a maximum of 200 hours overtime per year."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "For additional hours, employees are compensated with leave or salary at 125% of the regular salary. Overtime performed during the weekend or on public holidays is compensated at 150% of the regular salary."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Pregnant employees, who have contributed to social security for 12 months, are entitled to 365 calendar days (1 year) of paid leave. A minimum of 35 days must be taken before the child's birth. A minimum of 63 days must be taken after the child's birth."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee will receive 80% of the daily average salary for the prenatal period and for 150 days after birth. For the remaining part of the leave, the employee will receive 50% of the daily average salary of the last calendar year. The Social Security Institution will be responsible for this pay."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee cannot extend leave."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The father or cohabitant has the right to 3 days of leave after the birth of the child. These 3 days are paid by the employer."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Employees, who contributed to social security for the past 12 months and whose partner has not exercised the right to maternity leave, are entitled to 330 days of paid paternity leave. The employee will receive salary after the 63rd day of the birth of the child (the first 63 days after the birth the mother is not allowed to work and the leave is considered as granted to the mother). The salary received will be 80% of the daily average salary up to the 150th calendar day after birth."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee will receive 50% of the daily average salary for the following period. The Social Security Institution will be responsible for this pay."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Employees cannot extend leave."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "There is no maximum paid sick leave in Albania. This leave is paid at different rates and by different payers depending upon length:"
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Period": "0 - 14 days",
+                                "Pay": "80% of salary",
+                                "Payer": "Employer",
+                                "Condition": "All"
+                            },
+                            {
+                                "Period": "Over 14 days",
+                                "Pay": "70% of salary",
+                                "Payer": "Health Insurance Institution",
+                                "Condition": "If employee has less than 10 years of insurance contributions"
+                            },
+                            {
+                                "Period": "Over 14 days",
+                                "Pay": "80% of salary",
+                                "Payer": "Health Insurance Institution",
+                                "Condition": "If employee has over 10 years of insurance contributions"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Albania can be complex. There is no at-will termination in Albania for employers outside the probation period and termination must be done for just cause."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "probation period"
+                                    },
+                                    {
+                                        "text": "objective grounds"
+                                    },
+                                    {
+                                        "text": "disciplinary dismissal"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum notice period is 2 weeks and will be increased according to the length of the employment."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "6 months of employment - 2 weeks notice"
+                            },
+                            {
+                                "text": "Between 6 months to 2 years of employment - 1 month notice"
+                            },
+                            {
+                                "text": "Between 2 to 5 years of employment - 2 months notice"
+                            },
+                            {
+                                "text": "Longer than 5 years of employment - 3 months notice"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In Albania, all employees receive seniority remuneration if the contract has been terminated by the employer and the employment relationship has lasted a minimum of 3 years. Severance pay for seniority is a minimum of 15 days salary for each year of work. It is calculated on the basis of the salary that exists at the end of the employment relationship."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employer who has terminated the contract without reasonable cause is obliged to give the employee compensation of up to 1 year of salary, which is in addition to the salary that the employee will receive during the notice period."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Both full-time and part-time employees are entitled to 20 days of paid time off (PTO) a year. PTO accrues monthly at 1.67 days per month. Employees are eligible for annual leave from the start of employment."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Albania celebrates around 13 national holidays. National public holidays include:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "New Year’s Day\nSummer Day\nNowruz\nCatholic Easter\nOrthodox Easter\nMay Day\nEid al-Fitr\nMother Teresa Day\nEid al-Adha\nIndependence Day\nLiberation Day\nNational Youth Day\nChristmas Day"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes 5 business days. A medical certificate is required before the start date."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in Albanian and can be in more than one language. An officially translated and notarized copy is required if the original contract is not in Albanian. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Identity of the parties"
+                            },
+                            {
+                                "text": "Place of work"
+                            },
+                            {
+                                "text": "Job description"
+                            },
+                            {
+                                "text": "Date of commencement of work"
+                            },
+                            {
+                                "text": "Duration of contract"
+                            },
+                            {
+                                "text": "Duration of paid leave"
+                            },
+                            {
+                                "text": "The notice period for the termination of the contract"
+                            },
+                            {
+                                "text": "Salary and the date of its payment"
+                            },
+                            {
+                                "text": "Normal weekly working time"
+                            },
+                            {
+                                "text": "Probation period"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Probation periods are not mandatory. There is no minimum probation period. The maximum probation period is 90 days (3 months)."
+                    }
+                ]
+            }
+        ]
+    }
+}

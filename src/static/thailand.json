@@ -1,0 +1,400 @@
+{
+    "hireIn": "thailand",
+    "currency": "Thai Bat",
+    "capital": "Bangkok",
+    "offical_language": "Thai",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Social Security"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum wage is THB 9,930 per month."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The individual income tax ranges from 0% to 35%. Income tax is calculated according to progressive rates."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Gross Annual Income": "Up to THB - 150,000",
+                                "Tax Rate (%)": "0%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to THB - 300,000",
+                                "Tax Rate (%)": "5%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to THB - 500,000",
+                                "Tax Rate (%)": "10%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to THB - 750,000",
+                                "Tax Rate (%)": "15%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to THB - 1,000,000",
+                                "Tax Rate (%)": "20%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to THB - 2,000,000",
+                                "Tax Rate (%)": "25%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to THB - 4,000,000",
+                                "Tax Rate (%)": "30%"
+                            },
+                            {
+                                "Gross Annual Income": "Over THB - 4,000,000",
+                                "Tax Rate (%)": "35%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The employer cost is generally estimated at 5% of the employee salary."
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week from Monday to Friday. The standard work week is from 09:00 to 18:00 with an hour break. However, employees can work from Monday to Saturday with a working week of 48 hours."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Overtime payment is mandatory. Hours outside of standard work hours are considered overtime. Employees can work a maximum of 36 hours of overtime a week. For additional hours, employees are paid:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "150% of the hourly rate for overtime during a normal working day."
+                            },
+                            {
+                                "text": "200% of the hourly rate, for work undertaken during a holiday"
+                            },
+                            {
+                                "text": "300% of the hourly rate, for overtime work undertaken during a holiday"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Managers and supervisors can be exempt of overtime pay if in their job description includes a supervisory authority."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to 98 days of paid leave. The employee will receive 100% of the salary for the first 45 days, and the employer will be responsible for this pay. The remaining leave is paid for at 50% of the employee's salary by social security."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In the private sector, there is no paid paternity leave by statute in Thailand, although employers are free to offer paid/unpaid time off."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Thailand, no law covers parental leave. However, employees may be entitled to maternity leave and paternity leave."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to paid sick leave for up to 30 days. The employee will receive 100% of their salary from the employer."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Additional leave"
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are also entitled to leave for the following cases:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Business Leave – 3 days per year with 100% pay by the employer."
+                            },
+                            {
+                                "text": "Military Service - 60 days per year (if the employee is required to go under military service)."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Thailand can be complex. There is no at-will termination in Thailand for employers and termination must be done for just cause."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "probation period"
+                                    },
+                                    {
+                                        "text": "objective grounds"
+                                    },
+                                    {
+                                        "text": "disciplinary dismissal"
+                                    },
+                                    {
+                                        "text": "performance due to unsuitability for the job"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "By expiration of the contract"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum notice period is 0 days and will vary depending on the type of employment."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Termination with cause by the Employer – No notice"
+                            },
+                            {
+                                "text": "Termination without cause by the Employer – 30 days"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Severance pay in Thailand is mandatory and will depend on the length of service. Severance pay is not due if the employee was terminated for serious misconduct."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Employment Length": "Up to 120 Days",
+                                "Rate of severance pay": "0"
+                            },
+                            {
+                                "Employment Length": "Up to 1 year",
+                                "Rate of severance pay": "30 days"
+                            },
+                            {
+                                "Employment Length": "Up to three years",
+                                "Rate of severance pay": "90 days"
+                            },
+                            {
+                                "Employment Length": "Up to six years",
+                                "Rate of severance pay": "180 days"
+                            },
+                            {
+                                "Employment Length": "Up to 10 years",
+                                "Rate of severance pay": "240 days"
+                            },
+                            {
+                                "Employment Length": "Up to 20 years",
+                                "Rate of severance pay": "300 days"
+                            },
+                            {
+                                "Employment Length": "20 years or more",
+                                "Rate of severance pay": "400 days"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Both full-time and part-time employees are entitled to 6 working days of paid time off (PTO) a year. PTO accrues monthly at 0.5 days per month. Employees are eligible for annual leave after 12 months of work."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Thailand celebrates 13 national holidays. National public holidays include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "New Year's Day"
+                            },
+                            {
+                                "text": "Makha Bucha Day"
+                            },
+                            {
+                                "text": "Chakri Day"
+                            },
+                            {
+                                "text": "Songkran Festival"
+                            },
+                            {
+                                "text": "Labour Day"
+                            },
+                            {
+                                "text": "Coronation of King Vajiralongkorn"
+                            },
+                            {
+                                "text": "Visakha Bucha Day"
+                            },
+                            {
+                                "text": "Asarnha Bucha Day"
+                            },
+                            {
+                                "text": "Buddhish Lent"
+                            },
+                            {
+                                "text": "Queens Birthday"
+                            },
+                            {
+                                "text": "Chulalongkorn Memorial Day"
+                            },
+                            {
+                                "text": "Kings Birthday"
+                            },
+                            {
+                                "text": "Constitution Day"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Onboarding takes 3 business days after the Scope of Work is signed. Mandatory documents must be completed one day before the start date."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts can be in English or bilingual. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "name"
+                            },
+                            {
+                                "text": "start date"
+                            },
+                            {
+                                "text": "length of the employment"
+                            },
+                            {
+                                "text": "job description"
+                            },
+                            {
+                                "text": "termination conditions"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The standard probation period is 90 days and the maximum probation period is 119 days."
+                    }
+                ]
+            }
+        ]
+    }
+}

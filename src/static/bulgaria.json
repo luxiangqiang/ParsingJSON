@@ -1,0 +1,344 @@
+{
+    "hireIn": "bulgaria",
+    "currency": "BGN",
+    "capital": "Sofia",
+    "offical_language": "Bulgarian",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Social Security"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Work%20Accident%20compensation%20insurance/AccidentFunds_pink.svg",
+            "title": "Work Accident Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Private Healthcare - Unisure (optional)"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum wage in Bulgaria for 2021 is BGN 650 per month and it is expected to increase to BGN 764 in 2022."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The individual income tax is a flat rate of 10%."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Note: apart from this income tax, employees will have to contribute 13.78% to Social Security."
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is generally estimated between 9-20% of the employee's salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Pension Fund - 13.72%"
+                            },
+                            {
+                                "text": "Health Insurance - 4.80%"
+                            },
+                            {
+                                "text": "Occupational Accident and Disease Fund - 0.50%"
+                            },
+                            {
+                                "text": "Labor Safety Company Insurance - BGN 25,00"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard workweek is from Monday to Friday."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Pregnant employees, who have worked for 12 consecutive months are entitled to 410 days of paid leave. The employee must take 45 days before the child's birth and 45 days after the birth. The remaining days can be taken at the employee’s discretion until the child is two years old."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee will receive different compensation during this period depending on when the leave was taken. The National Insurance Institute is responsible for payment and will directly pay the employee."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Period (Child’s Age)": "0 - 1 year",
+                                "Pay": "90% of salary",
+                                "Payer": "National Insurance Institute"
+                            },
+                            {
+                                "Period (Child’s Age)": "1 - 2 years",
+                                "Pay": "BGN 380,00 per month",
+                                "Payer": "National Insurance Institute"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees, who have worked for 12 months, are entitled to 15 days of paid paternity leave. The employee will receive 90% of their salary during this period paid directly by the National Insurance Institute."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee can extend leave an additional 6 months which is unpaid."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In Bulgaria, no law covers parental leave. However, employees may be entitled to maternity leave and paternity leave. Employees can extend leaves by:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Transferring maternity leave, including cash benefits, to the partner after six months of leave."
+                            },
+                            {
+                                "text": "Requesting"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In Bulgaria pay for sick leave is determined and made in two ways:1. The employer pays for the first three days of sick leave at approximately 70% of the salary"
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "2. From the 4th consecutive sick day onward, sick leave is paid by the government (NSSI National Social Security Institute). Pay for those days is 80% of the average daily income from the last 18 months."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to paid sick leave for up to 180 days. Sick leave can be extended beyond 180 if the employee is evaluated by a Special Medical Commission (ТЕЛК)."
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Bulgaria can be complex. There is no at-will termination and it is not possible to terminate a contract without cause."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "Probation period"
+                                    },
+                                    {
+                                        "text": "Disciplinary dismissal"
+                                    },
+                                    {
+                                        "text": "Business closure"
+                                    },
+                                    {
+                                        "text": "Reduction of work."
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Untaken holidays must be paid out upon termination as well as any unpaid commission or bonuses."
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum notice period for both parties is 30 days and can be increased up to 90 days."
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In Bulgaria, employees are entitled to severance pay. Severance pay varies according to the grounds on which the agreement is terminated:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "The employer closes the entity or reduces the staff: one-month severance must be paid."
+                            },
+                            {
+                                "text": "The employer terminates the employment relationship due to health issues, or risk to the health of the employee if they work for at least five years: two months of severance must be paid."
+                            },
+                            {
+                                "text": "The employee reached the age of retirement:",
+                                "children": [
+                                    {
+                                        "text": "Length of employment is less than 10 years: three months of severance"
+                                    },
+                                    {
+                                        "text": "Length of employment is 10 or more years: six months of severance"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "The contract is terminated against payment of compensation by mutual agreement on the initiative of the employer: at least four months of severance must be paid."
+                            },
+                            {
+                                "text": "The employer terminates the contract without providing the proper notice: three months of severance pay."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Both full-time and part-time employees are entitled to 20 days of paid time off (PTO) a year. PTO accrues monthly 1.67 days per month."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "If a part-time employee works less than four hours per day, the PTO will be calculated proportionally to the time worked."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Bulgaria celebrates 13 public holidays per year. These include:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "New Year's Day\nBulgaria Liberation Day\nGood Friday\nLabour Day\nOrthodox Easter\nOrthodox Easter Monday\nĐurđevdan\nDay of Slavonic Alphabet, Bulgarian Enlightenment, and Culture\nUnification Day\nIndependence Day\nEastern Orthodox Christmas Eve\nOrthodox Christmas Day\n2nd Day of Christmas"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes 5 business days."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in Bulgarian and can be bilingual. They must be in writing and signed by both parties. A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Name"
+                            },
+                            {
+                                "text": "Start date"
+                            },
+                            {
+                                "text": "Length of the employment"
+                            },
+                            {
+                                "text": "Job description based on the national code of the National Jobs Classificatory Database"
+                            },
+                            {
+                                "text": "Termination conditions"
+                            },
+                            {
+                                "text": "Years of service"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Probation periods are not mandatory. The minimum probation period is 30 days. The maximum probation period is 180 days (6 months)."
+                    }
+                ]
+            }
+        ]
+    }
+}

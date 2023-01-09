@@ -1,0 +1,385 @@
+{
+    "hireIn": "romania",
+    "currency": "Romanian leu (RON)",
+    "capital": "Bucharest",
+    "offical_language": "Romanian",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Unemployment/Briefcase_turquoise.svg",
+            "title": "Unemployment Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Disability%20Fund/Disability_pink.svg",
+            "title": "Disability Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Private Healthcare - Unisure (optional)"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum wage is RON 2,300 per month."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The individual income tax rate is 10%. Income tax is calculated according to a flat rate."
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is generally estimated at 6.25% of the employee salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Labor insurance contribution - 2.25%"
+                            },
+                            {
+                                "text": "Disability cost - 4.0%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard workweek is from Monday to Friday."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Overtime payment is mandatory. It can be compensated financially or in the form of paid time off. Hours outside of standard work hours are considered overtime. Employees can work a maximum of 32 hours of overtime, per month. For additional hours, employees are paid:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "150% of average salary per hour, during weekdays"
+                            },
+                            {
+                                "text": "200% of average salary per hour, during weekends"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Pregnant employees, who have worked for 6 months in the last 1 year, are entitled to 126 days of paid leave. The employee must take 42 days after the birth of the child. There is no time frame to take the rest of the leaves. The employee will receive 85% of the salary during this period, and the employer will be responsible for this pay."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee cannot extend leave."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees, who are insured in the state social insurance system, are entitled to 5 days of paid paternity leave. The employee will receive 100% of the salary during this period, and this payment is made from the employer salary fund."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee can extend leave an additional 10 days if the employee proves (with a certificate)that he graduated from a childcare course."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to 2 years of parental leave, and employees that are parents of children with disabilities are entitled to 3 years of parental leave. The leave is granted to the father if the mother does not benefit from this parental leave, or if she has used a part of the leave."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The National Agency for Payments and Social Inspection will pay 85% of the average net salary during this period. The minimum amount of salary paid is RON 1,250 and the maximum amount is RON 8,500."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to paid sick leave for up to 90 days per year. The first 5 days of sick leave are paid by the employer, and the days following that are paid by the National Insurance (the payment is supported by the employer, and reimbursed by the National Insurance). This leave is paid at different rates based on the disease. The minimum salary payment is 75%, and the maximum is 100% of the salary."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The medical leave can be extended until 180 days, only with the approval of the expert Doctor of Social Insurance."
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Romania can be complex. There is no at-will termination in Romania for employers and termination must be done for just cause."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Employee-related reasons:",
+                                "children": [
+                                    {
+                                        "text": "Disciplinary misconduct (in case of a severe breach, or more repeated breaches of work discipline rules or of those rules set forth in the individual employment agreement, collective bargaining agreement, or internal regulations)"
+                                    },
+                                    {
+                                        "text": "Physical/mental incapacity (as ascertained by the relevant medical bodies)"
+                                    },
+                                    {
+                                        "text": "Professional inadequacy"
+                                    },
+                                    {
+                                        "text": "Placement in police custody or house arrest for over 30 days"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "Reasons unrelated to employee",
+                                "children": [
+                                    {
+                                        "text": "Redundancy following workforce restructuring, based on e.g. economic, financial or organizational grounds"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "Mutual agreement"
+                            },
+                            {
+                                "text": "Probation period"
+                            },
+                            {
+                                "text": "Expiration of employment contract"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Note: Employees cannot be terminated during leaves, during temporary disability, during quarantine, or during pregnancy, if the employer knew about the pregnancy."
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum notice period is 20 days and is dependent based on the reason for termination."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Dismissal - minimum 20 days"
+                            },
+                            {
+                                "text": "Employee resignation",
+                                "children": [
+                                    {
+                                        "text": "Executive positions - Maximum 20 days"
+                                    },
+                                    {
+                                        "text": "Management/coordination positions - Maximum 45 days"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "Termination of contract by mutual agreement - the employer may waive the notice period"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Severance payments only need to be made if previously mentioned in the employment agreement or collective agreement, or if it has been previously negotiated."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Both full-time and part-time (pro-rata) employees are entitled to 20 days of paid time off (PTO) a year. PTO accrues monthly 1.6 days per month. Employees are eligible for annual leave after the first month of work."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Romania celebrates 15 national holidays. National public holidays include:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "New Year’s Day\nDay after New Year’s Day\nDay of the Union of Romanian Principalities\nThe Good Friday\nOrthodox Easter\nOrthodox Easter Monday\nLabour Day\nOrthodox Whitsun (First day of Pentecost)\nOrthodox Whit Monday (Second day of Pentecost)\nChildren Day\nAssumption Day\nSt. Andrew’s Day\nNational Holiday\nChristmas\nSecond Day of Christmas"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "5 business days"
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in Romanian and can be bilingual. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Identity of parties"
+                            },
+                            {
+                                "text": "Workplace and headquarters"
+                            },
+                            {
+                                "text": "Position and job description"
+                            },
+                            {
+                                "text": "Criteria for performance evaluation"
+                            },
+                            {
+                                "text": "Working conditions (in accordance with local legislation)"
+                            },
+                            {
+                                "text": "Contract date"
+                            },
+                            {
+                                "text": "Type of employment contract (fixed-term, temporary)"
+                            },
+                            {
+                                "text": "Annual leaves"
+                            },
+                            {
+                                "text": "Notice period"
+                            },
+                            {
+                                "text": "Salary"
+                            },
+                            {
+                                "text": "Working hours"
+                            },
+                            {
+                                "text": "Duration of probation period"
+                            },
+                            {
+                                "text": "Termination details"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Probation periods are not mandatory. There is no minimum probation period. The maximum probation period depends on the type of employment."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "For indefinite period contracts:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Executive position - 90 days"
+                            },
+                            {
+                                "text": "Management and coordination position - 120 days"
+                            },
+                            {
+                                "text": "Employees with disabilities - 30 days"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Definite period contracts:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Contracts less than 3 months - 5 days"
+                            },
+                            {
+                                "text": "Contracts between 3 and 6 months - 15 days"
+                            },
+                            {
+                                "text": "Contracts longer than 6 months - 30 days"
+                            },
+                            {
+                                "text": "Contracts longer than 6 months (employees in management positions) - 45 days"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

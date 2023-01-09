@@ -1,0 +1,388 @@
+{
+    "hireIn": "vietnam",
+    "currency": "Vietnamese dong (VND)",
+    "capital": "Hanoi",
+    "offical_language": "Vietnamese",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Social Security"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_pink.svg",
+            "title": "Private Healthcare - Unisure (optional)"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum wage in Vietnam is specific to the region the employee lives in."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Zone 1: 4,420,000 VND"
+                            },
+                            {
+                                "text": "Zone 2: 3,920,000 VND"
+                            },
+                            {
+                                "text": "Zone 3: 3,430,000 VND"
+                            },
+                            {
+                                "text": "Zone 4: 3,070,000 VND"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The individual income tax ranges from 5% to 35%. Income tax is calculated according to progressive rates. Multiple additional factors may impact overall rates such as the household status and the number of children."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Gross Annual Income": "Up to VDN 60,000,000",
+                                "Tax Rate (%)": "5%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to VDN - 120,000,000",
+                                "Tax Rate (%)": "10%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to VDN 216,000,000",
+                                "Tax Rate (%)": "15%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to VDN 384,000,000",
+                                "Tax Rate (%)": "20%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to VDN 624,000,000",
+                                "Tax Rate (%)": "25%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to VDN 960,000,000",
+                                "Tax Rate (%)": "30%"
+                            },
+                            {
+                                "Gross Annual Income": "Over VDN 960,000,000",
+                                "Tax Rate (%)": "35%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer's cost is 23.5% of the employee's salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Social Insurance - 17%"
+                            },
+                            {
+                                "text": "Health Insurance - 3%"
+                            },
+                            {
+                                "text": "Accident Insurance - 0.5%"
+                            },
+                            {
+                                "text": "Control Union Fee - 2%"
+                            },
+                            {
+                                "text": "Unemployment Insurance - 1%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard workweek is from Monday to Friday."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Overtime payment is mandatory. Hours outside of standard work hours are considered overtime. Employees can work no more than 12 hours a day, including normal and overtime hours. For overtime hours, employees are paid:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "150% of the hourly rate on weekdays"
+                            },
+                            {
+                                "text": "200% of the hourly rate on weekly days off"
+                            },
+                            {
+                                "text": "300% of the hourly rate on public holidays"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Pregnant employees who have contributed to social security for at least 3 months are entitled to 6 months of paid leave. 2 weeks of leave can be taken before the child's birth. The employee will receive 100% of the average salary based on social insurance contributions over the last 6 months. Social Security will be responsible for this pay."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees who have contributed to social security for at least 3 months are entitled to 5 days of paid paternity leave. The employee will receive 100% of the salary during this period, and Social Security will be responsible for this pay."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Vietnam, no law covers parental leave. However, employees may be entitled to maternity leave and paternity leave."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to paid sick leave for up 30 days. The employee will receive 75% of their salary while on leave paid by Social Security. Leave can be extended depending on the employee, but an extension is done on a case by case basis."
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Vietnam can be complex. There is no at-will termination in Vietnam for employers outside the probation period and termination must be done for just cause."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "probation period"
+                                    },
+                                    {
+                                        "text": "objective grounds"
+                                    },
+                                    {
+                                        "text": "disciplinary dismissal"
+                                    },
+                                    {
+                                        "text": "performance due to unsuitability for the job"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum notice period is 3 days and will be increased according to the type of contract."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "45 days if the contract is indefinite"
+                            },
+                            {
+                                "text": "30 days if the contract is fixed term of 12 - 36 months"
+                            },
+                            {
+                                "text": "3 working days if the contact is a fixed term under 12 months"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In Vietnam, all employees who have worked for over a year and are terminated are entitled to severance pay, unless they are terminated for:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Having committed acts of theft, embezzlement, disclosure of technological and business secrets, or other acts causing severe loss to the property and interests of the enterprise."
+                            },
+                            {
+                                "text": "Having been transferred to another job as a disciplinary measure, the employee then again commits the same breach of labor discipline when the disciplinary measure is still in effect."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Severance pay is half a month of salary per year of service. There is no law capping the amount of severance that can be paid."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Both full-time and part-time employees are entitled to 12 working days of paid time off (PTO) a year. PTO accrues monthly at 1 day per month. For every five years working for an employer, the annual leave increases by 1 day."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Vietnam celebrates 6 national holidays (11 days total) and some regional holidays based on the location of the employee. National public holidays include:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "New Year’s Day: 1 day\nLunar New Year: 5 days\nHung King’s Festival: 1 day\nReunification Day: 1 day\nLabour Day: 1 day\nIndependence Day: 2 days"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes"
+                    },
+                    {
+                        "type": "text",
+                        "data": "3 business days"
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts can be written in English. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "name"
+                            },
+                            {
+                                "text": "start date"
+                            },
+                            {
+                                "text": "length of the employment"
+                            },
+                            {
+                                "text": "job description"
+                            },
+                            {
+                                "text": "termination conditions"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Probation periods are mandatory. The minimum probation period is 6 days and the maximum probation period is 180 days. Probation periods vary depending on the job type."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Job Type": "Managerial Position*",
+                                "Probation Period Length (days)": "180"
+                            },
+                            {
+                                "Job Type": "Junior College Degree",
+                                "Probation Period Length (days)": "60"
+                            },
+                            {
+                                "Job Type": "Skilled Employees",
+                                "Probation Period Length (days)": "30"
+                            },
+                            {
+                                "Job Type": "Other",
+                                "Probation Period Length (days)": "6"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "*The legal department must usually approve contracts with 180 days of the probation period before the agreement with the employee."
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,320 @@
+{
+    "hireIn": "madagascar",
+    "currency": "Malagasy Ariar (MGA)",
+    "capital": "Antananarivo",
+    "offical_language": "French & Malagasy",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Pension%20fund/Badge_turquoise.svg",
+            "title": "Pension"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_pink.svg",
+            "title": "Public Health Care"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Social Security"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In Madagascar, the minimum wage is complex. The base minimum wage is 133,013.40 MGA per month. However, minimum wage also varies depending on the sector and years of employment of the employee."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "For more details see here"
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The individual income tax ranges from 0% to 20%. Income tax is calculated according to progressive rates. Multiple additional factors may impact overall rates such as the household status and the number of children."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Gross Annual Income": "Up to MGA 350,000",
+                                "Tax Rate (%)": "0%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to MGA 400,000",
+                                "Tax Rate (%)": "5%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to MGA 500,000",
+                                "Tax Rate (%)": "10%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to MGA 600,000",
+                                "Tax Rate (%)": "15%"
+                            },
+                            {
+                                "Gross Annual Income": "Over MGA 600,000",
+                                "Tax Rate (%)": "20%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is generally estimated at 19% of the employee salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "CNAPS - Retirement Gratuity - 13.0%"
+                            },
+                            {
+                                "text": "OSTIE - Medical Contribution - 5.0%"
+                            },
+                            {
+                                "text": "FTMP - Human Resource contribution - 1.0%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard workweek is from Monday to Friday."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Overtime payment is not mandatory and may be included in the salary. Hours outside of standard work hours are considered overtime. Employees can work a maximum of 16 hours of overtime per week. For additional hours, employees are paid:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "130% of the hourly rate, the first 8 hours."
+                            },
+                            {
+                                "text": "150% of the hourly rate, the following 8 hours."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Pregnant employees are entitled to 14 weeks of paid leave. 6 weeks must be taken before the child's birth. The remaining 8 weeks must be taken after the child's birth. The employee will receive 100% of their average salary during this period, Social Security will be responsible for 50% of this payment and the employer the other 50%."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "If there are health complications due to pregnancy, the employee can extend leave an additional 3 weeks at 100% pay."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "There is no paternity leave currently required by law for workers in the private sector."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Madagascar, no law covers parental leave. However, employees may be entitled to maternity leave and paternity leave."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to paid sick leave for up to 6 months. This leave is paid at 100% of the employee's salary, 50% by the employer, and 50% by Social Security."
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Madagascar can be complex. There is no at-will termination in Madagascar for employers and termination must be done for just cause."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "Probation period"
+                                    },
+                                    {
+                                        "text": "Objective grounds"
+                                    },
+                                    {
+                                        "text": "Disciplinary dismissal"
+                                    },
+                                    {
+                                        "text": "Performance due to unsuitability for the job"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Madagascar, notice periods can be complex. The minimum notice period is 1 day and will be increased according to the length of the employment and the employment type."
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In Madagascar, all employees who are terminated due to economic reasons are entitled to severance pay. Severance pay is 10 days of salary per year of service up to 6 months based compensation."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Both full-time and part-time employees are entitled to 30 working days of paid time off (PTO) a year after 1 year of service. PTO accrues monthly at 2.5 days per month. Employees are eligible for annual leave after 1 month of work. During the first year of employment, an employee is not allowed to take more than 13.5 days."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Madagascar celebrates 12 public holidays."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "National public holidays include:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "New Year's Day\nMartyrs' Day\nEaster Monday\nLabour Day\nEid al-Fitr\nAscension Day\nWhit Monday\nIndependence Day\nEid al-Adha\nAssumption of Mary\nAll Saints' Day\nChristmas Day"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes 5"
+                    },
+                    {
+                        "type": "text",
+                        "data": "business days"
+                    },
+                    {
+                        "type": "text",
+                        "data": "."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in English and can be bilingual. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Name"
+                            },
+                            {
+                                "text": "Start date"
+                            },
+                            {
+                                "text": "Length of the employment"
+                            },
+                            {
+                                "text": "Job description"
+                            },
+                            {
+                                "text": "Termination conditions"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Probation periods are not mandatory. The minimum probation period is 3 months and the maximum probation period is 6 months."
+                    }
+                ]
+            }
+        ]
+    }
+}

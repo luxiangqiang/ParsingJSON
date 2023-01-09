@@ -1,0 +1,353 @@
+{
+    "hireIn": "belarus",
+    "currency": "BYN",
+    "capital": "Minsk",
+    "offical_language": "Belarusian and Russian",
+    "payroll_cycle": "Bi-monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Social Security"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_pink.svg",
+            "title": "Workers Compensation Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Private Healthcare - Unisure (optional)"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum wage is BYN 457 per month."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The individual income tax rate is 13%. Income tax is calculated using a flat rate."
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is generally estimated at 35% of the employee salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Social welfare fund - Social security - 6%"
+                            },
+                            {
+                                "text": "Social welfare fund - Pension - 28%"
+                            },
+                            {
+                                "text": "Injury Insurance - 0.6%"
+                            },
+                            {
+                                "text": "Bank commission for transferring to employee's card - 0.5%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard workweek is from Monday to Friday."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Pregnant employees, who have worked for a minimum of 6 months with the same employer, are entitled to 126 calendar days of paid leave. This increases to 140 calendar days in cases of complicated childbirth or birth of 2 or more children. The employee will receive 100% of their average salary during this period."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "If the employer has 15 or more employees, this leave is paid by the employer. If the employer has less than 15 employees then this leave is paid by social security."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee can extend leave through parental (childcare) leave."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "There is no paternity leave currently required by law."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to 3 years of parental leave until the child turns 3 years old. Either parent can take parental leave and both can decide how to distribute the time off. They will receive a childcare leave allowance that is set by law. The allowance for the first child is BYN 539.56, and for subsequent children is BYN 693.72."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "If the employer has 15 or more employees, this leave is paid by the employer. If the employer has less than 15 employees then this leave is paid by social security."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Women can start working full-time before the 3 years, but they will lose part of their allowance."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to paid sick leave for up to 120 calendar days. This leave is paid by the employer and then deducted from the employer’s monthly payments to the State Social Welfare Fund. Leave is paid at different rates depending on the length of sick leave:"
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Period": "First 12 days",
+                                "Pay (% of base salary)": "80%"
+                            },
+                            {
+                                "Period": "Day 13 to 120",
+                                "Pay (% of base salary)": "100%"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Belarus can be complex. There is no at-will termination in Belarus for employers, outside of the probation period, and termination must be done for just cause."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "Probation period"
+                                    },
+                                    {
+                                        "text": "Staff reduction"
+                                    },
+                                    {
+                                        "text": "Liquidation of the organization"
+                                    },
+                                    {
+                                        "text": "Inconsistency of the employee with the position"
+                                    },
+                                    {
+                                        "text": "Inconsistency with the work performed due to the state of health"
+                                    },
+                                    {
+                                        "text": "Inadequacy of the employee for the position held due to insufficient qualifications"
+                                    },
+                                    {
+                                        "text": "Non-fulfillment of labor duties by an employee without good reason"
+                                    },
+                                    {
+                                        "text": "Gross violation of labor duties by an employee, recognized as such in accordance with legislative acts"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Notice will depend on the reason for termination."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Mutual agreement - no notice period"
+                            },
+                            {
+                                "text": "An employment contract is concluded and dismissal is at the employee’s request - 1 month notice period"
+                            },
+                            {
+                                "text": "Early termination of the contract by the employer - 1 month notice period"
+                            },
+                            {
+                                "text": "Liquidation of the company - 2 months’ notice period"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In Belarus, severance pay depends on the cause for termination."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Cause": "Early termination of the contract by the employer",
+                                "Amount of Severance Pay": "3 months salary"
+                            },
+                            {
+                                "Cause": "Early termination of contract due to liquidation of the company",
+                                "Amount of Severance Pay": "3 months salary"
+                            },
+                            {
+                                "Cause": "Termination of contract due to circumstances beyond the control of both parties (e.g. conscription of an employee for military service, reinstatement at work of an employee who previously performed this work, etc.)",
+                                "Amount of Severance Pay": "No compensation"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Both full-time and part-time employees are entitled to 25 days of paid time off (PTO) a year. PTO accrues monthly at 2 days per month. Part-time employees accrue PTO at a pro-rata rate to hours worked."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Belarus celebrates 9 national holidays. National holidays include:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "New Year\nNativity of Christ (Orthodox Christmas)\nWomen's Day\nRadunitsa\nLabor Day\nVictory Day\nIndependence Day\nOctober Revolution Day\nCatholic Christmas"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes 5 business days."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in Russian or Belarusian and can be bilingual. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Details of the organization and the employee"
+                            },
+                            {
+                                "text": "Position"
+                            },
+                            {
+                                "text": "Date of admission"
+                            },
+                            {
+                                "text": "Terms of work"
+                            },
+                            {
+                                "text": "Working hours"
+                            },
+                            {
+                                "text": "Salary"
+                            },
+                            {
+                                "text": "Bonuses"
+                            },
+                            {
+                                "text": "Number of vacation days"
+                            },
+                            {
+                                "text": "Rights and obligations of the employer"
+                            },
+                            {
+                                "text": "Rights and obligations of the employee"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Probation periods are not mandatory. There is no minimum probation period. The maximum probation period is 3 months."
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,404 @@
+{
+    "hireIn": "south korea",
+    "currency": "South Korean Won (KRW)",
+    "capital": "Seoul",
+    "offical_language": "Korean",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Pension%20fund/Badge_turquoise.svg",
+            "title": "Pension Fund"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_pink.svg",
+            "title": "Public Health Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Unemployment/Briefcase_blue.svg",
+            "title": "Unemployment Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Workers Compensation Insurance"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum wage is 9,160 WON per hour or 1,914,440 WON per month."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The individual income tax ranges from 6% to 45%. Income tax is calculated according to progressive rates."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Income (KRW)": "Less than 5,000,000",
+                                "Tax Rate (%)": "6%"
+                            },
+                            {
+                                "Income (KRW)": "12,000 - 46,000",
+                                "Tax Rate (%)": "15%"
+                            },
+                            {
+                                "Income (KRW)": "46,000 - 88,000",
+                                "Tax Rate (%)": "24%"
+                            },
+                            {
+                                "Income (KRW)": "88,000 - 150,000",
+                                "Tax Rate (%)": "35%"
+                            },
+                            {
+                                "Income (KRW)": "150,000 - 300,000",
+                                "Tax Rate (%)": "38%"
+                            },
+                            {
+                                "Income (KRW)": "300,00 - 500,000",
+                                "Tax Rate (%)": "40%"
+                            },
+                            {
+                                "Income (KRW)": "500,000 - 1,000,000",
+                                "Tax Rate (%)": "42%"
+                            },
+                            {
+                                "Income (KRW)": "Above 1,000,000",
+                                "Tax Rate (%)": "45%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is generally estimated at 10.38% of the employee salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "National pension - 4.50%"
+                            },
+                            {
+                                "text": "National health insurance - 3.43%"
+                            },
+                            {
+                                "text": "Long-term care insurance - 0.40%"
+                            },
+                            {
+                                "text": "Employment insurance - 1.05%"
+                            },
+                            {
+                                "text": "Workers' compensation insurance - 1.0%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard work week is from Monday to Friday."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Overtime payment is mandatory. Hours outside of standard work hours are considered overtime. Employees can work a maximum of 12 hours per week. For additional hours, employees are paid a minimum of 150% of their average salary."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Pregnant employees are entitled to 90 days of paid leave. 45 days must be taken after the child's birth. The employee will receive 100% of their average salary during this leave. The employer is responsible for this pay. 60 days of this payment is paid by the employer, and the remaining 30 days can be reimbursed from the Social Security Fund."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee can extend leave using parental (childcare) leave."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to 10 days of paid paternity leave. The employee will receive 100% of their average salary during this period, and the Social Security Fund will be responsible for this pay."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee can extend leave using parental (childcare) leave."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Parental leave is complex in South Korea. Employees are entitled to up to 2 years of parental leave (1 year per parent). The leave can be taken 45 days after the birth of the child. Both parents can use leave at the same time. The employee will be paid:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "For months 1 to 3 - 75% of 80% of the average salary (Upper limit is WON 1.5 million). They will be paid the remaining 25% after 6 months. For example, if the employee’s salary is WON 100, they will be paid 75% of WON 80 (80% of average salary) and the remaining 25% after 6 months."
+                            },
+                            {
+                                "text": "For months 4 to 12 - 50% of their average wage (Upper limit is WON 1.2 million)"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "This leave is paid for by the government."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are not entitled to sick leave associated with non-work-related illnesses or injuries."
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in South Korea can be complex. There is no at-will termination in South Korea for employers and termination must be done for just cause."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "Criminal offense or misconduct"
+                                    },
+                                    {
+                                        "text": "Neglecting duties stipulated in the agreement"
+                                    },
+                                    {
+                                        "text": "Received 3 warning letters"
+                                    },
+                                    {
+                                        "text": "Inability to perform duties stipulated in the agreement"
+                                    },
+                                    {
+                                        "text": "Criminal conduct or misconduct in the performance of duties"
+                                    },
+                                    {
+                                        "text": "Urgent business necessity to save a failing business from imminent bankruptcy"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum notice period is 1 month."
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In South Korea, all employees who have worked for longer than 1 year are entitled to severance pay. Severance pay is 30 days of salary for each year of service. There are two systems for severance pay and the employer can choose from the two systems (further details in notes below)."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Entitlement payment and conditions will depend on a case-by-case basis according to what is approved by the legal department of the company."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Full-time and part-time employees are entitled to 15 days of paid time off (PTO) a year. PTO can be accrued monthly at 1.25 days per month. However, employees can claim all PTO before it is accrued. Some differences apply based on length of employment:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "For workers who have worked less than 1 year or who have worked for 80% of the year - 1 day of PTO for every month of service"
+                            },
+                            {
+                                "text": "For workers who have worked for over 3 years - 1 additional day of PTO for every 2 years of continued service exceeding the first year (up to 25 days)"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "South Korea celebrates 13 national holidays over a total of 17 days. National holidays include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "New Year’s Day"
+                            },
+                            {
+                                "text": "Seollal (3 days)"
+                            },
+                            {
+                                "text": "Independence Movement Day"
+                            },
+                            {
+                                "text": "Presidential Election"
+                            },
+                            {
+                                "text": "Children’s Day"
+                            },
+                            {
+                                "text": "Buddha’s Birthday"
+                            },
+                            {
+                                "text": "Local Election Day"
+                            },
+                            {
+                                "text": "Memorial Day"
+                            },
+                            {
+                                "text": "Liberation Day"
+                            },
+                            {
+                                "text": "Chuseok (3 days)"
+                            },
+                            {
+                                "text": "National Foundation Day"
+                            },
+                            {
+                                "text": "Hangeul Day"
+                            },
+                            {
+                                "text": "Christmas"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes 2 business days after the client signs the SOW."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in Korean and English and can be bilingual. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Name"
+                            },
+                            {
+                                "text": "Employment period"
+                            },
+                            {
+                                "text": "Place of work"
+                            },
+                            {
+                                "text": "Working hours"
+                            },
+                            {
+                                "text": "Wages"
+                            },
+                            {
+                                "text": "Vacations and leaves"
+                            },
+                            {
+                                "text": "Retirement payment"
+                            },
+                            {
+                                "text": "Termination conditions"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Probation periods are not mandatory. There is no minimum probation period. The maximum probation period is 6 months."
+                    }
+                ]
+            }
+        ]
+    }
+}

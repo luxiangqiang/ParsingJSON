@@ -1,0 +1,423 @@
+{
+    "hireIn": "cyprus",
+    "currency": "EUR",
+    "capital": "Nicosia",
+    "offical_language": "Greek",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Public Health Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_pink.svg",
+            "title": "Redundancy Fund"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Social Security"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Private Healthcare - Unisure (optional)"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum wage is EUR 924 per month. However, during the first six months of employment, it can be EUR 870."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The individual income tax ranges from 0% to 35%. Income tax is calculated according to progressive rates. Multiple additional factors may impact overall rates such as the household status and the number of children."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Gross Annual Income": "Up to EUR 19,500",
+                                "Tax Rate (%)": "0%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to EUR 28,000",
+                                "Tax Rate (%)": "20%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to EUR 36,300",
+                                "Tax Rate (%)": "25%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to EUR 60,000",
+                                "Tax Rate (%)": "30%"
+                            },
+                            {
+                                "Gross Annual Income": "Over EUR 60,000",
+                                "Tax Rate (%)": "35%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is generally estimated at 14.90% of the employee salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Social Security - 8.30%"
+                            },
+                            {
+                                "text": "Social Cohesion fund - 2%"
+                            },
+                            {
+                                "text": "Human resources - 0.5%"
+                            },
+                            {
+                                "text": "Redundancy fund - 1.2%"
+                            },
+                            {
+                                "text": "General Health care system - 2.9%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard workweek is from Monday to Friday."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Employees working in the retail and sales industries can have a standard 8 hours per day, 48 hours per week from Monday to Saturday."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Pregnant employees who have worked for 180 consecutive days for the same employer are entitled to 18 weeks of paid leave. Two weeks must be taken before the child's birth. The employee will receive 72% of their salary during this period, and Social Security will be responsible for this pay."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee can extend leave at the employer’s sole discretion and with no payment."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees who have worked for 180 consecutive days for the same employer are entitled to 14 days of paid paternity leave. Leave must be taken within the first 16 weeks after the birth of the child. The employee will receive 72% of their salary during this period, and Social Security will be responsible for this pay."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee can extend leave at the employer’s sole discretion and without payment."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to 8 months of parental leave. Both parents can decide how to distribute the time off, which should be taken after paternity and maternity leave. Either parent can take parental leave. This leave will be unpaid."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Parental leave can't be extended."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to paid sick leave for up to 156 days. This leave is paid at different rates and by different payers depending upon length:"
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Period": "0 - 3 days",
+                                "Pay": "100% of base salary",
+                                "Payer": "Employer"
+                            },
+                            {
+                                "Period": "4 - 156 days",
+                                "Pay": "60% of base salary",
+                                "Payer": "Social Security"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Cyprus can be complex. There is no at-will termination in Cyprus for employers, and termination must be done for just cause."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "Probation period"
+                                    },
+                                    {
+                                        "text": "Serious offense by the employee"
+                                    },
+                                    {
+                                        "text": "Disciplinary dismissal"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "If the employee is to be fired, the employer must do so within a specified period after the cause of dismissal has taken place. Otherwise, dismissal can be considered unlawful. The timeframe for notice must be reviewed as a case by case by the legal counsel."
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum notice period is seven days and will be increased according to the length of the employment."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "One week if the length of service is up to 51 weeks"
+                            },
+                            {
+                                "text": "Two weeks if the length of service is up to 103 weeks"
+                            },
+                            {
+                                "text": "Four weeks if the length of service is up to 155 weeks"
+                            },
+                            {
+                                "text": "Five weeks if the length of service is up to 207 weeks"
+                            },
+                            {
+                                "text": "Six weeks if the length of service is up to 311 weeks"
+                            },
+                            {
+                                "text": "Seven weeks if the length of service is over to 312 weeks"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In Cyprus, all employees who are unlawfully terminated or terminated due to the employer's behavior are entitled to severance pay. Severance pay depends on the length of the service:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Up to 4 years of service - 2 weeks pay"
+                            },
+                            {
+                                "text": "Between 5 and 10 years of service - 2.5 weeks pay"
+                            },
+                            {
+                                "text": "Between 11 and 15 years of service - 3 weeks pay"
+                            },
+                            {
+                                "text": "Between 16 and 20 years of service - 3.5 weeks pay"
+                            },
+                            {
+                                "text": "Over 20 years of service - 4 weeks pay."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "An employee is not entitled to compensation for termination of employment if he has attained the pensionable age before the date of his employment termination."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Full-time employees are entitled to 20 working days of paid time off (PTO) a year. Employees working six days a week, are entitled to 24 working days of paid time PTO per year. PTO accrues monthly at 1.67 days per month and the employee must take leave in the current calendar year accrued."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Cyprus celebrates 16 national holidays."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "National public holidays include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "New Year's Day"
+                            },
+                            {
+                                "text": "Epiphany Day"
+                            },
+                            {
+                                "text": "Greek Monday"
+                            },
+                            {
+                                "text": "Greek Independence Day"
+                            },
+                            {
+                                "text": "National Day"
+                            },
+                            {
+                                "text": "Orthodox Good Friday"
+                            },
+                            {
+                                "text": "Orthodox Good Sunday"
+                            },
+                            {
+                                "text": "Orthodox Good Monday"
+                            },
+                            {
+                                "text": "Labor Day"
+                            },
+                            {
+                                "text": "Orthodox Pentecost Monday"
+                            },
+                            {
+                                "text": "Assumption Day"
+                            },
+                            {
+                                "text": "Cyprus Independence Day"
+                            },
+                            {
+                                "text": "Ochi Day"
+                            },
+                            {
+                                "text": "Christmas Eve"
+                            },
+                            {
+                                "text": "Christmas Day"
+                            },
+                            {
+                                "text": "Boxing Day"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes 3 business days."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts can be in English, Greek, or both languages. They must be in writing and signed by both parties. A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Name"
+                            },
+                            {
+                                "text": "Start date"
+                            },
+                            {
+                                "text": "Length of the employment"
+                            },
+                            {
+                                "text": "Job description"
+                            },
+                            {
+                                "text": "Termination conditions"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Probation periods are not mandatory. The maximum probation period is 180 days (six months) and can be extended up to 2 years."
+                    }
+                ]
+            }
+        ]
+    }
+}

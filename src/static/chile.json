@@ -1,0 +1,397 @@
+{
+    "hireIn": "chile",
+    "currency": "CLP",
+    "capital": "Santiago",
+    "offical_language": "Spanish",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Health Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_pink.svg",
+            "title": "Life Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Pension%20fund/Badge_blue.svg",
+            "title": "Pension Fund"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Trust%20Fund/Moneybag_purple.svg",
+            "title": "Profit-Sharing Bonus"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Unemployment/Briefcase_turquoise.svg",
+            "title": "Unemployment Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_pink.svg",
+            "title": "Workers Compensation Insurance"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum wage is"
+                    },
+                    {
+                        "type": "text",
+                        "data": "CLP 400,000"
+                    },
+                    {
+                        "type": "text",
+                        "data": "per month."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The individual income tax ranges from 0% to 35.5%. Income tax is calculated according to progressive rates. Non-residents may be subject to an additional flat tax rate of 15%."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Gross Annual Income": "Up to CLP 690,268.50",
+                                "Tax Rate (%)": "0%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to CLP 1,533,930",
+                                "Tax Rate (%)": "4%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to CLP 2,556,550",
+                                "Tax Rate (%)": "8%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to CLP 33,579,170",
+                                "Tax Rate (%)": "13.5%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to CLP 4,601,790",
+                                "Tax Rate (%)": "23%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to CLP 66,135,720",
+                                "Tax Rate (%)": "30.4%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to CLP 15,850,610",
+                                "Tax Rate (%)": "35%"
+                            },
+                            {
+                                "Gross Annual Income": "Over CLP 15,850,610",
+                                "Tax Rate (%)": "35%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is generally estimated between 8% and 46% of the employee salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Life insurance - 1.85%"
+                            },
+                            {
+                                "text": "Unemployment insurance - 2.4%"
+                            },
+                            {
+                                "text": "Accident insurance - 0.93%"
+                            },
+                            {
+                                "text": "Legal Profit sharing - CLP 138,542"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "As Chile has a high fixed (Legal Profit sharing) value that represents 1/3 of the minimum salary, the higher the salary, the lower the employer cost."
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Standard working hours are 9 hours per day, 45 hours per week. The standard workweek is from Monday to Friday."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Pregnant employees who have contributed to Social Security for six months are entitled to 126 days of paid leave. 42 days must be taken before the child's birth. The remaining days can be divided into periods of time, or the employee can return to work part-time until the newborn is 18 months."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee may extend leave. The length will depend on a medical decision or at the employer's discretion."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to five working days of paid paternity leave. The leave will start as of childbirth and employees must present the certificate of birth. The employee will receive 100% of the salary during this period, and the employer will be responsible for this pay."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee can’t extend leave."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In Chile, no law covers parental leave. However, employees may be entitled to maternity leave and paternity leave."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to unlimited paid sick leave."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employer is not responsible for paying sick days. Payments are made by the health institution the employee has (ISAPRE or FONASA). For leaves of absence ranging from 1 to 10 days: the first 3 days are unpaid. Sick leave beyond 11 days is fully covered."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The doctor submits the medical certificate through iMed, which issues a notification to the employer. The employer has 3 days to process this leave of absence electronically. If the document could not be submitted through IMED, the employee has 48 hours to submit the document to the employer."
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Chile can be complex. There is no at-will termination in Chile for employers. Employers must ground terminations on a company-related business need."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "Probation period"
+                                    },
+                                    {
+                                        "text": "Objective grounds"
+                                    },
+                                    {
+                                        "text": "Disciplinary dismissal"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "After the end term, the employer must confirm in writing to the employee that the agreement won't be renewed for fixed-term contracts."
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum notice period is 30 days. The employer can also provide payment in lieu."
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In Chile, all employees who are terminated due to general grounds or without notice are entitled to severance pay. Severance pay is 30 days of salary per year of service up to 330 days based compensation."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The monthly severance compensation cannot exceed a maximum of 90 UF (USD 3,500) unless the employee is dismissed without notice."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Both full-time and part-time employees are entitled to 15 working days of paid time off (PTO) a year. PTO accrues monthly 1.25 days per month. Employees are eligible for annual leave after 12 months of work."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Chile celebrates both 15 national and 2 regional holidays based on the location of the employee."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "National public holidays for 2022 include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "New Year’s Day"
+                            },
+                            {
+                                "text": "Easter"
+                            },
+                            {
+                                "text": "Labor Day"
+                            },
+                            {
+                                "text": "Navy Day/Battle of Iquique"
+                            },
+                            {
+                                "text": "St. Peter and St. Paul Day"
+                            },
+                            {
+                                "text": "Virgin of Carmen Day"
+                            },
+                            {
+                                "text": "Assumption of the Virgin Mary"
+                            },
+                            {
+                                "text": "Independence Day"
+                            },
+                            {
+                                "text": "Glorias del Ejercito Day"
+                            },
+                            {
+                                "text": "National Holiday"
+                            },
+                            {
+                                "text": "Encounter of Two Worlds Day"
+                            },
+                            {
+                                "text": "Evangelical and Protestant churches Day"
+                            },
+                            {
+                                "text": "All Saints Day"
+                            },
+                            {
+                                "text": "Immaculate Conception Day"
+                            },
+                            {
+                                "text": "Christmas Day"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes 2 business days after the client signs the SOW."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in Spanish and can be bilingual. They must be in writing and signed by both parties. A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Name"
+                            },
+                            {
+                                "text": "Start date"
+                            },
+                            {
+                                "text": "Length of the employment"
+                            },
+                            {
+                                "text": "Job description"
+                            },
+                            {
+                                "text": "Remote work conditions"
+                            },
+                            {
+                                "text": "Right to disconnect conditions"
+                            },
+                            {
+                                "text": "Termination conditions"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Probation periods are mandatory, and the length is 14 days."
+                    }
+                ]
+            }
+        ]
+    }
+}

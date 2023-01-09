@@ -1,0 +1,385 @@
+{
+    "hireIn": "slovakia",
+    "currency": "Euro EUR",
+    "capital": "Bratislava",
+    "offical_language": "Slovak",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Health Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Trust%20Fund/Moneybag_pink.svg",
+            "title": "Meal Allowance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Social Security"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Work%20from%20home%20allowance/Laptop_purple.svg",
+            "title": "Work From Home Allowance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Private Healthcare - Unisure (optional)"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In Slovakia, the base minimum wage is EUR 623 per month. The minimum monthly wage changes according to the degree of work intensity. There are 6 classes of work intensity."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The individual income tax ranges from 19% to 25%. Income tax is calculated according to gross annual income."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Gross Annual Income": "Up to EUR 37,163.36",
+                                "Tax Rate (%)": "19%"
+                            },
+                            {
+                                "Gross Annual Income": "Over EUR 37,163.36",
+                                "Tax Rate (%)": "25%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is generally estimated at 36% of the employee salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Social Insurance - 25.2%"
+                            },
+                            {
+                                "text": "Health Insurance - 10.0%"
+                            },
+                            {
+                                "text": "Daily working meal voucher - EUR 61.82"
+                            },
+                            {
+                                "text": "Work from home allowance - EUR 50"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard workweek is from Monday to Friday."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Overtime payment is not mandatory and may be included in the salary or granted as leave. Hours outside of standard work hours are considered overtime."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Pregnant employees who have worked for 60 consecutive days with the same employer are entitled to 34 weeks of paid leave. Six weeks must be taken before the child's birth. The employee will receive 75% of their average salary during this period, and Social Security will be responsible for this pay."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee can’t extend leave."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees who have contributed to Social Security for 270 days are entitled to 28 weeks of paid paternity leave. Leave must be taken six weeks after the child's birth. The remaining days can be divided into two periods until the child reaches the age of three. The employee will receive 75% of the salary during this period, and Social Security will be responsible for this pay."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Employees will be able to take paternity leave if the partner is not receiving maternity benefits simultaneously."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee can't extend leave."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to up to 3 years of parental leave until the child reaches the age of three. Either parent can take parental leave. Social Security will pay EUR 275.90 per month during this period."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Employees can’t extend parental leave."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to paid sick leave for up to 52 weeks. This leave is paid at different rates and by different payers depending upon length:"
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Period": "0 - 3 days",
+                                "Pay": "25% of base salary",
+                                "Payer": "Employer"
+                            },
+                            {
+                                "Period": "4 - 10 days",
+                                "Pay": "55% of base salary",
+                                "Payer": "Employer"
+                            },
+                            {
+                                "Period": "11 days - 52 weeks",
+                                "Pay": "70% of base salary",
+                                "Payer": "Social Security"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Slovakia can be terminated by either party with or without cause providing written notice."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "Probation period"
+                                    },
+                                    {
+                                        "text": "Objective grounds"
+                                    },
+                                    {
+                                        "text": "Disciplinary dismissal"
+                                    },
+                                    {
+                                        "text": "Performance due to unsuitability for the job"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Notice will depend on the length of employment and if the employee resigns or is dismissed."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "",
+                                "children": [
+                                    {
+                                        "text": "30 days for up to one year of employment"
+                                    },
+                                    {
+                                        "text": "60 days for one to five years of employment"
+                                    },
+                                    {
+                                        "text": "90 days for over five years of employment"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "",
+                                "children": [
+                                    {
+                                        "text": "30 days for up to one year of employment"
+                                    },
+                                    {
+                                        "text": "60 days for more than one year of employment"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In Slovakia, employees who are terminated with notice are entitled to severance pay. Severance pay will depend on the length of employment:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "From one to five years of service - one month salary"
+                            },
+                            {
+                                "text": "From five to ten years of service - two months salary"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Severance pay may increase if the reasons for dismissal are not adequate."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Both full-time and part-time employees are entitled to 20 working days of paid time off (PTO) a year. PTO and accrual rates vary depending on the age of the employee."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Age": "Up to 32 years",
+                                "PTO days": "20",
+                                "Monthly accrual": "1.67 days"
+                            },
+                            {
+                                "Age": "Over 32 years",
+                                "PTO days": "25",
+                                "Monthly accrual": "2.08 days"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Slovakia celebrates 15 national holidays based on the location of the employee. National public holidays include:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "Day of the Establishment of the Slovak Republic\nEpiphany\nGood Friday\nEaster Monday\nLabour Day\nVictory in Europe Day\nSaints Cyril and Methodius Day\nAnniversary of the Slovak National Uprising\nDay of Constitution of the Slovak Republic\nFeast of Our Lady of Sorrows\nAll Saints' Day\nStruggle for Freedom and Democracy Day\nChristmas Eve\nChristmas Day\nSt. Stephen's Day"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "5 business days after MSA signature & deposit payment"
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in Slovak and can be bilingual. They must be in writing and signed by both parties, and the employee and employer must keep a signed copy. A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Name"
+                            },
+                            {
+                                "text": "Start date"
+                            },
+                            {
+                                "text": "Length of the employment"
+                            },
+                            {
+                                "text": "Job description"
+                            },
+                            {
+                                "text": "Termination conditions"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Probation periods are not mandatory. The maximum probation period is 90 days, and 180 days for managerial positions."
+                    }
+                ]
+            }
+        ]
+    }
+}

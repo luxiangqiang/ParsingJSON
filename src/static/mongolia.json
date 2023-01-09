@@ -1,0 +1,178 @@
+{
+    "hireIn": "mongolia",
+    "currency": "Mongolian Tughrik (MNT)",
+    "capital": "Ulaanbaatar",
+    "offical_language": "Mongolian",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Health Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Pension%20fund/Badge_pink.svg",
+            "title": "Pension Fund"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Social Security"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Unemployment/Briefcase_purple.svg",
+            "title": "Unemployment"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The Minimum Wage is MNT 420,000 per month."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The Individual tax rate in Mongolia is 10% flat"
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employer cost - 12.5% - 14.5% of employee salary."
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The maximum working time is generally 40 hours per week and 8 hours a day."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to 120 days."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to sick leave upon presentation of a medical certificate. There is no maximum on the number of sick days an employee can take in Mongolia."
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts can be terminated by any party with or without cause. However, employers should provide reasonable cause."
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The notice period varies according to the reason of termination, it can be from 1 to 2 months' notice."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to a minimum of is 15 days of paid leave a year."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "New Year's Day"
+                            },
+                            {
+                                "text": "Lunar New Year’s Day"
+                            },
+                            {
+                                "text": "International Women's Day"
+                            },
+                            {
+                                "text": "Buddha Day"
+                            },
+                            {
+                                "text": "International Children’s Day"
+                            },
+                            {
+                                "text": "Naadam Festival"
+                            },
+                            {
+                                "text": "Birth anniversary of Chinggis Khaan"
+                            },
+                            {
+                                "text": "Republic Day or the anniversary of the adoption of the first Constitution of Mongolia and the proclamation of the Mongolian People’s Republic."
+                            },
+                            {
+                                "text": "Day of Restoration of National Freedom and Independence of Mongolia"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employment contracts must be in writing."
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The Maximum Probation Period is 6 months."
+                    }
+                ]
+            }
+        ]
+    }
+}

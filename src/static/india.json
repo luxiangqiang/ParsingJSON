@@ -1,0 +1,324 @@
+{
+    "hireIn": "india",
+    "currency": "Indian Rupee (INR)",
+    "capital": "New Delhi",
+    "offical_language": "Hindi and 22 additional languages",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Pension%20fund/Badge_turquoise.svg",
+            "title": "Employees Pension Scheme"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_pink.svg",
+            "title": "Employees Provident Fund"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Private Healthcare - Unisure (optional)"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum wage in India is complex. There is no statutory minimum wage for organizations in the private sector outside of regulated “factory” sectors."
+                    },
+                    {
+                        "type": "text",
+                        "data": "For factory sectors, India uses a complex method of setting minimum wages set at a state and sub-state level that are updated regularly. India defines nearly 2,000 different types of jobs for unskilled workers and over 400 categories of employment, with a minimum daily wage for each kind of job."
+                    },
+                    {
+                        "type": "text",
+                        "data": "The monthly minimum wage calculation includes the variable dearness allowance (VDA) component, which accounts for inflationary trends."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The individual income tax ranges from 5% to 30%. Income tax is calculated according to progressive rates. India Income comprises 2 regimes, the New Personal Tax Regime (NPTR) and the old regime. Taxpayers have the option to choose either one of the regimes."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The table below reflects New Personal Tax Regime (NPTR) effective 1 April 2020:"
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Gross Annual Income (INR)": "Up to 250,000",
+                                "Tax Rate (%)": "Exempt"
+                            },
+                            {
+                                "Gross Annual Income (INR)": "Between 250,001 – 500,000",
+                                "Tax Rate (%)": "5%"
+                            },
+                            {
+                                "Gross Annual Income (INR)": "Between 500,001 – 750,000",
+                                "Tax Rate (%)": "10%"
+                            },
+                            {
+                                "Gross Annual Income (INR)": "Between 750,001 – 1,000,000",
+                                "Tax Rate (%)": "15%"
+                            },
+                            {
+                                "Gross Annual Income (INR)": "Between 1,000,001 – 1,250,000",
+                                "Tax Rate (%)": "20%"
+                            },
+                            {
+                                "Gross Annual Income (INR)": "Between 1,250,001 – 1,500,000",
+                                "Tax Rate (%)": "25%"
+                            },
+                            {
+                                "Gross Annual Income (INR)": "Above 1,500,000",
+                                "Tax Rate (%)": "30%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is generally estimated at 13.0% of the employee salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Employees’ Provident Fund - 3.67%"
+                            },
+                            {
+                                "text": "Employees’ Pension Scheme - 8.33%"
+                            },
+                            {
+                                "text": "Administrative charges - 1.0%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard workweek is from Monday to Friday."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "There are no statutory requirements for employees in the private sector outside of factory roles. Overtime payment is mandatory for factory workers. For additional hours worked, industry practice is to compensate employees with pro-rate PTO or additional pay at 100% of their regular salary."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Pregnant employees who have worked with the same employer for 80 days in the last year are entitled to 26 weeks of paid leave. 8 weeks must be taken before the child's birth."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee will receive 100% of their average salary during this period, and the employer will be responsible for this pay. The employee can extend leave without pay."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "There is no paternity leave currently required by law."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In India, no law covers parental leave. However, employees may be entitled to maternity leave and paternity leave."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to paid sick leave for up to 12 days. Sick leave accrues at one day of sick leave per month. The employee is paid at 100% of their average salary, and the employer is responsible for this payment."
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in India can be done” at-will” (e.i. without cause) depending upon the employment agreement as long as required notice and severance are followed."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "Probation period"
+                                    },
+                                    {
+                                        "text": "Breach of duties and responsibilities"
+                                    },
+                                    {
+                                        "text": "Gross default and misconduct contravening the terms and conditions of the agreement"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum notice period is 1 month for ordinary dismissal, but this period varies for each state in India."
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to severance pay based on the reason for termination."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Termination caused due to redundancy - Employees are entitled to severance pay worth 15 days' average pay for every 1 year of continuous service or part thereof in excess of 6 months"
+                            },
+                            {
+                                "text": "Employees who are dismissed - Employers must pay termination benefits including leave accrued, gratuity payment (for employees with over 5 years of continuous service), payment in lieu of notice (if no notice is given), statutory bonus payment, and any other amounts due under the employment contract."
+                            },
+                            {
+                                "text": "Employees who are terminated due to misconduct - No entitlement to notice pay or severance pay"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "PTO is established in the employment agreements. The minimum PTO is 18 days."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "National holidays include:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "New Year’s Day\nLohri\nMakar Sankranti\nRepublic Day\nMaha Shivratri\nHoli\nUgadi\nRam Navami\nMahavir Jayanti\nGood Friday\nEid al-Fitr\nBuddha Purnima\nBakri Eid\nMuharram\nRakshabandhan\nIndependence Day\nJanmashtami\nGanesh Chaturthi\nOnam\nGandhi Jayanti\nDussehra\nEid-e-Milad\nDiwali\nGuru Nanak Jayanti\nChristmas"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "3 business days after MSA signature & deposit payment."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in English and can be bilingual. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Name"
+                            },
+                            {
+                                "text": "Job role and job description"
+                            },
+                            {
+                                "text": "Leaves"
+                            },
+                            {
+                                "text": "Employee obligation"
+                            },
+                            {
+                                "text": "Termination conditions"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Probation periods are not mandatory and there is no statutory requirement for employers to provide probation period. The standard probation period for India in the Employment Agreement is 6 months with the option to extend an additional 3 months at the employer’s discretion."
+                    }
+                ]
+            }
+        ]
+    }
+}

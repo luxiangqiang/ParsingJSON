@@ -1,0 +1,412 @@
+{
+    "hireIn": "spain",
+    "currency": "Euro (EUR)",
+    "capital": "Madrid",
+    "offical_language": "Spanish",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Social Security"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Work%20from%20home%20allowance/Laptop_pink.svg",
+            "title": "Work From Home Allowance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Private Healthcare - Alan"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The Minimum Wage is EUR 1,166.67 per month as set out in the Deel collective bargaining agreement (CBA)."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The individual income tax ranges from 19% to 45%. Income tax is calculated according to progressive rates. Multiple additional factors may impact overall rates such as the household status and the number of children."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Income per year in EUR": "0 to 12,450",
+                                "Tax Rate (%)": "19%"
+                            },
+                            {
+                                "Income per year in EUR": "12,451 to 20,200",
+                                "Tax Rate (%)": "24%"
+                            },
+                            {
+                                "Income per year in EUR": "20,201 to 35,200",
+                                "Tax Rate (%)": "30%"
+                            },
+                            {
+                                "Income per year in EUR": "35,201 to 60,000",
+                                "Tax Rate (%)": "37%"
+                            },
+                            {
+                                "Income per year in EUR": "60,000 and up",
+                                "Tax Rate (%)": "45%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is generally estimated at 31.42% of the employee salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Common Contingencies = 23.6%"
+                            },
+                            {
+                                "text": "Professional Contingencies = 7.80%",
+                                "children": [
+                                    {
+                                        "text": "Unemployment = 5.5%"
+                                    },
+                                    {
+                                        "text": "Social Fund for the Guarantee of Salaries = 0.20%"
+                                    },
+                                    {
+                                        "text": "Temporary diseases and Incapacity, Death and Survival = 1.50%"
+                                    },
+                                    {
+                                        "text": "Professional education = 0.6%"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "WFH Office allowance = 50.00 EUR"
+                            },
+                            {
+                                "text": "Medical exam (if the employee requests it) = 65.00 EUR"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week (1800 hours per year). The standard workweek is from Monday to Friday."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Unless there is an agreement in place, employees can work no more than 9 hours per day. Employees can work a maximum of 80 hours a year in overtime."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Overtime payment is mandatory and may be included in the salary. Hours outside of standard work hours are considered overtime. Employees can work a maximum of 80 hours of overtime."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees who have contributed to Social Security for at least 6 months in the previous 7 years before starting the leave are entitled to 16 weeks of paid leave. Six weeks must be taken after the child's birth. The remaining days can be divided into two periods of time. The employee will receive 100% of the salary during this period (up to 4.139,40 EUR), and Social Security will be responsible for this pay."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Rules about breastfeeding hours:"
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Employees who are breastfeeding a child under the age of nine months shall be entitled to one hour of absence from work at a time of their choice, which may be divided into two periods, one at the beginning and the other at the end of the workday. This leave may be taken by either the mother or the father if both are working and must be communicated to Deel in writing."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Employees may replace this right by a half-hour reduction of their working day for the same purpose, or alternatively, at the employee's discretion, by a paid leave of 15 calendar days following maternity leave."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees who have contributed to Social Security for at least 180 days in the previous 7 years before starting the leave are entitled to 16 weeks of paid paternity leave. Six weeks must be taken after the child's birth. The remaining days can be divided how the employee sees fit until the child is 1 year old. The employee will receive 100% of the salary during this period (up to 4.139,40 EUR), and Social Security will be responsible for this pay."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In Spain, no law covers parental leave. However, employees may be entitled to maternity leave and paternity leave."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to paid sick leave for up to 365 days if they have contributed to Social Security for 180 days in the last 5 years. Employees have the option to extend sick leave an additional 180 days. If the employee has not contributed to Social Security for 180 days in the last 5 years, the employee may be on medical leave without being paid."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The first 3 days are unpaid and considered as a qualifying period. This leave is paid at different rates and by different payers depending upon length:"
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Period": "0 - 3 days",
+                                "Pay": "0%",
+                                "Payer": "N/A"
+                            },
+                            {
+                                "Period": "4 - 15 days",
+                                "Pay": "60% of salary",
+                                "Payer": "Employer"
+                            },
+                            {
+                                "Period": "16-20 days",
+                                "Pay": "60% of salary",
+                                "Payer": "Social Security"
+                            },
+                            {
+                                "Period": "21 - 30 days",
+                                "Pay": "75% of salary",
+                                "Payer": "Social Security"
+                            },
+                            {
+                                "Period": "30- 365 days",
+                                "Pay": "100% of salary",
+                                "Payer": "75% Social Security / 25% Employer"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Spain can be complex. There is no at-will termination in Spain for employers outside the probation period and termination must be done for just cause."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "probation period"
+                                    },
+                                    {
+                                        "text": "objective grounds"
+                                    },
+                                    {
+                                        "text": "disciplinary dismissal"
+                                    },
+                                    {
+                                        "text": "performance due to unsuitability for the job"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum notice period is 15 days, though it may be longer in certain circumstances. During the probation period or for disciplinary terminations there is no notice period."
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Non-voluntary dismissal by an employer for non-disciplinary reasons: 20 days of salary per year of service. (proportional if less than <1 year)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Both full-time and part-time employees are entitled to 23 days of paid time off (PTO) a year. PTO accrues monthly 1.92 days per month. Employees are eligible for annual leave after 1 month of work."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Workers, with prior notice and justification, may be absent from work, with the right to remuneration, for any of the reasons and for the following time:a) Fifteen calendar/natural days in case of marriage.b) According to article 37.3.b of the Workers' Statute, «Two days for the birth of a child and for the death, accident or serious illness, hospitalization or surgical intervention without hospitalization that requires home rest, of relatives up to the second degree of consanguinity or affinity. When for this reason the worker needs to travel for this purpose, the term shall be four days».c) Four days in cases of death of a spouse, parents or children, including possible displacements during this time.d) One day for transfer of habitual residence (moving)"
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Spain celebrates both 14 national and additional regional holidays based on the location of the employee. 8 are National and 6 are regional"
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "These are the eight national holidays for 2022:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Saturday January 1: New Year."
+                            },
+                            {
+                                "text": "Thursday, January 6: Epiphany of the Lord (Three Kings Day)."
+                            },
+                            {
+                                "text": "Friday April 15: Good Friday."
+                            },
+                            {
+                                "text": "Monday, August 15: Assumption of Our Lady."
+                            },
+                            {
+                                "text": "Wednesday, October 12: Fiesta de la Hispanidad."
+                            },
+                            {
+                                "text": "Tuesday, November 1: All Saints' Day."
+                            },
+                            {
+                                "text": "Tuesday December 6: Day of the Spanish Constitution"
+                            },
+                            {
+                                "text": "Thursday December 8: Immaculate Conception."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Please note the regional holidays change year on year."
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Onboarding takes 3 business days."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in Spanish and can be bilingual. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Name and surname"
+                            },
+                            {
+                                "text": "Number DNI / NIE"
+                            },
+                            {
+                                "text": "Address"
+                            },
+                            {
+                                "text": "Job category"
+                            },
+                            {
+                                "text": "Salary"
+                            },
+                            {
+                                "text": "Holidays a year"
+                            },
+                            {
+                                "text": "Contract start date"
+                            },
+                            {
+                                "text": "Type and duration of the contract"
+                            },
+                            {
+                                "text": "Contract hours"
+                            },
+                            {
+                                "text": "The collective agreement of the company"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Probation periods are not mandatory. There is no minimum probation period and the maximum probation period is 180 days."
+                    }
+                ]
+            }
+        ]
+    }
+}

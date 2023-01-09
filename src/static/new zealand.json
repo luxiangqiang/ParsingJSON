@@ -1,0 +1,352 @@
+{
+    "hireIn": "new zealand",
+    "currency": "New Zealand Dollar (NZD)",
+    "capital": "Wellington",
+    "offical_language": "English",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Holiday%20allowance/Holiday_pink.svg",
+            "title": "Holiday Accrual"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Pension%20fund/Badge_blue.svg",
+            "title": "Pension"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Work%20Accident%20compensation%20insurance/AccidentFunds_purple.svg",
+            "title": "Work Accident Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Private Healthcare - Unisure (optional)"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In New Zealand, the minimum wage is generally NZD 21.20 per hour. In special cases for training and early employment the minimum wage is NZD 16.96 per hour."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The individual income tax ranges from 10.5% to 39%. Income tax is calculated according to progressive rates. Multiple additional factors may impact overall rates such as the household status and the number of children."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Gross Annual Income": "Up to NZD - 14,000",
+                                "Tax Rate (%)": "10.5%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to NZD - 48,000",
+                                "Tax Rate (%)": "17.5%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to NZD - 70,00",
+                                "Tax Rate (%)": "30%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to NZD - 180,000",
+                                "Tax Rate (%)": "33%"
+                            },
+                            {
+                                "Gross Annual Income": "Over NZD - 180,000",
+                                "Tax Rate (%)": "39%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The employer cost is generally estimated at 3.21% of the employee salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Kiwisaver - 3.00%"
+                            },
+                            {
+                                "text": "ACC levy - 0.21%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Overtime payment is not mandatory. If there is overtime, hours worked on a public holiday are paid at 150% of the regular hourly rate."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard workweek is from Monday to Friday."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In New Zealand, maternity leave, known as Primary Carer Leave, can be complex. Employees who have become the primary care provider to a child under the age of 6 and have worked 10 hours a week for 12 months are entitled to up to 26 weeks of paid leave. The employee will receive average salary during this period capped at NZD 661.12 gross a week, and the Government will be responsible for this pay. Employers may agree to top up the payments to the amount of the employees' full pays."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to between 1 and 2 weeks of unpaid paternity leave. The leave can be taken from 21 days before birth and 21 days after. Leave varies depending on the length of services:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "1 week - if they’ve worked for 6 months for at least an average of 10 hours a week"
+                            },
+                            {
+                                "text": "2 weeks - if they’ve worked for 12 months for at least an average of 10 hours a week"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to 26 weeks of parental leave. Both parents can decide how to distribute the time off. Either parent can take parental leave. Parental leave is unpaid."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to paid sick leave for up to 10 days every 12 month period if either:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "They have six months’ current continuous employment with the same employer"
+                            },
+                            {
+                                "text": "They have worked for the employer for six months for an average of 10 hours per week, and at least one hour in every week or 40 hours every month"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "data": "The employee will receive 100% of their average salary, paid by the employer. Any unused sick leave can be rolled over to the following 12 month period for a maximum of 20 sick days."
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in New Zealand can be complex. There is no at-will termination in New Zealand for employers and termination must be done for just cause. Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "Probation period"
+                                    },
+                                    {
+                                        "text": "Objective grounds"
+                                    },
+                                    {
+                                        "text": "Disciplinary dismissal"
+                                    },
+                                    {
+                                        "text": "Performance due to unsuitability for the job"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The notice period is one month. It does not vary depending on the length of service."
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In New Zealand, there are no statutory requirements for severance payments. During the notice period, the employee will receive standard salary wages."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Both full-time and part-time employees are entitled to 20 working days of paid time off (PTO) a year. PTO accrues monthly at 1.67 days per month. Employees are eligible for annual leave after 1 year of work."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "New Zealand celebrates 12 national and 12 regional holidays based on the location of the employee."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "National public holidays include:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "New Year’s Day\nDay after New Year’s Day\nWaitangi Day\nGood Friday\nEaster Monday \nAnzac Day\nQueen’s Birthday\nMatariki Day \nLabor Day\nChristmas Day\nBoxing Day"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes 2 business days after the client signs the SOW."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Contracts must be in English. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "text",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "The names of the employer and the employee"
+                            },
+                            {
+                                "text": "A description of the work to be performed"
+                            },
+                            {
+                                "text": "An indication of the place of work"
+                            },
+                            {
+                                "text": "The agreed hours or an indication of the hours that the employee will work, this includes agreement on any or all of the following:",
+                                "children": [
+                                    {
+                                        "text": "The number of hours"
+                                    },
+                                    {
+                                        "text": "The start and finish times"
+                                    },
+                                    {
+                                        "text": "The days of the week the employee will work"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "The wage rate or salary payable (must be equal or greater than the relevant minimum wage) and how it will be paid (if the employee won’t be paid in cash, this should be in the employment agreement or must be agreed upon in writing somewhere else)"
+                            },
+                            {
+                                "text": "An explanation of how to help resolve employment relationship problems, including advice that personal grievances must be raised within 90 days"
+                            },
+                            {
+                                "text": "A statement that the employee will get (at least) time-and-a-half payment for working on a public holiday"
+                            },
+                            {
+                                "text": "For relevant employees, and employment protection provision to apply if the employer’s business is sold or transferred, or if the employee’s work is contracted out."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Any other matters agreed on, such as trial periods, probationary arrangements, or availability provisions."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The nature of the employment if the employment is fixed-term."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "It is possible to backdate in New Zealand for a short period of time."
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees hired using Deel have a probation period of 90 days. This cannot be extended as it is the country maximum. As of January 2022, it's Deel company policy to include probation periods in all employment contracts moving forward."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Probation periods help an employer and the employee ensure they're a hiring match, allowing a company to quickly decide if it's a fit and the employee to see if the job aligns with their career goals."
+                    }
+                ]
+            }
+        ]
+    }
+}

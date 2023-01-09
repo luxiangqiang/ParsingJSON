@@ -1,0 +1,413 @@
+{
+    "hireIn": "poland",
+    "currency": "Polish Złoty (PLN)",
+    "capital": "Warsaw",
+    "offical_language": "Polish",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Guaranteed Employee Benefits Fund"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_pink.svg",
+            "title": "Social Security"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Private Healthcare - Unisure (optional)"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Private Health Insurance - LuxMed (optional)"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum wages in 2023 are:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": ""
+                            },
+                            {
+                                "text": ""
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum wage changes every year and is pro-rated in case of part-time employees."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The individual income tax ranges from 12% to 32%. Income tax is calculated according to progressive tax rates."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Annual gross salary from 0 to PLN85.528 - 12%"
+                            },
+                            {
+                                "text": "Annual gross salary over PLN 85.528 - 32%"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Employees younger than the age of 26, who earn less than PLN 85,528, are exempt from paying income tax."
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is generally estimated at 19.48% of the employee salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Pre-employment medical fee - PLN 200"
+                            },
+                            {
+                                "text": "Pension - 9.76%"
+                            },
+                            {
+                                "text": "Disability - 6.50%"
+                            },
+                            {
+                                "text": "Accident - 0.67%"
+                            },
+                            {
+                                "text": "Labor Fund - 2.45%"
+                            },
+                            {
+                                "text": "Guaranteed Employee Benefits Fund - 0.10%"
+                            },
+                            {
+                                "text": "PPK - 1.50% (mandatory if the employee opts in)"
+                            },
+                            {
+                                "text": "PFRON - The amount varies from month to month"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Overtime payment is mandatory. Hours outside of standard work hours are considered overtime. Employees can work a maximum of 5 hours of overtime daily. Employees can work a maximum of 48 hours of overtime per week and 150 hours per year. For additional hours, employees are paid in addition to normal wage:- 100% of hourly wage for overtime at night time, on Sunday and public holidays being non-working days for an employee, on a non-working day being time off in lieu for working on a Sunday or public holiday and for each hour of work exceeding weekly working time norm.- 50% of hourly wage for each overtime hours worked on a day different than in case of 100% hourly wage (mentioned above).- 20% of hourly minimum wage for each hour worked during night time specified in company internal regulations."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Pregnant employees are entitled to 20 weeks of paid leave for the birth of a child. After 14 weeks, the mother may transfer her remaining leave to the father up to a maximum of 6 weeks. The employee will receive 100% of the sickness allowance basis during this period, and Social Security covers this pay either directly to an employee or through the employer (on its behalf). It can also be paid at 80% for the period of maternity leave and parental leave provided an employee confirms that within first 21 days of maternity leave. Maternity leave starts automatically from the day of the childbirth. Multiple children (e.g. twins) increase the length of maternity leave. The employee can extend leave by using parental leave."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to 2 weeks of paid paternity leave, which can be taken within 2 years since the birth of the child. The leave can be taken in two parts. The employee will receive 100% of the salary during this period, and the Social Insurance Institute (ZUS) will be responsible for this pay."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee cannot extend leave."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to 32 weeks of parental leave for the birth of a single child, and 34 weeks of parental leave for multiple births. Both parents can decide how to distribute the time off. Either parent can take parental leave. The Social Insurance Institute (ZUS) will pay 100% of the average salary during the first 6 weeks, and 60% of the average salary for the following weeks."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The parental leave can be used until the child reaches the age of 6."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to paid sick leave for up to 182 days. Employees who are sick during pregnancy are entitled to 270 days of sick leave. The first 33 days are paid by the employer. From day 34 onwards, the Social Insurance Institute (ZUS) is responsible for the paid sick leave."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Sick leave is paid at different rates based on the incapacity of work:"
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Reasons for incapacity for work": "Illness or accident",
+                                "Sickness allowance (% of sick pay basis)": "80%"
+                            },
+                            {
+                                "Reasons for incapacity for work": "Work-related accident",
+                                "Sickness allowance (% of sick pay basis)": "100%"
+                            },
+                            {
+                                "Reasons for incapacity for work": "Accident on the way to or from work",
+                                "Sickness allowance (% of sick pay basis)": "100%"
+                            },
+                            {
+                                "Reasons for incapacity for work": "Occupational disease",
+                                "Sickness allowance (% of sick pay basis)": "100%"
+                            },
+                            {
+                                "Reasons for incapacity for work": "Illness or accident during pregnancy",
+                                "Sickness allowance (% of sick pay basis)": "100%"
+                            },
+                            {
+                                "Reasons for incapacity for work": "Situation related to being an organ donor",
+                                "Sickness allowance (% of sick pay basis)": "100%"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Poland can be complex. There is no at-will termination in Poland for employers outside the probation period and termination must be done for just cause."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "Probation period"
+                                    },
+                                    {
+                                        "text": "Objective grounds"
+                                    },
+                                    {
+                                        "text": "Disciplinary dismissal"
+                                    },
+                                    {
+                                        "text": "Performance due to unsuitability for the job"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum notice period is 2 weeks and will be increased according to the length of the employment"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "2 weeks if the length of service is less than 6 months"
+                            },
+                            {
+                                "text": "1 month if the length of service is over 6 months"
+                            },
+                            {
+                                "text": "3 months if the length of service is over 3 years"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Severance pay is to be paid out for dismissed employees only for companies employing at least 20 employees."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "An employee dismissed as part of a group dismissal is entitled to severance pay in the amount of:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Less than 2 years of employment with given employer - 1 month salary"
+                            },
+                            {
+                                "text": "Between 2 to 8 years of employment with given employer - 2 months salary"
+                            },
+                            {
+                                "text": "Over 8 years of employment with given employer - 3 months salary"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "There may be additional severance for retirement or the death of the employee."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Full-time employees are entitled to paid time off (PTO) on the basis of the employee’s seniority:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Employees who have been employed for less than 10 years - 20 days PTO annually"
+                            },
+                            {
+                                "text": "Employees who have been employed for more than 10 years - 26 days PTO annually"
+                            },
+                            {
+                                "text": "Note: University education counts as 8 years towards employment, thus newly hired employees with at least 2 years of work experience and university graduation are entitled to 26 days of PTO annually"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "PTO accrues monthly 1.6 days per month. Employees are eligible for annual leave after 1 month of work. Part-time employees have the same leave as full-time employees, pro-rata to the employee’s working time."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Poland celebrates 13 national holidays. National public holidays include:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "New Year’s Day\nEpiphany\nEaster Sunday\nEaster Monday\nLabour Day\nConstitution Day\nPentecost Sunday\nCorpus Christi\nAssumption of the Blessed Virgin Mary\nAll Saints’ Day\nIndependence Day\nChristmas Day\nSecond Day of Christmas"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "5 business days after MSA signature & deposit payment"
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in Polish and can be bilingual. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Monthly gross salary"
+                            },
+                            {
+                                "text": "Salary payment deadline"
+                            },
+                            {
+                                "text": "Termination and notice period"
+                            },
+                            {
+                                "text": "Working hours"
+                            },
+                            {
+                                "text": "Term of agreement (fixed-term/indefinite)"
+                            },
+                            {
+                                "text": "Start date"
+                            },
+                            {
+                                "text": "Place of work"
+                            },
+                            {
+                                "text": "Position"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Probation periods are not mandatory. There is no minimum probation period. The maximum probation period is 90 days (3 months)."
+                    }
+                ]
+            }
+        ]
+    }
+}

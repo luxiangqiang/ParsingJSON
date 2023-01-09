@@ -1,0 +1,411 @@
+{
+    "hireIn": "malaysia",
+    "currency": "Malaysian Ringgit (MYR)",
+    "capital": "Kuala Lumpur",
+    "offical_language": "Malay",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Employees Provident Fund Contribution"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_pink.svg",
+            "title": "Social Security"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Training%20Levy/Training_blue.svg",
+            "title": "Training Fund"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Unemployment/Briefcase_purple.svg",
+            "title": "Unemployment Insurance"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The monthly minimum wage is MYR 1,200 per month."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The individual income tax ranges from 0% to 30%. Income tax is calculated according to progressive rates. Multiple additional factors may impact overall rates such as the household status and the number of children."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Gross Annual Income": "Up to MYR 5,000",
+                                "Tax Rate (%)": "0"
+                            },
+                            {
+                                "Gross Annual Income": "Up to MYR 20,000",
+                                "Tax Rate (%)": "1%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to MYR 35,000",
+                                "Tax Rate (%)": "3%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to MYR 50,000",
+                                "Tax Rate (%)": "8%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to MYR 70,000",
+                                "Tax Rate (%)": "14%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to MYR 100,000",
+                                "Tax Rate (%)": "21%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to MYR 250,000",
+                                "Tax Rate (%)": "24%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to MYR 400,000",
+                                "Tax Rate (%)": "24.5%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to MYR 600,000",
+                                "Tax Rate (%)": "25%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to MYR 1,000,000",
+                                "Tax Rate (%)": "26%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to MYR 2,000,000",
+                                "Tax Rate (%)": "28%"
+                            },
+                            {
+                                "Gross Annual Income": "Over 2,000,000",
+                                "Tax Rate (%)": "30%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employer cost ranges from 14% - 15% of employee salary:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "EPF - 12-13%"
+                            },
+                            {
+                                "text": "SOCSO - 1.75-1.25%"
+                            },
+                            {
+                                "text": "EIS - 0.2-0%"
+                            },
+                            {
+                                "text": "HRDF Levy - 0.01-0%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Overtime payment is mandatory and may be included in the salary if the employee is earning less than MYR  2,000 per month."
+                    },
+                    {
+                        "type": "text",
+                        "data": "For employees earning over MYR 2,000 per month, overtime is not required and must be agreed upon between the employer and employee. Employees can work a maximum of 104 hours of overtime a month. For all additional hours, employees are paid 150% of their hourly rate.  Weekends employees are paid at 200% of their hourly rate and for public holidays employees are paid at 300% of their hourly rate."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Standard working hours are eight hours per day, 40 hours per week. The standard workweek is from Monday to Friday."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Pregnant employees who have worked no less than 90 calendar days in the last four months are entitled to 60 calendar days of paid leave.  Leave can be taken time up to 30 days before giving birth. The remaining days can be divided into two periods of time. The employee will receive 100% of the salary during this period, and the employer will be responsible for this pay."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "There is no paternity leave currently required by law."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Malaysia, no law covers parental leave. However, employees may be entitled to maternity leave and paternity leave."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to paid sick leave. The number of sick leave days will depend on the length of employment, which ranges from 14 to 22 days per calendar year. The employee will receive 100% of their average salary paid by the employer."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Less than two years of employment - 14 days of sick leave"
+                            },
+                            {
+                                "text": "Between two and five years of employment - 18 days of sick leave"
+                            },
+                            {
+                                "text": "More than five years of employment - 22 days of sick leave"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "data": "In addition to sick leave, employees are entitled to two months of hospitalization leave per year. Sick leave is paid by the employer at 100% of the salary.  A medical certificate is required under all circumstances."
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Malaysia can be complex. There is no at-will termination in Malaysia for employers and termination must be done for just cause. Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "Probation period"
+                                    },
+                                    {
+                                        "text": "Objective grounds"
+                                    },
+                                    {
+                                        "text": "Disciplinary dismissal"
+                                    },
+                                    {
+                                        "text": "Performance due to unsuitability for the job"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum notice period is four weeks and increases based on the length of the employment."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "If the length of service is less than two years, four weeks"
+                            },
+                            {
+                                "text": "If the length of service is two years or more, but less than five years, six weeks notice"
+                            },
+                            {
+                                "text": "If the length of service is five years or more, eight weeks notice"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "data": "For Non-Employment Act Employees, the notice period is dependent on the agreement between the employer and the employee. Employment Act Employees are generally those that earn less than RM 2,000 per month or are engaged in manual labor."
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Malaysia, all employees who are terminated and have been working for more than 12 months are entitled to severance pay, unless they were terminated for disciplinary reasons. Severance pay varies depending on the length of an employees service:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "10 days of salary for service up to 2."
+                            },
+                            {
+                                "text": "15 days of salary for service over 2 but less than 5 years."
+                            },
+                            {
+                                "text": "20 days of salary for service over 5 years of service."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Both full-time and part-time employees are entitled to paid time off (PTO), the number of days based on the length of service. Employees are eligible to take PTO as soon as they accrued enough."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Malaysia celebrates both 12 national and regional holidays based on the location of the employee."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Prophet Muhammad's Birthday \nHari Merdeka \nChinese New Year\nWesak Day \nThe Yang di-Pertuan Agong's Birthday (King's Birthday)\nHari Raya Puasa \nHari Raya Qurban \nDeepavali \nChristmas \nLabour Day \nAwal Muharram \nMalaysia Day"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes five business days."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Contracts must be in English. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "text",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Position offered"
+                            },
+                            {
+                                "text": "Duration of the contract"
+                            },
+                            {
+                                "text": "Place of work"
+                            },
+                            {
+                                "text": "Basic wage & pay date"
+                            },
+                            {
+                                "text": "Working hours and days"
+                            },
+                            {
+                                "text": "Other benefits (if any)"
+                            },
+                            {
+                                "text": "Overtime (if any)"
+                            },
+                            {
+                                "text": "Annual leave"
+                            },
+                            {
+                                "text": "Termination clause"
+                            },
+                            {
+                                "text": "Sick leave and hospitalization leave"
+                            },
+                            {
+                                "text": "Rest day"
+                            },
+                            {
+                                "text": "Probationary period"
+                            },
+                            {
+                                "text": "Notice period"
+                            },
+                            {
+                                "text": "Duties and responsibilities"
+                            },
+                            {
+                                "text": "Termination clause"
+                            },
+                            {
+                                "text": "Statutory deductions and income tax"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees hired using Deel have a probation period of 90 days, which you can extend up to 180 days. As of January 2022, it's Deel company policy to include probation periods in all employment contracts moving forward."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Probation periods help an employer and the employee ensure they're a hiring match, allowing a company to quickly decide if it's a fit or the employee to see if the job aligns with their career goals."
+                    }
+                ]
+            }
+        ]
+    }
+}

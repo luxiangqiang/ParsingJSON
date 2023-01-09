@@ -1,0 +1,350 @@
+{
+    "hireIn": "iceland",
+    "currency": "Icelandic króna ISK",
+    "capital": "Reykjavík",
+    "offical_language": "Icelandic",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Employee Sickness Fund"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Pension%20fund/Badge_pink.svg",
+            "title": "Pension Fund"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Provident Fund"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_purple.svg",
+            "title": "Social Security"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Trade Union Fund"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Iceland, the applicable minimum wage is complex. There is no national minimum wage by law. Instead, the minimum wage is determined by which Trade Union an employee is part of. Trade Unions determine minimum wage based on the age of the employee and job type."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The individual income tax ranges from 31.45% to 46.25%. Income tax is calculated according to progressive rates. Multiple additional factors may impact overall rates such as the household status and the number of children."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Gross Annual Income": "0 Up to ISK 349,018",
+                                "Tax Rate (%)": "31.45%"
+                            },
+                            {
+                                "Gross Annual Income": "349,019 Up to ISK 979,847",
+                                "Tax Rate (%)": "37.95%"
+                            },
+                            {
+                                "Gross Annual Income": "Over ISK 979,847",
+                                "Tax Rate (%)": "46.25%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is approximately 22.07% of the employee's salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Provident Fund - 11.5%"
+                            },
+                            {
+                                "text": "Pension Fund - 2.0%"
+                            },
+                            {
+                                "text": "Insurance Fund - 6.92%"
+                            },
+                            {
+                                "text": "Employee Sickness Fund - 1.0%"
+                            },
+                            {
+                                "text": "Employee Training Fund - 0.3%"
+                            },
+                            {
+                                "text": "Trade Union - Summer house benefits - 0.25%"
+                            },
+                            {
+                                "text": "Recreational Fund - 0.1%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard workweek is from Monday to Friday."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Overtime payment is mandatory and cannot be included in the salary. Hours outside of standard work hours are considered overtime. Employees can work a maximum of 162.5 hours of overtime a month. For additional hours, employees are paid:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "0.875% of the hourly rate, the first 162.5 hours of overtime a month."
+                            },
+                            {
+                                "text": "1.0385% of the hourly rate, the first 162.5 hours of overtime a month if they work from home."
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Overtime payment is not mandatory for managerial roles in Iceland."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Pregnant employees who have worked for 6 months are entitled to 6 months of paid leave. One month is transferable between the parents."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Social Security will cover 80% of an employee's salary up to ISK 600,000 per month (before taxes), and Social Security will be responsible for this pay."
+                    },
+                    {
+                        "type": "text",
+                        "data": "The employee can extend this leave an additional 3 months which is unpaid."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees who have worked for 6 months are entitled to 6 months of paid leave. One month is transferable between the parents."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Social Security will cover 80% of an employee's salary up to ISK 600,000 per month (before taxes), and Social Security will be responsible for this pay."
+                    },
+                    {
+                        "type": "text",
+                        "data": "The employee can extend this leave an additional 3 months which is unpaid."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to take one period of unpaid leave from work for up to 13 consecutive weeks to care for a child up to age 8."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to 2 days of sick leave per month, accruing 24 days per year. The first 2 days per month are paid at 100% by the employer. After the first 2 days, the amount of pay and length of leave will depend on the Trade Union Selected by the employee."
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Iceland can be complex. There is no at-will termination in Iceland for employers outside the probation period and termination must be done for just cause."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "probation period"
+                                    },
+                                    {
+                                        "text": "objective grounds"
+                                    },
+                                    {
+                                        "text": "disciplinary dismissal"
+                                    },
+                                    {
+                                        "text": "performance due to unsuitability for the job"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum notice period is 7 days and will be increased according to the length of the employment."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "1 week for the first 3 months of the probation period"
+                            },
+                            {
+                                "text": "1 month following the end of probation period"
+                            },
+                            {
+                                "text": "3 months after 6 months of employment"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "There is no specific severance to be paid by law. However, employers need to pay all accumulated benefits; for example, leftover PTO, Christmas bonus, Summer Vacation Bonus etc."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Both full-time and part-time employees are entitled to 25 days of paid time off (PTO) a year. PTO accrues monthly at 2.1 days per month."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Iceland celebrates 12 national holidays a year."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "National public holidays include:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "New Year's Day\nGood Friday\nEaster\nThe First Day of Summer\nLabor Day\nPentecost\nFishermen's Day\nIcelanders' National Holiday\nPresident's Birthday\nIcelandic Language Day\nSovereignty Day\nChristmas Day"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes 2 business days after the client signs the SOW."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts can be in English or Icelandic. They must be in writing and signed by both parties. All employment contracts are according to the trade union."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Name"
+                            },
+                            {
+                                "text": "Start date"
+                            },
+                            {
+                                "text": "Length of the employment"
+                            },
+                            {
+                                "text": "Job description"
+                            },
+                            {
+                                "text": "Termination conditions."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Probation periods are not mandatory. the minimum probation perido is 3 months and the maximum probation period is 6 months."
+                    }
+                ]
+            }
+        ]
+    }
+}

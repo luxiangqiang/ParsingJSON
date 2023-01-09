@@ -1,0 +1,294 @@
+{
+    "hireIn": "ghana",
+    "currency": "Ghanaian Cedi",
+    "capital": "Accra",
+    "offical_language": "English",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Social Security"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum wage is GHC 365.31 per month."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The individual income tax ranges from 0% to 30%. Income tax is calculated according to progressive rates. Multiple additional factors may impact overall rates, such as the household status and the number of children."
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The employer cost is generally estimated at 13% of the employee's salary."
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard work week is from Monday to Friday."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to 12 weeks of paid leave. The employee will receive 100% of the salary during this period, and the employer will be responsible for this pay."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee can extend leave additional 2 weeks at 100% pay if they have a pregnancy-related illness or conceiving more than one child."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "There is no paternity leave currently required by law."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Ghana, no law covers parental leave. However, employees may be entitled to maternity leave and paternity leave."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The Labor Act has no explicit provision for sick leave and usually depends on the company’s policy. However, employees that present a medical certificate can take leave without using their paid time off."
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Ghana are usually straightforward."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "lack of qualifications for the job"
+                                    },
+                                    {
+                                        "text": "misconduct"
+                                    },
+                                    {
+                                        "text": "redundancy"
+                                    },
+                                    {
+                                        "text": "legal restriction that prohibits the worker from performing the job."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum notice period is 14 days and will be increased according to the length of the employment."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "14 days if the length of service is less than 3 years"
+                            },
+                            {
+                                "text": "30 days if the length of service is more than 3 years"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Ghana, there are no statutory requirements for severance payments. During the notice period, the employee will receive standard salary wages. In the case of redundancy, it will need to be negotiated between the employee and employer."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Both full-time and part-time employees are entitled to 15 working days of paid time off (PTO) a year. PTO accrues monthly at 1.25 days per month. Employees are eligible for annual leave after 12 months of work."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Ghana celebrates 12 national holidays based."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "National public holidays include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "New Year’s Day"
+                            },
+                            {
+                                "text": "Constitution Day"
+                            },
+                            {
+                                "text": "Independence Day"
+                            },
+                            {
+                                "text": "Good Friday"
+                            },
+                            {
+                                "text": "Easter Monday"
+                            },
+                            {
+                                "text": "May Day (Workers’ Day)"
+                            },
+                            {
+                                "text": "Eid-Ul-Fitr"
+                            },
+                            {
+                                "text": "Eid-Ul-Adha"
+                            },
+                            {
+                                "text": "Founders’ Day"
+                            },
+                            {
+                                "text": "Kwame Nkrumah Memorial Day"
+                            },
+                            {
+                                "text": "Farmer’s Day"
+                            },
+                            {
+                                "text": "Christmas Day"
+                            },
+                            {
+                                "text": "Boxing Day"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes 3 business days. Documents must be completed 1 day before the start date."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in English. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "name"
+                            },
+                            {
+                                "text": "start date"
+                            },
+                            {
+                                "text": "length of the employment"
+                            },
+                            {
+                                "text": "job description"
+                            },
+                            {
+                                "text": "termination conditions"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The standard probationary period is between 90 days and 180 days. However, there is no explicit provision in the Labor Act about the maximum length of probation which will be determined in the employment agreement."
+                    }
+                ]
+            }
+        ]
+    }
+}

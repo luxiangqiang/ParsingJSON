@@ -1,0 +1,479 @@
+{
+    "hireIn": "lithuania",
+    "currency": "Euro (EUR)",
+    "capital": "Vilnius",
+    "offical_language": "Lithuanian",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Pension%20fund/Badge_turquoise.svg",
+            "title": "Pension Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_pink.svg",
+            "title": "Public Health Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Social Security"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_purple.svg",
+            "title": "State Guarantee Fund"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Unemployment/Briefcase_turquoise.svg",
+            "title": "Unemployment Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Work%20Accident%20compensation%20insurance/AccidentFunds_pink.svg",
+            "title": "Work Accident Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Private Healthcare - Unisure (optional)"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum wage is EUR 730 per month."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The individual income tax is either 20% or 32%. Income tax is calculated using a flat rate. The 20% income tax rate is applied to income amounts below EUR 81,162 (60 average wages) per calendar year in 2021 and at a 32% income tax rate for those exceeding EUR 81,162 per calendar year in 2021."
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The employer cost is generally estimated at 1.77% of the employee salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Unemployment social security - 1.31%"
+                            },
+                            {
+                                "text": "Payments to fund - 0.16%"
+                            },
+                            {
+                                "text": "Contribution to the long-term employment fund - 0.16%"
+                            },
+                            {
+                                "text": "Social insurance against accidents at work and occupational diseases - 0.14%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Overtime payment is mandatory. Hours outside of standard work hours are considered overtime. Employees can work a maximum of 48 hours of overtime per week. Employees can work a maximum of 180 hours of overtime per year. For additional hours, employees are paid 1.5 times their regular salary."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Standard working hours are eight hours per day, 40 hours per week. The standard workweek is from Monday to Friday."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Pregnant employees who have maternity social insurance records of at least 12 of the previous 24 months are entitled to 126 days of paid leave. 70 days must be taken before the child's birth. The remaining 56 days must be taken after the child's birth. The employee will receive 77.58% of the salary during this period, and State Social Insurance Fund Board will be responsible for this pay."
+                    },
+                    {
+                        "type": "text",
+                        "data": "In the event of birth complications or multiple births, the employee can extend leave for an additional 14 paid days."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees who have fulfilled the conditions to be eligible for paternity leave (conditions stated below) are entitled to 30 days of paid paternity leave. The employee will receive 77.58% of the salary during this period, and State Social Insurance Fund Board will be responsible for this pay."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Conditions to be eligible for paid paternity leave:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "An employee that has been ensured"
+                            },
+                            {
+                                "text": "An employee that has been granted a paternity leave according to the procedure established by law"
+                            },
+                            {
+                                "text": "Employees who, over the last 24 months before the first day of paternity leave, have got not less than 12 months of the social insurance record"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Childcare Benefit is a benefit paid to one of the parents (adoptive parent), one of the grandparents, or guardian caring for the child."
+                    },
+                    {
+                        "type": "text",
+                        "data": "It is calculated in relation to earnings and depends on the time scale chosen:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Employee insured elects to receive an allowance up until the child is one year old - 77.58% of the salary"
+                            },
+                            {
+                                "text": "Employee elects to receive an allowance up until the child is two years old - 54.31% of salary for the first year, and 31.03% of the salary for the second year"
+                            },
+                            {
+                                "text": "In the event of multiple births, the allowance varies with the number of children born, but the maximum is 77.58% of the salary"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "data": "The State Social Insurance Fund Board will be responsible for this pay."
+                    },
+                    {
+                        "type": "text",
+                        "data": "During the adoption of a child, childcare benefit is paid 12 or 24 months, optionally, regardless of the age of the adopted child and until the child reaches the age of 18. The amount is 77.58% of the salary if the benefit is received for one year and 54.31% for two years."
+                    },
+                    {
+                        "type": "text",
+                        "data": "The State Social Insurance Fund Board will be responsible for this pay."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "There is no maximum number of days for sick leave. The first three days are paid by the employer, where employees receive 62.06% of their salary. After three days, employees receive 62.06% of their salary which is paid by the State Social Insurance Fund Board."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Leave taken to attend to a sick family member or child is paid from the first day onwards. Employees receive 65.94% of their salary during this leave. State Social Insurance Fund Board is responsible for this payment."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Employees qualify for sickness benefits if they:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Become temporarily incapacitated"
+                            },
+                            {
+                                "text": "Are covered for sickness through social insurance"
+                            },
+                            {
+                                "text": "Are absent from work and loses earnings because of illness"
+                            },
+                            {
+                                "text": "Are insured and have a sickness social insurance record of at least three months in the previous 12 months, or six months in the previous 24 months"
+                            },
+                            {
+                                "text": "Do not have the required sickness social insurance record because of studying up to the age of 26 or being in professional military service or a statutory civil servant"
+                            },
+                            {
+                                "text": "Have submitted an application for benefits to the regional State Social Insurance Fund Board office not later than 12 months after the end of the illness"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on valid reasons or without any reason"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Notice will depend on the reason for termination and length of employment."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Termination of employment at the initiative of an employer through no fault of an employee:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Standard notice: one month of notice period"
+                            },
+                            {
+                                "text": "Less than one year of employment: two weeks notice"
+                            },
+                            {
+                                "text": "Above notice periods are multiplied by three for:"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "data": "Termination of an employment contract at the will of the employer:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Notice period of three days given to the employee"
+                            },
+                            {
+                                "text": "Pregnant women, employees who are on maternity, paternity, or childcare leave cannot be dismissed on this legal basis"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "data": "Termination of an employment contract on the initiative of the employee without a valid reason:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "Employee has to submit a written resignation with notice of minimum of 20 days"
+                    },
+                    {
+                        "type": "text",
+                        "data": "Termination of an employment contract on the initiative of the employee for valid reasons:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Employee cannot set a shorter notice period for the employer"
+                            },
+                            {
+                                "text": "The Labor Code enables the employer and the employee to agree that the employee will not work during the notice period, but will be paid for the entire notice period"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Severance pay will depend on the reason for termination and length of employment."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Termination of employment at the initiative of an employer through no fault of an employee:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "If the length of employment is above one year - two average monthly salaries"
+                            },
+                            {
+                                "text": "If the length of employment is less than one year - 0.5 average monthly salary"
+                            },
+                            {
+                                "text": "Additionally, the dismissed employee receives severance pay from a special state fund. The amount depends on the continuous duration of employment"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "data": "Termination of an employment contract at the will of the employer:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Minimum six average monthly salaries"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "data": "Termination of an employment contract on the initiative of the employee for valid reasons:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "If the length of employment is above one year - two times the average remuneration"
+                            },
+                            {
+                                "text": "If the length of employment is less than one year - one average remuneration"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Full-time employees working five days a week are entitled to 20 days of paid time off (PTO) a year, while full-time employees working 6 days a week are entitled to 24 days of paid time off (PTO) a year. Part-time employees are entitled to 20 days pro-rata. PTO accrues monthly with 1.67 days per month."
+                    },
+                    {
+                        "type": "text",
+                        "data": "For the first year of employment, all annual leaves are normally granted after at least half of the number of working days per working year. At the request of an employee, less than six months of uninterrupted work shall be granted annual leave for:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "1) Pregnant workers before or after maternity leave"
+                    },
+                    {
+                        "type": "text",
+                        "data": "2) Employees during their child's maternity leave, before or after paternity leave"
+                    },
+                    {
+                        "type": "text",
+                        "data": "3) With the permission of the employer"
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Lithuania celebrates 15 national holidays. National public holidays include:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "New Year's Day\nDay of Restoration of the Lithuanian State \nLithuanian Independence Restoration Day \nEaster Sunday\nEaster Monday \nLabour Day\nMother's Day \nFather's Day\nSt. John’s day\nStatehood day\nAssumption Day\nAll Saints' Day\nAll Souls Day \nChristmas Eve\nChristmas Day"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes three business days."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Contracts must be in Lithuanian and can be bilingual with English. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "text",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Name"
+                            },
+                            {
+                                "text": "Start date"
+                            },
+                            {
+                                "text": "Length of the employment"
+                            },
+                            {
+                                "text": "Probation period"
+                            },
+                            {
+                                "text": "Working hours"
+                            },
+                            {
+                                "text": "Annual leave"
+                            },
+                            {
+                                "text": "Job description"
+                            },
+                            {
+                                "text": "Termination conditions"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "text",
+                        "data": "Contract Backdating is not allowed."
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees hired using Deel have a probation period of 90 days, this cannot be extended as it is the country maximum. As of January 2022, it's Deel company policy to include probation periods in all employment contracts moving forward."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Probation periods help an employer and the employee ensure they're a hiring match, allowing a company to quickly decide if it's a fit or the employee to see if the job aligns with their career goals."
+                    }
+                ]
+            }
+        ]
+    }
+}

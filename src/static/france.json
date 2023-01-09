@@ -1,0 +1,434 @@
+{
+    "hireIn": "france",
+    "currency": "Euro (EUR)",
+    "capital": "Paris",
+    "offical_language": "French",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Health Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Pension%20fund/Badge_pink.svg",
+            "title": "Pension Fund"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Salary%20Guarantee%20Fund/PiggyBank_blue.svg",
+            "title": "Salary Guarantee Fund"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_purple.svg",
+            "title": "Social Security"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Private Healthcare"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The base minimum wage is EUR 1,709.28 per month and will vary according to the Collective Labor Agreement of the company. For employees hired under the EOR model, the following minimum wages will apply:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Junior job position: EUR 2,618 monthly"
+                            },
+                            {
+                                "text": "Fixed Day rate: EUR 2,222 + 5% business allowance EUR 122 + holiday reserve EUR 222."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The individual income tax ranges up to 45%. Income tax is calculated according to progressive rates. Multiple additional factors may impact overall rates, such as household status and the number of children."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Gross Annual Income": "Up to EUR 10,225",
+                                "Tax Rate (%)": "0%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to EUR 26,070",
+                                "Tax Rate (%)": "11%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to EUR 74,545",
+                                "Tax Rate (%)": "30%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to EUR 160,336",
+                                "Tax Rate (%)": "41%"
+                            },
+                            {
+                                "Gross Annual Income": "Over EUR 160,336",
+                                "Tax Rate (%)": "45%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is generally estimated at between 42% to 48% of the employee salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Sickness Maternity Invalidity Death - 7.00%"
+                            },
+                            {
+                                "text": "Supplementary Incapacity Invalidity Death - 0.89%"
+                            },
+                            {
+                                "text": "Workplace accidents-occupational illnesses - 0.77%"
+                            },
+                            {
+                                "text": "Social Security capped - 8.55%"
+                            },
+                            {
+                                "text": "Social Security uncapped - 1.90%"
+                            },
+                            {
+                                "text": "Family benefits - 3.45%"
+                            },
+                            {
+                                "text": "Unemployment insurance - 4.20%"
+                            },
+                            {
+                                "text": "Retirement pension - 6.26%"
+                            },
+                            {
+                                "text": "Other contributions - 2.81%"
+                            },
+                            {
+                                "text": "FNAL - 0.10%"
+                            },
+                            {
+                                "text": "Occupational Medicine - 0.41% (plus a fixed fee of EUR 9.53)"
+                            },
+                            {
+                                "text": "Complementary health benefit - EUR 42.50 (the exact cost will be adjusted during onboarding)"
+                            },
+                            {
+                                "text": "Business Allowance - 5%"
+                            },
+                            {
+                                "text": "Medical Exam Fee - One-time fee: EUR 50.00, Monthly fee: EUR 4.90"
+                            },
+                            {
+                                "text": "Mandatory electronic safe fee - Monthly fee: EUR 3.00"
+                            },
+                            {
+                                "text": "Time-tracking software cost - Monthly fee: EUR 3.00"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Standard working hours are 7 hours per day, 35 hours per week. The standard workweek is from Monday to Friday."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Overtime payment is mandatory for part-time employees. Employees hired under the contract condition “day pass” are not entitled to overtime pay. Hours outside of standard work hours are considered overtime. Part-time employees can work a maximum of 1/10 of the weekly hours paid at 110% of the hourly rate."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Pregnant employees are entitled to 16 weeks of paid leave. Six weeks must be taken before the child's birth.  The employee will receive the average salary of the past three months before taking the leave, with a max of EUR 3,428, during this period."
+                    },
+                    {
+                        "type": "text",
+                        "data": "The employer is responsible for this payment and it is refunded by Social Security."
+                    },
+                    {
+                        "type": "text",
+                        "data": "The employee can’t extend leave but can claim parental leave if they’ve worked at least one year for the same employer."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to 25 calendar days of paid paternity leave. Four days must be taken after the child's birth. The remaining days can be divided into two periods of time of at least 5 days each before the child reaches the age of six months."
+                    },
+                    {
+                        "type": "text",
+                        "data": "The employee will receive the average salary of the past three months before taking the leave, with a max of EUR 89 per day. During this period the employer will be responsible for the payment."
+                    },
+                    {
+                        "type": "text",
+                        "data": "The employee can’t extend leave but can claim parental leave if they have worked at least one year for the same employer."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to up to one year of parental leave. The employee can take either full leave, and the contract will be suspended or partial leave, and work a minimum of 16 hours per week."
+                    },
+                    {
+                        "type": "text",
+                        "data": "For the second option, the employee can choose the working hours, and they must be agreed upon with the employer. If parental leave is fully taken, it will be unpaid. If the employee takes partial leave, they will receive the pro-rata salary."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Parental leave can be extended until the child reaches the age of three."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees, who have worked 150 hours during the first three calendar months, are entitled to unlimited paid sick leave. The first three days are unpaid and considered as a qualifying period. Leave after day 3 is paid for by Social Security."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Period": "0 - 3 days",
+                                "Pay": "0%",
+                                "Payer": "N/A"
+                            },
+                            {
+                                "Period": "4+ days",
+                                "Pay": "50% of base salary",
+                                "Payer": "Social Security"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum notice period is 1 day and will be increased according to the length of the employment."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "24 hours notice if the length of service is less than 8 days"
+                            },
+                            {
+                                "text": "48 hours notice if the length of service is between 8 -30 days"
+                            },
+                            {
+                                "text": "14 days notice if the length of service is between 30 - 90 days"
+                            },
+                            {
+                                "text": "30 days notice if the length of service is more than 90 days"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "After the probationary period:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Up to 6 months of seniority: notice period will be determined by the applicable collective bargaining agreement, the employment contract, or the uses of the profession"
+                            },
+                            {
+                                "text": "30 days notice if the length of service is between 6 months and 2 years"
+                            },
+                            {
+                                "text": "60 days notice if the length of service is more than 2 years."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In France, severance payment is mandatory for dismissals, breach of contract, or termination by mutual agreement. The amount to be paid will depend on the employee's seniority and the collective bargain agreement that applies to the company. For EOR employees:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "The first 10 years of seniority, 1/4 of the monthly salary per year."
+                            },
+                            {
+                                "text": "After 10 years of seniority, 1/3 of the monthly salary per year."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Both full-time and part-time employees are entitled to 25 working days of paid time off (PTO) a year. PTO accrues monthly for 2.08 days per month. Leave cannot be carried over to the following year."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Employees cannot take 25 days together, and at least 5 days should be taken separately. Employees must take PTO from May 1st to October 31st."
+                    },
+                    {
+                        "type": "text",
+                        "data": "During this period, PTO should last at least 12 days and must be agreed upon with the employer."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "France celebrates both 11 national and 2 regional holidays based on the location of the employee."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "National public holidays include:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "New Year’s Day\nEaster Monday\nLabour Day\nAscension Day\nVictory Day\nWhit-Monday\nFrench National Holiday\nAssumption Day\nAll Saint’s Day\nArmistice Day 1918\nChristmas"
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Regional Holidays"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Good Friday"
+                            },
+                            {
+                                "text": "St. Stephen’s Day"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "5 business days after SOW signature"
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in French and can be bilingual. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Name"
+                            },
+                            {
+                                "text": "Start date"
+                            },
+                            {
+                                "text": "Length of the employment"
+                            },
+                            {
+                                "text": "Job description"
+                            },
+                            {
+                                "text": "Termination conditions"
+                            },
+                            {
+                                "text": "Collective bargaining agreement"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Probation periods are mandatory in France. The minimum probation period will depend on the company's collective bargain agreement and the employee's scope of work. For employees hired under the EOR model, the minimum probation period will be:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "3 months for technicians, and can be renewed additional 3 months"
+                            },
+                            {
+                                "text": "4 months for executives and can be renewed additional 4 months"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

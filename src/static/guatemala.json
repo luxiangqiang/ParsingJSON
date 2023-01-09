@@ -1,0 +1,302 @@
+{
+    "hireIn": "guatemala",
+    "currency": "Guatemalan Quetzal",
+    "capital": "Guatemala City",
+    "offical_language": "Spanish",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "National Industrial Training Fund"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Social Security"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum wage is GTQ 2959.24 per month."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The individual income tax ranges from 5% to 7%. Income tax is calculated according to progressive rates."
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The employer cost is generally estimated at 29.3% of the employee's salary."
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard work week is from Monday to Friday. However, it is also common practice for employees to have a working week of 44 hours."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Overtime payment is mandatory and may be included in the salary. Hours outside of standard work hours are considered overtime. Employees can work a maximum of 4 hours of overtime a day. For additional hours, employees are paid:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "150% of the hourly rate"
+                            },
+                            {
+                                "text": "200% of the hourly rate for work on official holidays, annual leaves, or regular leaves and an additional day of leave"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees who have worked for four consecutive months are entitled to 84 days of paid leave. 30 days must be taken before the child's birth. The employee will receive 100% of the salary during this period, and Social Security will be responsible for this pay."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to 3 days of paid paternity leave. The employee will receive 100% of the salary during this period, and the employer will be responsible for this pay."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Guatemala, no law covers parental leave. However, employees are entitled to maternity leave and paternity leave."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Sick leave in Guatemala is complex. Employees are entitled to paid sick leave. This leave is paid at different rates depending upon the length of the sickness and the employee's salary. Employees will be paid a maximum of Q150 a day directly by the Social Security."
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Guatemala are complex. There is no at-will termination in Guatemala for employers outside the probation period, and termination must be done for just cause."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "probation period"
+                                    },
+                                    {
+                                        "text": "objective grounds"
+                                    },
+                                    {
+                                        "text": "disciplinary dismissal"
+                                    },
+                                    {
+                                        "text": "performance due to unsuitability for the job"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum notice period will vary according to the length of the employment and type of termination, between 1 week to 1 month."
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Guatemala, there are no statutory requirements for severance payments. During the notice period, the employee will receive standard salary wages. However, if an employee is terminated without just cause, then they have 30 days to claim the court. If this succeeds, the employee will be entitled to 1 year of severance pay."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Full-time employees are entitled to 15 working days of paid time off (PTO) a year after a year of continuous work. PTO accrues monthly at 1.25 days per month. Employees are eligible for annual leave after 12 months of work. Part-time employees’ leave is pro-rata to the time worked."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "PTO in Guatemala includes public holidays"
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Guatemala celebrates 12 national holidays:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "New Years Day"
+                            },
+                            {
+                                "text": "Maundy Thursday"
+                            },
+                            {
+                                "text": "Easter Friday"
+                            },
+                            {
+                                "text": "Easter Saturday"
+                            },
+                            {
+                                "text": "Labour Day Holiday"
+                            },
+                            {
+                                "text": "Army Day"
+                            },
+                            {
+                                "text": "Independence Day"
+                            },
+                            {
+                                "text": "Revolution Day"
+                            },
+                            {
+                                "text": "All Saints' Day"
+                            },
+                            {
+                                "text": "Christmas Eve (Half Day)"
+                            },
+                            {
+                                "text": "Christmas Day"
+                            },
+                            {
+                                "text": "New Year's Eve (Half Day)"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "In Guatemala, all cities have their own holiday for their patron saint"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes 5 business days. Documents must be completed 1 day before the start date."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in Spanish and can be bilingual. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "name"
+                            },
+                            {
+                                "text": "start date"
+                            },
+                            {
+                                "text": "length of the employment"
+                            },
+                            {
+                                "text": "job description"
+                            },
+                            {
+                                "text": "termination conditions"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Probation periods are mandatory. The probation period lasts 60 days."
+                    }
+                ]
+            }
+        ]
+    }
+}

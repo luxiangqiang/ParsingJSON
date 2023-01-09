@@ -1,0 +1,304 @@
+{
+    "hireIn": "armenia",
+    "currency": "AMD",
+    "capital": "Yerevan",
+    "offical_language": "Armenian",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Pension%20fund/Badge_turquoise.svg",
+            "title": "Pension Fund"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_pink.svg",
+            "title": "Private Healthcare - Unisure (optional)"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum wage is 68,000 AMD per month."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Personal income tax is applied at a single flat rate of 21% in 2022. From January 1st 2023 onwards it will be 20%."
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "$0"
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard workweek is from Monday to Friday."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Pregnant employees are entitled to 140 days of paid leave. 70 days must be taken before the child's birth. The remaining days must be taken after the birth. The employee will receive 100% of their average salary during this period, and the employer will be responsible for this pay."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to 5 days of paid paternity leave. This can be taken anytime within a month of the child’s birth. The employee will receive 100% of the salary during this period, and the employer will be responsible for this pay."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Armenia, no law covers parental leave. However, employees may be entitled to maternity leave and paternity leave."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to paid sick leave for up to 120 days. This leave is paid at different rates and by different payers depending upon length:"
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Period": "1 day",
+                                "Pay": "0%",
+                                "Payer": "N/A"
+                            },
+                            {
+                                "Period": "2 - 5 days",
+                                "Pay": "100%",
+                                "Payer": "Employer"
+                            },
+                            {
+                                "Period": "6 - 120 days",
+                                "Pay": "80% of base salary",
+                                "Payer": "Employer"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Armenia can be complex. There is no at-will termination in Armenia for employers and termination must be done for just cause."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "Probation period"
+                                    },
+                                    {
+                                        "text": "Objective grounds"
+                                    },
+                                    {
+                                        "text": "Disciplinary dismissal"
+                                    },
+                                    {
+                                        "text": "Performance due to unsuitability for the job"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum notice period is 14 days and will be increased according to the length of the employment."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "2 weeks if the length of service is 1 year"
+                            },
+                            {
+                                "text": "35 days if the length of service is 1-5 years"
+                            },
+                            {
+                                "text": "42 days if the length of service is 5-10 years"
+                            },
+                            {
+                                "text": "49 days if the length of service is 10-15 years"
+                            },
+                            {
+                                "text": "60 days if the length of service is more than 15 years"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In Armenia, severance depends on the type of termination and length of employment."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "All employees who are terminated due to the following are entitled to severance pay of 1 month:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Liquidation of the organization"
+                            },
+                            {
+                                "text": "Reduction of the number and staff"
+                            },
+                            {
+                                "text": "Changes in production volumes and the conditions of economic and work organization"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Employees terminated for reasons related to compulsory military service, long-term disability, old age, or significant changes in working conditions will have variable severance based on the length of employment between 10 - 44 working days."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Both full-time and part-time employees are entitled to 20 working days of paid time off (PTO) a year. PTO accrues monthly 1.67 days per month."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Armenia celebrates 15 national holidays."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "National public holidays include:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "New Year's Day\nEastern Orthodox Christmas Eve\nOrthodox Christmas Day\nArmy Day\nInternational Women's Day\nEaster Monday\nArmenian Genocide Remembrance Day\nLabour Day\nVictory and Peace Day\nRepublic Day\nConstitution Day\nVardavar\nElevation of the Holy Cross\nArmenia Independence Day\nNew Year's Eve"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes 3 business days."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in Armenian and can be bilingual. They must be in writing and signed by both parties. A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Name"
+                            },
+                            {
+                                "text": "Start date"
+                            },
+                            {
+                                "text": "Length of the employment"
+                            },
+                            {
+                                "text": "Job description"
+                            },
+                            {
+                                "text": "Termination conditions"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Probation periods are not mandatory. The maximum probation period is 3 months."
+                    }
+                ]
+            }
+        ]
+    }
+}

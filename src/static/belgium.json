@@ -1,0 +1,211 @@
+{
+    "hireIn": "belgium",
+    "currency": "Euro (EUR)",
+    "capital": "Brussels",
+    "offical_language": "Dutch, French and German",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Health Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Pension%20fund/Badge_pink.svg",
+            "title": "Pension Fund"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Social Security"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_purple.svg",
+            "title": "Workers Compensation Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Private Healthcare - Unisure (optional)"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum wage in Belgium is EUR 1,593.81 per month."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The individual income tax ranges from 25% to 50%. Income tax is calculated according to progressive rates. Multiple additional factors may impact overall rates such as the household status and the number of children."
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The employer cost is generally ranges between 27.5-40% of the employee salary."
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Standard working hours in Belgium are 38 hours per week."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Hours worked over the standard 38 hours per week are paid overtime. Exceptions may apply for certain roles and positions."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Pregnant employees are entitled to 15 weeks of maternity leave. This leave can start 6 weeks before birth and extends a minimum of 9 weeks after the baby is born. Employees receive an allowance equal to 82% of their average salary during the first 30 days of maternity leave and 75% of their average salary from the 31st day until the end of leave."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to 10 days of paternity leave within 4 months of their child’s birth. The first 3 days are paid in full by the employer and the next 7 days are paid by the government at 82% of their average salary (up to a capped daily maximum)."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Working parents are entitled to 4 months of parental leave if they have at least 12 months of service with the same employer over the previous 15 months. This entitlement is granted to each individual. Parents can take leave together or at different times. It must be taken before the child turns 12 years old (or 21 if the child has a disability)."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to receive full salary paid by the employer for the first 30 days of sick leave. After 30 days, employees are generally entitled to sickness benefits from the government."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "All sick leave must be certified by a medical professional."
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "An employer can terminate an employment agreement by either provider proper legal notice or by paying an indemnity in lieu of notice, in which case the contract is immediately terminated."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Employees can appeal to a court if they consider the dismissal unjustified. Additional compensation may be due if the court deems the dismissal to be unfair."
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum notice period is 2 weeks for employment that lasted 3 months. Required notice increases based on length of employment."
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Generally, severance is only applicable when proper notice is not provided."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees with a 38-hour working schedule week will be entitled to 20 working days a year. For part-time employees, the calculation will be prorated."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Belgium celebrates 10 national holidays per year. Additional regional holidays may also apply based on the location of the employee."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "National public holidays include:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "New Year’s Day\nEaster Monday\nLabour Day\nAscension Day\nWhit Monday\nBelgium National Holiday\nAssumption Day\nAll Saints’ Day\nArmistice Day 1918\nChristmas Day"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding can take place within 3 business days after SOW signing, pending the submission of all required employee information"
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Contracts must always be in writing and specify the type of agreed employment, trial period, restrictive covenants and notice. There are specific rules governing the language used to write employment contracts due to linguistic diversity from region to region in Belgium."
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "For Belgium, there is no probation period and we do not allow one."
+                    }
+                ]
+            }
+        ]
+    }
+}

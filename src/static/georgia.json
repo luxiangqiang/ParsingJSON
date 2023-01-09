@@ -1,0 +1,334 @@
+{
+    "hireIn": "georgia",
+    "currency": "Georgian Lari - GEL",
+    "capital": "Tbilisi",
+    "offical_language": "Georgian",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Pension%20fund/Badge_turquoise.svg",
+            "title": "Pension"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum monthly wage is GEL 20 per month and has not been updated in the past 30 years."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The average minimum wage is around GEL 1300."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Personal income tax is applied at a single flat rate of 20%."
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is generally estimated at 2% of the employee salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Accumulated Pension Program - 2.0%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard work week is from Monday to Friday."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Overtime payment is mandatory. Hours outside of standard work hours agreed in the employment agreement are considered overtime. For additional hours, employees are paid 125% of the hourly rate."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to 126 calendar days of paid leave. Social security will pay 100% of the employee's average salary from the previous 3 months during this period (Capped at GEL 1,000 per month)"
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee can extend leave additional 17 calendar days at 100% pay capped at GEL 1,000."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "There is no paternity leave by law in Georgia. Fathers can use parental leave or any of the mother's unused maternity leave."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to 604 calendar days of parental leave. Both parents can decide how to distribute the time off. Social Security will pay 100% of the employees average salary from the previous 3 months during this period, capped at GEL 1,000 per month. Payment is only for the first 200 days after this period, it will be unpaid leave."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "In addition, employees are also entitled to 12 weeks of unpaid parental leave per year until the child is 5 years of age."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "By Law, there is no sick leave in Georgia. If an employee needs to take sick leave, they can use 15 calendar days of unpaid leave."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Employees contracts can be paused for 40 days, after this period, the employer has the right to terminate the contract."
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Georgia can be complex. There is no at-will termination in Georgia for employers outside the probation period and termination must be done for just cause."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "Probation period"
+                                    },
+                                    {
+                                        "text": "Objective grounds"
+                                    },
+                                    {
+                                        "text": "Disciplinary dismissal"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "By expiration of the contract"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Notice will depend on the type of termination."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Termination with a cause - 30 days"
+                            },
+                            {
+                                "text": "Resignation - 30 days"
+                            },
+                            {
+                                "text": "Probation period - no notice required"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Georgia, all employees who are terminated are entitled to severance pay. Severance pay is 1 month of the basic salary."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Both full-time and part-time employees are entitled to 24 working days of paid time off (PTO) a year. PTO accrues monthly at 2 days per month, after 11 months in the company."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are also entitled to 15 calendar days of unpaid paid time off, commonly used for sick leave."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Georgia celebrates 17 national holidays."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "National public holidays include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "New Year's Day (2 days)"
+                            },
+                            {
+                                "text": "Orthodox Christmas Day"
+                            },
+                            {
+                                "text": "Orthodox Epiphany"
+                            },
+                            {
+                                "text": "Mother's Day"
+                            },
+                            {
+                                "text": "International Women's Day"
+                            },
+                            {
+                                "text": "Independence Restoration Day"
+                            },
+                            {
+                                "text": "Orthodox Good Friday"
+                            },
+                            {
+                                "text": "Orthodox Easter Saturday"
+                            },
+                            {
+                                "text": "Orthodox Easter Sunday"
+                            },
+                            {
+                                "text": "Orthodox Easter Monday"
+                            },
+                            {
+                                "text": "Victory Day"
+                            },
+                            {
+                                "text": "Saint Andrew the First Called Day"
+                            },
+                            {
+                                "text": "Independence Day"
+                            },
+                            {
+                                "text": "Saint Mary's Day"
+                            },
+                            {
+                                "text": "Svetitskhovloba"
+                            },
+                            {
+                                "text": "Saint George's Day"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes 3 business days. The documents must be completed 1 day before the start date."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in Georgian or English. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Date of commencement of work and duration of employment"
+                            },
+                            {
+                                "text": "Working hours and rest time"
+                            },
+                            {
+                                "text": "Type of job: primarily or secondary employment"
+                            },
+                            {
+                                "text": "Position and type or description of work to be performed"
+                            },
+                            {
+                                "text": "The duration of paid time off, the duration of unpaid PTO and the procedure for granting these vacations"
+                            },
+                            {
+                                "text": "The procedure for termination of employment by the employer and the employee"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Probation periods are not mandatory. The standard probation period is 90 days and the maximum probation period is 180 days."
+                    }
+                ]
+            }
+        ]
+    }
+}

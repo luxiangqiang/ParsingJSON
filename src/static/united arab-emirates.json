@@ -1,0 +1,368 @@
+{
+    "hireIn": "united arab-emirates",
+    "currency": "United Arab Emirates Dirham",
+    "capital": "Abu Dhabi",
+    "offical_language": "Arabic",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Health Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Private Health Insurance (ADNIC)"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In the UAE there is no minimum wage stipulated by law for expatriates."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees pay no income tax. However, certain employees may be subject to social security contributions."
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "For UAE nationals,"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Social security contributions: 12.5% nationally"
+                            },
+                            {
+                                "text": "Workmen/Employee Compensation Insurance: 0.06% of the employee’s monthly gross salary, charged monthly"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "For expatriated in the UAE, the employer cost is dependent on visa requirements."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Medical Insurance -"
+                            },
+                            {
+                                "text": "End of Service Benefit Accrual -"
+                            },
+                            {
+                                "text": "Visa -"
+                            },
+                            {
+                                "text": "Workmen/Employee Compensation Insurance - 0.06% of the employee’s monthly gross salary, charged monthly"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard workweek is from Sunday to Thursday. During Ramadan work hours are reduced to 6 hours per day."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Overtime payment is mandatory for non-managerial positions. Managerial staff may take a day off in lieu if they have worked additional hours or days. Hours outside of standard work hours are considered overtime. Employees can not work more than a maximum of 2 hours of overtime per day or 144 hours in total over a 3 week period. For additional hours, employees are paid:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": ""
+                            },
+                            {
+                                "text": ""
+                            },
+                            {
+                                "text": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Pregnant employees are entitled to 45 days of paid leave. The employee will receive 100% of the salary during this period, and the employer will be responsible for this pay."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "There is no paternity leave currently required by law."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Eligible employees are entitled to 5 working days of paid leave within the first 6 months after the birth of their child. After this, they are entitled to 45 days of unpaid leave. Employees must provide proof in the form of a medical certificate when they request leave on the platform."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to paid sick leave for up to 90 days. The requirement to grant this leave is that the employee worked at least 3 months for the employer after the probation period has ended. This leave is paid at different rates and by the employer:"
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Period": "0 - 15 days",
+                                "Pay": "100% of base salary",
+                                "Payer": "Employer"
+                            },
+                            {
+                                "Period": "15 - 45 days",
+                                "Pay": "50%",
+                                "Payer": "Employer"
+                            },
+                            {
+                                "Period": "45 - 90 days",
+                                "Pay": "0%",
+                                "Payer": "N/A"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Employers can unilaterally terminate contracts at any time as long as proper legal notice requirements and compensation are followed. Terminations without notice must be for cause."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Unilaterally by the employer:",
+                                "children": [
+                                    {
+                                        "text": "Without cause providing notice and required compensation"
+                                    },
+                                    {
+                                        "text": "For cause without notice",
+                                        "children": [
+                                            {
+                                                "text": "Probation period"
+                                            },
+                                            {
+                                                "text": "Objective grounds"
+                                            },
+                                            {
+                                                "text": "Disciplinary dismissal"
+                                            },
+                                            {
+                                                "text": "Performance due to unsuitability for the job"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum notice period is 1 month and the maximum is 3 months. The amount must be agreed upon between the employee and the employer."
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In the UAE, all employees who are terminated, unless terminated under Article 120 of the Labor Law, are entitled to severance pay. Severance pay is 21 working days of salary for each of the first five years of services and an additional 30 working days per year of service over five years up to a maximum of 2 years based compensation."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees in the United Arab Emirates who work five days per week are entitled to a minimum of 30 calendar days of vacation per year. This accrues at a rate of 2.5 days per month. Employees can only take vacation days after 6 months of employment at a rate of 2 days per month during the rest of their first year of employment. Once the employee surpasses 12 months of employment, they are entitled to the minimum of 30 calendar days of vacation per year."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "There are 15 regular public holidays in the United Arab Emirates. Public holidays include both fixed-date and moveable holidays that change annually."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": ""
+                            },
+                            {
+                                "text": ""
+                            },
+                            {
+                                "text": ""
+                            },
+                            {
+                                "text": ""
+                            },
+                            {
+                                "text": ""
+                            },
+                            {
+                                "text": ""
+                            },
+                            {
+                                "text": ""
+                            },
+                            {
+                                "text": ""
+                            },
+                            {
+                                "text": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Onboarding can vary according to the type of visa the employee will require. Onboarding with a visa: the average time is 30 business days. Onboarding nationals is a minimum of 3 business days after SOW is signed, pending deposit payment and submission of all required employee information."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in English and can be bilingual. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "All requested contracts must have a deposit paid in order to execute the visa process - UAE visa have a liability on Deel since we must pay the employee once the Visa is issued - accordingly if the client decided to cancel the contract after the visa is granted we will be at risk. A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": ""
+                            },
+                            {
+                                "text": ""
+                            },
+                            {
+                                "text": ""
+                            },
+                            {
+                                "text": ""
+                            },
+                            {
+                                "text": ""
+                            },
+                            {
+                                "text": ""
+                            },
+                            {
+                                "text": ""
+                            },
+                            {
+                                "text": ""
+                            },
+                            {
+                                "text": ""
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Employees can be hired on limited and fixed term contracts. The maximum length of a contract can be 3 years, and may be renewed for the same period of time."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Indefinite term contracts are not allowed.Contract backdating is not allowed."
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Probation periods are mandatory in the UAE. The maximum probation period is typically 3-6 months."
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,340 @@
+{
+    "hireIn": "serbia",
+    "currency": "Serbian Dinar RSD",
+    "capital": "Belgrade",
+    "offical_language": "Serbian",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Trust%20Fund/Moneybag_turquoise.svg",
+            "title": "Meal Allowance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_pink.svg",
+            "title": "Public Health Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Social Security"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Holiday%20allowance/Holiday_purple.svg",
+            "title": "Disability Insurance"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum wage is RSD 35,012 per month"
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The individual income tax ranges from 0% to 15%. Income tax is calculated according to progressive rates. Multiple additional factors may impact overall rates such as the household status and the number of children."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Gross Annual Income": "Up to RSD - 2,987,424",
+                                "Tax Rate (%)": "0%"
+                            },
+                            {
+                                "Gross Annual Income": "Up to RSD - 8,962,272",
+                                "Tax Rate (%)": "10%"
+                            },
+                            {
+                                "Gross Annual Income": "Over RSD - 8,962,273",
+                                "Tax Rate (%)": "15%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is generally estimated at 17% of the employee salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Pension Insurance - 11.50%"
+                            },
+                            {
+                                "text": "Health Insurance - 5.15%"
+                            },
+                            {
+                                "text": "Meal Allowance - 500RSD"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Standard working hours are 8 hours per day and 40 hours per week from Monday to Friday."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Overtime payment is not mandatory and may be included in the salary. Hours outside of standard work hours are considered overtime. For additional hours, employees are paid:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "126% of the hourly rate, for work from 22:00-06:00"
+                            },
+                            {
+                                "text": "126% of the hourly rate, for work outside of normal hours."
+                            },
+                            {
+                                "text": "110% of the hourly rate, for work on a public holiday."
+                            },
+                            {
+                                "text": "For each completed year spent in employment with the Employer in the amount of 0.4% of the base salary."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Pregnant employees are entitled to 12 months of paid leave. 28 days must be taken before the child's birth. The employee will receive different levels of salary during the leave:"
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Period": "0 - 30 days",
+                                "Pay": "100%",
+                                "Payer": "Employer"
+                            },
+                            {
+                                "Period": "30 days - 12 months",
+                                "Pay": "Average salary from the last 18 months",
+                                "Payer": "Social Security"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee can extend leave an additional 3 months at the employee's average salary from the last 18 months, paid by social security."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "There is no paternity leave currently required by law."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Serbia, no law covers parental leave. However, employees may be entitled to maternity leave and paternity leave."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Sick leave in Serbia is complex. Employees are entitled to paid sick leave for up to 12 months. This leave is paid at different rates and by different payers depending upon length and type of sickness:"
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Period": "0 - 30 days",
+                                "Pay": "65% of the base salary",
+                                "Payer": "Employer"
+                            },
+                            {
+                                "Period": "30 days - 12 months. Can be less depending on the sickness",
+                                "Pay": "Depending on Sickness",
+                                "Payer": "Social Security"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Serbia can be complex. There is no at-will termination in Serbia for employers and termination must be done for just cause."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "Probation period"
+                                    },
+                                    {
+                                        "text": "Objective grounds"
+                                    },
+                                    {
+                                        "text": "Disciplinary dismissal"
+                                    },
+                                    {
+                                        "text": "Performance due to unsuitability for the job"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum notice period is 8 days and the maximum notice period is 30 days. The length is agreed upon in the employment agreement."
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Serbia, all employees who are terminated due to redundancy are entitled to severance pay. Severance pay is 1/3 of the employee's monthly salary per year of service."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Both full-time and part-time employees are entitled to 20 working days of paid time off (PTO) a year. PTO accrues monthly at 1.67 days per month. Employees are eligible for annual leave after 1 month of work."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "National Holidays in Serbia are complex. Serbia celebrates a possible 14 national holidays over 21 days, however not all of them are non-working and some are religion-dependent."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "National public holidays include:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "New Year - (2 days)\nMeeting - Serbian Statehood Day (2 days)\nLabor Day - (2 days)\nArmistice Day in the First World War\nThe first day of Christmas\nEaster holidays (4 days)\nOrthodox - on the first day of baptism - (Religion Dependant)\nMembers of the Islamic community - on the first day of Eid al-Fitr and the first day of Eid al-Adha - (Religion-dependent)\nMembers of the Jewish community - on the first day of Yom Kippur - (Religion-dependent)\nSaint Sava - (Working day)\nDay of Remembrance for the Victims of the Holocaust, Genocide and Other Victims of Fascism in the Second World War - (Working day)\nVictory Day - (Working day)\nVidovdan - (Working day)\nDay of Remembrance of Serbian victims in the Second World War - (Working day)"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "7 business days after MSA signature & deposit payment"
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in Serbian and can be bilingual. Bonuses should be noted as an Annex. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Name"
+                            },
+                            {
+                                "text": "Start date"
+                            },
+                            {
+                                "text": "Length of the employment"
+                            },
+                            {
+                                "text": "Job description"
+                            },
+                            {
+                                "text": "Termination conditions"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Probation periods are not mandatory. The maximum probation period is 180 days."
+                    }
+                ]
+            }
+        ]
+    }
+}

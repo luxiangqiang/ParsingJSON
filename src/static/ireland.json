@@ -1,0 +1,379 @@
+{
+    "hireIn": "ireland",
+    "currency": "Euro (EUR)",
+    "capital": "Dublin",
+    "offical_language": "English and Irish",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Pension%20fund/Badge_turquoise.svg",
+            "title": "Pension PRSA"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Social%20Security/ShieldCheck_pink.svg",
+            "title": "Social Security (PRSI)"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Private Healthcare - Unisure (optional)"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum wage is EUR 1,768 per month."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Income tax is calculated based on a tax rate band. The individual income tax is 20% until a certain level of income and 40% for any amount above that income. 20% is known as the standard band rate whereas the 40% is known as the higher band rate. The amount of income at the different tax rate bands is dependent on marital status."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Income tax is calculated by:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Applying the standard rate of 20% to the income in your weekly rate band"
+                            },
+                            {
+                                "text": "Applying the higher rate of 40% to any income above your weekly rate band"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is generally estimated at 11.05% of the employee salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Social Security - 11.05%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard workweek is from Monday to Friday. The maximum hours are 48 hours per week."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Overtime payment is not mandatory. Hours outside of standard work hours are considered overtime. The maximum average weekly working hours (including overtime) over a 4 month period cannot exceed 48 hours. There is no statutory overtime pay, and overtime compensation is based on the employment agreement. Employers can provide compensation financially or provide paid time off at a future date."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Pregnant employees who qualify for maternity leave are entitled to 26 weeks of paid leave."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee will receive a percentage of their salary based on employment history and amount of social insurance paid, where the maximum amount (full-rate maternity benefit) amounts to €245 per week. The PRSI will be responsible for the pay."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee can extend leave for 16 additional days. This leave is unpaid."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "To qualify, an employee must meet one of the following conditions:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Must have at least 39 weeks PRSI paid in the 12 months before the first day of maternity leave"
+                            },
+                            {
+                                "text": "At least 39 weeks PRSI paid since first starting work and at least 39 weeks PRSI paid or credited in the Relevant Tax Year or in the year following the Relevant Tax Year"
+                            },
+                            {
+                                "text": "At least 26 weeks PRSI paid in the Relevant Tax Year and at least 26 weeks PRSI paid in the Tax Year prior to the Relevant Tax Year"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to 2 weeks of paid paternity leave. The employee will receive a percentage of their salary based on employment history and the amount of social insurance paid."
+                    },
+                    {
+                        "type": "text",
+                        "data": "The maximum amount (full-rate paternity benefit) amounts to €245 per week. The Department of Social Protection will be responsible for this pay."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Ireland, no law covers parental leave. However, employees may be entitled to maternity leave and paternity leave."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to either a short term or long term illness benefit. The first 3 days are unpaid and considered as a qualifying period."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The salary during sick leave depends on the employment history and social insurance contributions. This is paid by the Department of Social Protection."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The maximum payment amounts to €203 per week with an increase in payment if certain additional conditions are met."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Starting 2022, the Irish Government is introducing a new Statutory Sick Pay Scheme including:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "An increase in the maximum benefit rate by €5 to €208 per week"
+                            },
+                            {
+                                "text": "New Paid sick leave for up to 3 sick days in 2022; this is planned to increase to 5 days in 2023, 7 days in 2024 and 10 days in 2025"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Termination in Ireland can be complex and must be based on performance or redundancy reasons (serious cause, unfit for the role, extinction of the role)."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "Probation period"
+                                    },
+                                    {
+                                        "text": "Objective grounds"
+                                    },
+                                    {
+                                        "text": "Disciplinary dismissal (Gross misconduct, fraud, repeated breach of rules)"
+                                    },
+                                    {
+                                        "text": "Performance due to unsuitability for the job"
+                                    },
+                                    {
+                                        "text": "Physically or mentally incapable of performing duties"
+                                    },
+                                    {
+                                        "text": "Ceases to be eligible to work in Ireland"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum notice period is 1 week and will be increased according to the length of the employment."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Between 13 weeks to 2 years of employment - 1 week of notice"
+                            },
+                            {
+                                "text": "Between 2 to 5 years of employment - 2 weeks of notice"
+                            },
+                            {
+                                "text": "Between 5 to 10 years of employment - 4 weeks of notice"
+                            },
+                            {
+                                "text": "Between 10 to 15 years of employment - 6 weeks of notice"
+                            },
+                            {
+                                "text": "More than 15 years of employment - 8 weeks of notice"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Ireland, employers can make a payment in lieu of notice."
+                    },
+                    {
+                        "type": "text",
+                        "data": "The employer may terminate the employee without giving the employee full notice and instead pay the base salary which the employee would have been entitled to receive during the notice period (or if notice has already been given, during the remainder of the notice period)."
+                    },
+                    {
+                        "type": "text",
+                        "data": "In eligible cases of termination, severance is paid depending on the employee's salary and length of employment."
+                    },
+                    {
+                        "type": "text",
+                        "data": "Severance equals 2 weeks of base pay for every year of employment (pro-rata) plus 1 additional week's pay up to a maximum of €600 per week."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Full-time employees are entitled to 20 days of paid time off (PTO) a year. Part-time employee are entitled to leave worth 8% of the hours worked. PTO accrues monthly, with 1.6 days of PTO granted per month for full-time employees. There is minimum length of employment for employees to take leave."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Ireland celebrates 9 national holidays. National public holidays include:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "New Year’s Day\nSt Patrick’s Day\nEaster Monday\nEarly May Bank Holiday\nJune Bank Holiday\nSummer Bank Holiday\nOctober Bank Holiday\nChristmas Day\nSt Stephen’s Day"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes 2 business days after the client signs the SOW."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in English and can be translated to another language (employee's native language if required). They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Name"
+                            },
+                            {
+                                "text": "Address of employee"
+                            },
+                            {
+                                "text": "Start date and finish date"
+                            },
+                            {
+                                "text": "Place of work"
+                            },
+                            {
+                                "text": "Salary (Rate of pay)"
+                            },
+                            {
+                                "text": "Working hours"
+                            },
+                            {
+                                "text": "Annual holiday entitlement"
+                            },
+                            {
+                                "text": "Method of payment"
+                            },
+                            {
+                                "text": "Sick Leave"
+                            },
+                            {
+                                "text": "Notice Period"
+                            },
+                            {
+                                "text": "Overtime rates (if any)"
+                            },
+                            {
+                                "text": "Bonus (if any)"
+                            },
+                            {
+                                "text": "Other general contractual obligations (disciplinary procedures, harassment policies, smoking / vaping, use of company equipment/phones, etc.)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

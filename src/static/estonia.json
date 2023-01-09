@@ -1,0 +1,358 @@
+{
+    "hireIn": "estonia",
+    "currency": "Euro (EUR)",
+    "capital": "Tallinn",
+    "offical_language": "Estonian",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Social Security"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Unemployment/Briefcase_pink.svg",
+            "title": "Unemployment Insurance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Private Healthcare - Unisure (optional)"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum wage is EUR 654 per month."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "From 2023 onwards, the minimum wage is EUR 725 gross."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The individual income tax rate is 20% in Estonia. Income tax is calculated using a flat rate. The rate may vary depending on when an employee’s pension fund and unemployment insurance deductions are made."
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is generally estimated at 33.8% of the employee salary."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Social security tax - 33.0%"
+                            },
+                            {
+                                "text": "Unemployment tax - 0.8%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard work week is from Monday to Friday."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Overtime payment is mandatory. Hours outside of standard work hours are considered overtime. Employees can work a maximum of 8 hours of overtime per week. For additional hours, employees are paid 1.5 times their regular salary or can be compensated with additional PTO."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Pregnant employees are entitled to up to 100 consecutive calendar days of maternity leave, including the child’s estimated date of birth.Employees can use the maternity benefit up to 70 calendar days before the child’s estimated date of birth and 30 calendar days after the child’s estimated date of birth. The Social Insurance Board is responsible for this pay."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to 30 calendar days of paid paternity leave."
+                    },
+                    {
+                        "type": "text",
+                        "data": "The employee will receive 100% of their average salary during this period (up to a maximum of three times the Estonian mean gross wages), and The Social Insurance Board will be responsible for this pay."
+                    },
+                    {
+                        "type": "text",
+                        "data": "The benefit can be used until the child turns 3 years old."
+                    },
+                    {
+                        "type": "text",
+                        "data": "The employee can extend leave using parental leave."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to 60 days of parental leave. Both parents can decide how to distribute the time off and can take the leave at the same time. The Social Insurance Board will pay salary during this period. The parental benefit amount is calculated separately for each recipient, depending on their previous income. The amount depends on the amount of paid social tax declared for their earned income (in 2023 the maximum parental benefit is EUR 4.231,29 gross per month). Parental leave can't be extended."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to 182 days of sick leave in the event of disease or illness (except tuberculosis). The first day is unpaid and considered as a qualifying period. In the event of a disease or injury, an insured person has the right to receive sickness benefits until the date on which their workability is restored (as specified in the certificate for sick leave). Employees are eligible for 240 consecutive calendar days of sick leave in the event of tuberculosis.Check this link for more information"
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Period": "Day 1",
+                                "Pay": "0%",
+                                "Payer": "Qualifying period"
+                            },
+                            {
+                                "Period": "Day 2 - 5",
+                                "Pay": "Based on employee's average salary for the last 6 months (Average 70%)",
+                                "Payer": "Employer"
+                            },
+                            {
+                                "Period": "Day 6 onwards",
+                                "Pay": "Based on the amount of social tax calculated or paid for the employee for the previous calendar year",
+                                "Payer": "Estonian Health Insurance Fund (EHIF)"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations in Estonia can be complex. There is no at-will termination in Estonia for employers, outside the probation period, and termination must be done for just cause."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on if the employee:",
+                                "children": [
+                                    {
+                                        "text": "Commits misconduct and breach of contract"
+                                    },
+                                    {
+                                        "text": "Becomes bankrupt"
+                                    },
+                                    {
+                                        "text": "Becomes of unsound mind"
+                                    },
+                                    {
+                                        "text": "Is convicted of any criminal offense, prior to or in the course of employment"
+                                    },
+                                    {
+                                        "text": "Fails to disclose in the employee’s resume any previous disciplinary or legal action taken against the Employee"
+                                    },
+                                    {
+                                        "text": "Is permanently incapacitated by accident or ill health; unable to perform job duties"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In Estonia, the notice period is based on the length of the labor relationship."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Up to 1 year of employment - minimum 15 calendar days"
+                            },
+                            {
+                                "text": "Between 1 - 5 years of employment - minimum 30 calendar days"
+                            },
+                            {
+                                "text": "Between 5 - 10 years of employment - minimum 60 calendar days"
+                            },
+                            {
+                                "text": "10+ years of employment - minimum 90 calendar days"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "In Estonia, severance is paid based on the reason for termination."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Reason for termination": "Lay-off",
+                                "Severance Pay": "1 month’s average salary"
+                            },
+                            {
+                                "Reason for termination": "Breach of contract by the employer",
+                                "Severance Pay": "3 month’s average salary"
+                            },
+                            {
+                                "Reason for termination": "Employer ending a fixed-term contract for economic reasons",
+                                "Severance Pay": "Compensation that the employee would be entitled to until the expiry of the contract term"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Both full-time and part-time employees are entitled to 28 calendar days of paid time off (PTO) a year. PTO accrues monthly at 2.33 days per month. Employees are eligible for annual leave for the time worked thus far."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Estonia celebrates 12 national holidays. National holidays include:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "New Year's Day\nIndependence Day, anniversary of the Republic of Estonia\nGood Friday\nEaster Sunday\nSpring Day\nPentecost\nVictory Day\nMidsummer Day\nDay of Restoration of Independence\nChristmas Eve\nChristmas Day\nBoxing Day"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "3 business days after MSA signature & deposit payment."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in Estonian, or English and can be bilingual. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Name"
+                            },
+                            {
+                                "text": "Personal identification or registry code"
+                            },
+                            {
+                                "text": "Residence or seat of the employer and the employee"
+                            },
+                            {
+                                "text": "Validity of contract"
+                            },
+                            {
+                                "text": "Probation period"
+                            },
+                            {
+                                "text": "Job description and job title"
+                            },
+                            {
+                                "text": "Working hours"
+                            },
+                            {
+                                "text": "Place of work"
+                            },
+                            {
+                                "text": "Remuneration"
+                            },
+                            {
+                                "text": "Obligations of the parties"
+                            },
+                            {
+                                "text": "Vacation"
+                            },
+                            {
+                                "text": "Termination conditions"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Probation periods are not mandatory. There is no minimum probation period. The maximum probation period is 4 months."
+                    }
+                ]
+            }
+        ]
+    }
+}

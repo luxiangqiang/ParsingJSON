@@ -1,0 +1,386 @@
+{
+    "hireIn": "austria",
+    "currency": "EUR",
+    "capital": "Vienna",
+    "offical_language": "German",
+    "payroll_cycle": "Monthly",
+    "necessary_benefits": [
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
+            "title": "Social Security"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Families%20and%20compensation%20fund/UserGroup_pink.svg",
+            "title": "Family Burden Equalization Fund"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
+            "title": "Monthly Work Equipment Allowance"
+        },
+        {
+            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_purple.svg",
+            "title": "Private Healthcare - Unisure (optional)"
+        }
+    ],
+    "quickStartGuide": {
+        "Pay&Tax": [
+            {
+                "title": "Minimum Wage Requirements",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "The minimum wage for Austria depends on the industry of the company and the seniority of the employee. The minimum wage ranges from EUR 1,522.50 to EUR 2,094.31."
+                    }
+                ]
+            },
+            {
+                "title": "Individual Income Tax",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The individual income tax ranges from 0% to 55%. Income tax is calculated according to progressive rates."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Gross Annual Income": "0 - 11,000",
+                                "Tax Rate (%)": "0%"
+                            },
+                            {
+                                "Gross Annual Income": "11,001 - 18,000",
+                                "Tax Rate (%)": "20%"
+                            },
+                            {
+                                "Gross Annual Income": "18,001 - 31,000",
+                                "Tax Rate (%)": "35%"
+                            },
+                            {
+                                "Gross Annual Income": "31,001 - 60,000",
+                                "Tax Rate (%)": "42%"
+                            },
+                            {
+                                "Gross Annual Income": "60,001 - 90,000",
+                                "Tax Rate (%)": "48%"
+                            },
+                            {
+                                "Gross Annual Income": "90,001 - 1,000,000",
+                                "Tax Rate (%)": "50%"
+                            },
+                            {
+                                "Gross Annual Income": "Above 1,000,000",
+                                "Tax Rate (%)": "55%"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Employer Cost",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The employer cost is generally estimated at 29.94% + employers tax / work allowance."
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Social insurance - 21.13%"
+                            },
+                            {
+                                "text": "Social insurance based on 13th and 14th salaries - 20,63%"
+                            },
+                            {
+                                "text": "Employee pension fund - 1.53%"
+                            },
+                            {
+                                "text": "Family burden equalization fund - 3.90%"
+                            },
+                            {
+                                "text": "Surplus to fund above - 0.38%"
+                            },
+                            {
+                                "text": "Municipal tax - 3.0%"
+                            },
+                            {
+                                "text": "Viennese employers tax - 2 EUR/started week in a month."
+                            },
+                            {
+                                "text": "Monthly work equipment allowance - 30 EUR /month (25 EUR is tax-free, 5 EUR is taxable) - employer cost paid to the employee and not to the statutory bodies."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Overtime Pay & Maximum Hours",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard work week is from Monday to Friday."
+                    }
+                ]
+            }
+        ],
+        "Leave Policy": [
+            {
+                "title": "Maternity Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Pregnant employees are entitled to 16 weeks of paid leave. 8 weeks must be taken before the child's birth. 8 weeks must be taken after the child's birth. The employee will receive the average net income of the last 3 months during this period, and the Social Insurance Agency will be responsible for this pay."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "The employee can extend leave for a period between 12 and 28 months. The benefit amount depends on the duration chosen by the employee but is capped at €2,000 and is paid by the Social Insurance Agency."
+                    }
+                ]
+            },
+            {
+                "title": "Paternity Leave",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Employees are entitled to 1 month of paid paternity leave. The leave can be taken 1 day after birth, and at latest 1 week after birth. The employee must give the employer a 3 months notice, and is not entitled to 13th or 14th salary during this leave. The employee is paid a family time bonus (Familienzeitbonus) that entitles them to receive €22,60 per day from Social Insurance."
+                    }
+                ]
+            },
+            {
+                "title": "Parental Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Employees are entitled to 2 months of parental leave (Karenz) until the child turns 24 months old. Both parents can decide how to distribute the time off. Either parent can take parental leave. Parents are entitled to payment under the Child Care Payment Act. Parents may choose from two childcare allowance systems:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Childcare allowance account (flat-rate system)"
+                            },
+                            {
+                                "text": "Income-related childcare allowance"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Parental leave can be extended. It is unpaid."
+                    }
+                ]
+            },
+            {
+                "title": "Sick Leave",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Sick leave in Austria is complex. There are no maximum amount of days for paid sick leave. Employees are entitled to sick leave based on their length of the employment relationship with the same employer, ranging from 6 to 12 weeks."
+                    }
+                ]
+            }
+        ],
+        "Termination": [
+            {
+                "title": "Termination Requirements",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "In general indefinite contracts may be terminated without cause as long as regulatory notice periods are followed. Fixed-term contracts have additional restrictions and conditions."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "Compliant terminations include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Voluntarily by the employee"
+                            },
+                            {
+                                "text": "By mutual agreement"
+                            },
+                            {
+                                "text": "Unilaterally by the employer based on:",
+                                "children": [
+                                    {
+                                        "text": "Probation period"
+                                    },
+                                    {
+                                        "text": "Without cause provided notice period is followed"
+                                    },
+                                    {
+                                        "text": "Disloyalty to employer"
+                                    },
+                                    {
+                                        "text": "Incapacity to carry out job responsibilities"
+                                    },
+                                    {
+                                        "text": "Failure to carry out agreed work (without legitimate reason)"
+                                    },
+                                    {
+                                        "text": "Failure to comply with employer’s reasonable instruction or seeks to persuade other employees to disobey such instructions"
+                                    },
+                                    {
+                                        "text": "Assaults and acts immorally towards the employer, other employees"
+                                    },
+                                    {
+                                        "text": "Operates an independent commercial business or carries out commercial transactions within the employer’s business on their own account or that of a third party"
+                                    },
+                                    {
+                                        "text": "Employee is prevented from carrying out their agreed work for a considerable period owing to imprisonment or some other reason apart from an illness or accident"
+                                    }
+                                ]
+                            },
+                            {
+                                "text": "By the expiration of the contract"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Notice Period",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "The minimum notice period is 6 weeks and the maximum notice period is 5 months. Notice periods will be increased according to the length of the employment."
+                    },
+                    {
+                        "type": "table",
+                        "data": [
+                            {
+                                "Length of Employment": "Less than 2 years",
+                                "Notice Period": "6 weeks"
+                            },
+                            {
+                                "Length of Employment": "Between 2 to 5 years",
+                                "Notice Period": "2 months"
+                            },
+                            {
+                                "Length of Employment": "Between 5 to 15 years",
+                                "Notice Period": "3 months"
+                            },
+                            {
+                                "Length of Employment": "Between 15 to 20 years",
+                                "Notice Period": "4 months"
+                            },
+                            {
+                                "Length of Employment": "Over 25 years",
+                                "Notice Period": "5 months"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Severance for Employees",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "In Austria, the severance pay scheme requires employers to pay 1.53% of the monthly salary to an employee severance fund. At the end of the employment term, the employee may request disbursement of the collected amount or leave it in the fund for further investment."
+                    }
+                ]
+            }
+        ],
+        "Statutory time off": [
+            {
+                "title": "Paid Time Off",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Both full-time and part-time employees are entitled to 25 days of paid time off (PTO) a year. PTO accrues monthly with 2.08 days per month. Employees are eligible for PTO as soon as it accrues."
+                    }
+                ]
+            },
+            {
+                "title": "Public Holidays",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Austria celebrates 13 national holidays as well as regional holidays. National holidays include:"
+                    },
+                    {
+                        "type": "text",
+                        "data": "New Year\nEpiphany\nEaster Monday\nNational Holiday\nAscension Day\nWhit Monday\nCorpus Christi\nAssumption Day\nNational Day\nAll Saints' Day\nImmaculate Conception\nChristmas Day\nSt. Stephen's Day"
+                    }
+                ]
+            }
+        ],
+        "Onboarding": [
+            {
+                "title": "Onboarding",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Onboarding takes 5 business days."
+                    }
+                ]
+            }
+        ],
+        "Additional info": [
+            {
+                "title": "Employment Contract Details",
+                "data": [
+                    {
+                        "type": "paragraph",
+                        "data": "Contracts must be in German or English and can be bilingual. They must be in writing and signed by both parties."
+                    },
+                    {
+                        "type": "paragraph",
+                        "data": "A contract must include:"
+                    },
+                    {
+                        "type": "nested_list",
+                        "data": [
+                            {
+                                "text": "Name"
+                            },
+                            {
+                                "text": "Address"
+                            },
+                            {
+                                "text": "Start date"
+                            },
+                            {
+                                "text": "Length of the employment"
+                            },
+                            {
+                                "text": "Place of work"
+                            },
+                            {
+                                "text": "Nature of work"
+                            },
+                            {
+                                "text": "Salary"
+                            },
+                            {
+                                "text": "Working hours"
+                            },
+                            {
+                                "text": "Vacation time"
+                            },
+                            {
+                                "text": "Termination period and date"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Probation Period",
+                "data": [
+                    {
+                        "type": "text",
+                        "data": "Probation periods are not mandatory. The minimum probation period is 1 day and the maximum probation period is 30 days (1 month)."
+                    }
+                ]
+            }
+        ]
+    }
+}
