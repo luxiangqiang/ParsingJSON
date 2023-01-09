@@ -6,7 +6,7 @@ export interface IData {
   payroll_cycle: string;
   necessary_benefits?: { image: string; title: string }[];
   quickStartGuide?: object;
-  continent?: string;
+  continent?: number;
   priority?: number;
 }
 export interface ICountry {
@@ -23,5 +23,6 @@ export interface ISaveCountry {
   payrollCycle: String;
   priority: Number;
   quickStartGuide: Record<string, any>;
+  area: number;
 }
 

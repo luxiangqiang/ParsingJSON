@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import { Input, Select, Form, Button, message, InputNumber, Spin } from "antd";
 import { IData, ISaveCountry } from "@/components/types";
 import "./country-form.less";
-import { downloadJSON } from "@/utils/downloadJSON";
+// import { downloadJSON } from "@/utils/downloadJSON";
 import debounce from "lodash.debounce";
 import md5 from 'js-md5';
 import axios from "axios";
@@ -14,27 +14,27 @@ const useContinents = function () {
   return [
     {
       label: "亚洲",
-      value: "亚洲",
+      value: 2,
     },
     {
       label: "欧洲",
-      value: "欧洲",
+      value: 4,
     },
     {
       label: "北美洲",
-      value: "北美洲",
+      value: 5,
     },
     {
       label: "南美洲",
-      value: "南美洲",
+      value: 6,
     },
     {
       label: "非洲",
-      value: "非洲",
+      value: 3,
     },
     {
       label: "大洋洲",
-      value: "大洋洲",
+      value: 7,
     },
   ];
 };
@@ -80,9 +80,9 @@ const CountryForm: React.FC<{
   };
 
   // 下载到本地
-  const handlerDownload = function () {
-    downloadJSON(formData, sourceData.hireIn);
-  };
+  // const handlerDownload = function () {
+  //   downloadJSON(formData, sourceData.hireIn);
+  // };
 
   // 上传服务器
   const handlerUpload = function () { 
@@ -97,7 +97,7 @@ const CountryForm: React.FC<{
       payrollCycle: formData.payroll_cycle,
       priority: formData.priority,
       quickStartGuide: sourceData.quickStartGuide,
-
+      area: Number(formData.continent)
     }
     const config:RequestInit  = {
       "headers": {
@@ -219,15 +219,23 @@ const CountryForm: React.FC<{
           htmlType="submit"
           onClick={handlerSaveLocalStory}
         >
-          保存到本地
+          缓存到本地
         </Button>
-        <Button
+        {/* <Button
           className="download"
           type="primary"
           htmlType="submit"
           onClick={handlerDownload}
         >
           下载到本地
+        </Button> */}
+        <Button
+          className="upload"
+          type="primary"
+          htmlType="submit"
+          onClick={handlerTranslation}
+        >
+          一键翻译
         </Button>
         <Button
           className="upload"
@@ -236,14 +244,6 @@ const CountryForm: React.FC<{
           onClick={handlerUpload}
         >
           上传服务器
-        </Button>
-        <Button
-          className="upload"
-          type="primary"
-          htmlType="submit"
-          onClick={handlerTranslation}
-        >
-          一键翻译
         </Button>
       </Form.Item>
       </Form>

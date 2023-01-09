@@ -14,7 +14,7 @@ let initialState: ICountry = {
     hireIn: "",
     offical_language: "",
     payroll_cycle: "",
-    continent: "",
+    continent: undefined,
     priority: 0,
   },
 };

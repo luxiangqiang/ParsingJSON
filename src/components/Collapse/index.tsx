@@ -7,13 +7,13 @@ import CountryForm from "@/components/CountryForm/index";
 
 const { Panel } = Collapse;
 
-let initialState = {
+let initialState:IData = {
   capital: "",
   currency: "",
   hireIn: "",
   offical_language: "",
   payroll_cycle: "",
-  continent: "",
+  continent: undefined,
   priority: 0,
 };
 
