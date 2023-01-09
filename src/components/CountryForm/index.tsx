@@ -1,9 +1,11 @@
-import React, { useEffect, useMemo } from "react";
-import { Input, Select, Form, Button, message, InputNumber } from "antd";
-import { IData } from "@/components/types";
+import React, { useEffect, useMemo, useState } from "react";
+import { Input, Select, Form, Button, message, InputNumber, Spin } from "antd";
+import { IData, ISaveCountry } from "@/components/types";
 import "./country-form.less";
 import { downloadJSON } from "@/utils/downloadJSON";
 import debounce from "lodash.debounce";
+import md5 from 'js-md5';
+import axios from "axios";
 
 const { Option } = Select;
 
@@ -12,30 +14,32 @@ const useContinents = function () {
   return [
     {
       label: "亚洲",
-      value: "Asia",
+      value: "亚洲",
     },
     {
       label: "欧洲",
-      value: "Europe",
+      value: "欧洲",
     },
     {
       label: "北美洲",
-      value: "North America",
+      value: "北美洲",
     },
     {
       label: "南美洲",
-      value: "South America",
+      value: "南美洲",
     },
     {
       label: "非洲",
-      value: "Africa",
+      value: "非洲",
     },
     {
       label: "大洋洲",
-      value: "Oceania",
+      value: "大洋洲",
     },
   ];
 };
+const appid = process.env.REACT_APP_APPID;
+const secret = process.env.REACT_APP_SECRET;
 
 const CountryForm: React.FC<{
   sourceData: IData;
@@ -44,6 +48,7 @@ const CountryForm: React.FC<{
 }> = function ({ sourceData, formData, updateCountry }) {
   const [form] = Form.useForm();
   const continents = useContinents();
+  const [loading, setLoading] = useState(false);
 
   const debounceChangeInput = useMemo(
     () =>
@@ -79,13 +84,79 @@ const CountryForm: React.FC<{
     downloadJSON(formData, sourceData.hireIn);
   };
 
+  // 上传服务器
+  const handlerUpload = function () { 
+    setLoading(true);
+    const params: ISaveCountry = {
+      name: sourceData.hireIn,
+      title: formData.hireIn,
+      benefits: sourceData.necessary_benefits.map(item => item.title),
+      capital: formData.capital,
+      currency: formData.currency,
+      officialLanguage: formData.offical_language,
+      payrollCycle: formData.payroll_cycle,
+      priority: formData.priority,
+      quickStartGuide: sourceData.quickStartGuide,
+
+    }
+    const config:RequestInit  = {
+      "headers": {
+        "accept": "application/json, text/plain, */*",
+        "accept-language": "zh-CN,zh;q=0.9",
+        "content-type": "application/json",
+        "sec-ch-ua": "\"Not?A_Brand\";v=\"8\", \"Chromium\";v=\"108\", \"Google Chrome\";v=\"108\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"macOS\""
+      },
+      "referrerPolicy": "no-referrer",
+      "body": JSON.stringify({
+          "data": params
+        }),
+      "method": "POST"
+    }
+    fetch(process.env.REACT_APP_UPLOAD_URL, config)
+      .then(({status}) => { 
+        if (status === 200) {
+          message.success("上传成功");
+        } else { 
+          message.success("上传错误");
+        }
+        setLoading(false);
+    })
+  }
+
+  // 一键翻译
+  const handlerTranslation = function () {
+    setLoading(true);
+    const qsKeys = ['hireIn', 'capital', 'currency', 'offical_language', 'payroll_cycle'];
+    let qs = qsKeys.reduce((pre, key) => {
+      return pre + `${pre !== '' ? '、' : ''}${sourceData[key as keyof IData]}`;
+    }, '');
+    const salt = Math.random();
+    const sign = md5(appid + qs + salt + secret);
+    const allURL = `/baiduApi/api/trans/vip/translate?q=${encodeURI(qs)}&from=en&to=zh&salt=${ salt }&appid=${appid}&sign=${sign}`
+    axios.get(allURL).then(({data}) => {
+      const { trans_result } = data;
+      const results = trans_result?.[0]?.dst?.split('、') as string[] || [];
+      const newData: Record<string, string> = {};
+      qsKeys.forEach((key: string, index) => { 
+        newData[key] = results[index];
+      })
+      updateCountry({
+       ...newData
+      })
+      setLoading(false);
+    });
+  }
+
   useEffect(() => {
     console.log("CountryForm.tsx", formData);
     form.setFieldsValue(formData);
   }, [form, formData]);
 
   return (
-    <Form
+    <Spin spinning={loading} >
+      <Form
       form={form}
       labelCol={{ span: 5 }}
       wrapperCol={{ span: 16 }}
@@ -142,7 +213,7 @@ const CountryForm: React.FC<{
           onChange={(e) => onChangeInput.call(this, e, "priority")}
         />
       </Form.Item>
-      <Form.Item wrapperCol={{ offset: 8, span: 16 }}>
+      <Form.Item wrapperCol={{ offset: 3, span: 24 }}>
         <Button
           type="primary"
           htmlType="submit"
@@ -158,8 +229,26 @@ const CountryForm: React.FC<{
         >
           下载到本地
         </Button>
+        <Button
+          className="upload"
+          type="primary"
+          htmlType="submit"
+          onClick={handlerUpload}
+        >
+          上传服务器
+        </Button>
+        <Button
+          className="upload"
+          type="primary"
+          htmlType="submit"
+          onClick={handlerTranslation}
+        >
+          一键翻译
+        </Button>
       </Form.Item>
-    </Form>
+      </Form>
+    </Spin>
+    
   );
 };
 

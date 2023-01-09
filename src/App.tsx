@@ -1,8 +1,10 @@
-import React, { useEffect, useReducer } from "react";
+import React, { useEffect, useReducer, useState } from "react";
 import "./App.css";
+import { Spin } from 'antd';
 import CountryContent from "@/components/Country";
 import { ICountry, IData } from "@/components/types";
-import data from "@/static/uk.json";
+import data from "@/static/canada.json";
+import LoadCountry from '@/components/LoadCountry'
 
 let initialState: ICountry = {
   name: "",
@@ -22,7 +24,7 @@ function reducer(state: ICountry, action: { type: string; payload: IData }) {
   switch (action.type) {
     case "add":
       return {
-        name: data?.hireIn,
+        name: country?.hireIn,
         sourceData: {
           ...country,
         },
@@ -32,15 +34,37 @@ function reducer(state: ICountry, action: { type: string; payload: IData }) {
 
 function App() {
   const [state, dispatch] = useReducer(reducer, initialState);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     dispatch({ type: "add", payload: data });
   }, []);
 
+  // 导入国家数据
+  const importCountry = (value: string) => { 
+    setLoading(true);
+    import(`@/static/${value}.json`).then(res => { 
+      dispatch({
+        type: "add", payload: {
+          hireIn: res.hireIn,
+          currency: res.currency,
+          capital: res.capital,
+          offical_language: res.offical_language,
+          payroll_cycle: res.payroll_cycle,
+          necessary_benefits: res.necessary_benefits,
+          quickStartGuide: res.quickStartGuide,
+      } });
+      setLoading(false);
+    })
+  }
+
   return (
-    <div className="App">
-      <CountryContent country={state} />
-    </div>
+    <Spin spinning={loading} >
+      <div className="App">
+        <LoadCountry importFn={importCountry} />
+        <CountryContent country={state} />
+      </div>
+    </Spin>
   );
 }
 
