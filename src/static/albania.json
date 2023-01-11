@@ -1,346 +1,226 @@
 {
-    "hireIn": "albania",
-    "currency": "Albanian lek (ALL)",
-    "capital": "Tirana",
-    "offical_language": "Albanian",
-    "payroll_cycle": "Monthly",
-    "necessary_benefits": [
-        {
-            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_turquoise.svg",
-            "title": "Health Insurance"
-        },
-        {
-            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_pink.svg",
-            "title": "Social Security"
-        },
-        {
-            "image": "https://www.deel.com/hubfs/Global%20Hiring%20Guides/Benefits%20section/Health%20Insurance/HealthInsurance_blue.svg",
-            "title": "Private Healthcare - Unisure (optional)"
-        }
-    ],
-    "quickStartGuide": {
-        "Pay&Tax": [
-            {
-                "title": "Minimum Wage Requirements",
-                "data": [
-                    {
-                        "type": "text",
-                        "data": "30,000 ALL (Monthly)"
-                    }
-                ]
-            },
-            {
-                "title": "Individual Income Tax",
-                "data": [
-                    {
-                        "type": "paragraph",
-                        "data": "The individual income tax ranges from 0% to 23%. Income tax is calculated according to progressive rates."
-                    },
-                    {
-                        "type": "table",
-                        "data": [
-                            {
-                                "Gross Annual Income (in ALL)": "0 - 30,000",
-                                "Tax Rate (%)": "0"
-                            },
-                            {
-                                "Gross Annual Income (in ALL)": "30,000 - 150,000",
-                                "Tax Rate (%)": "13"
-                            },
-                            {
-                                "Gross Annual Income (in ALL)": "Above 150,000",
-                                "Tax Rate (%)": "23"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "title": "Employer Cost",
-                "data": [
-                    {
-                        "type": "paragraph",
-                        "data": "The employer cost is generally estimated at 16.7% of the employee salary."
-                    },
-                    {
-                        "type": "nested_list",
-                        "data": [
-                            {
-                                "text": "Social security - 15.0%"
-                            },
-                            {
-                                "text": "Health Insurance Contribution - 1.7%"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "title": "Overtime Pay & Maximum Hours",
-                "data": [
-                    {
-                        "type": "paragraph",
-                        "data": "Standard working hours are 8 hours per day, 40 hours per week. The standard workweek is from Monday to Friday."
-                    },
-                    {
-                        "type": "paragraph",
-                        "data": "Overtime payment is mandatory. Hours outside of standard work hours are considered overtime. Employees can work a maximum of 48 hours of overtime per week. Employees can work a maximum of 200 hours overtime per year."
-                    },
-                    {
-                        "type": "paragraph",
-                        "data": "For additional hours, employees are compensated with leave or salary at 125% of the regular salary. Overtime performed during the weekend or on public holidays is compensated at 150% of the regular salary."
-                    }
-                ]
-            }
-        ],
-        "Leave Policy": [
-            {
-                "title": "Maternity Leave",
-                "data": [
-                    {
-                        "type": "paragraph",
-                        "data": "Pregnant employees, who have contributed to social security for 12 months, are entitled to 365 calendar days (1 year) of paid leave. A minimum of 35 days must be taken before the child's birth. A minimum of 63 days must be taken after the child's birth."
-                    },
-                    {
-                        "type": "paragraph",
-                        "data": "The employee will receive 80% of the daily average salary for the prenatal period and for 150 days after birth. For the remaining part of the leave, the employee will receive 50% of the daily average salary of the last calendar year. The Social Security Institution will be responsible for this pay."
-                    },
-                    {
-                        "type": "paragraph",
-                        "data": "The employee cannot extend leave."
-                    }
-                ]
-            },
-            {
-                "title": "Parental Leave",
-                "data": [
-                    {
-                        "type": "paragraph",
-                        "data": "The father or cohabitant has the right to 3 days of leave after the birth of the child. These 3 days are paid by the employer."
-                    },
-                    {
-                        "type": "paragraph",
-                        "data": "Employees, who contributed to social security for the past 12 months and whose partner has not exercised the right to maternity leave, are entitled to 330 days of paid paternity leave. The employee will receive salary after the 63rd day of the birth of the child (the first 63 days after the birth the mother is not allowed to work and the leave is considered as granted to the mother). The salary received will be 80% of the daily average salary up to the 150th calendar day after birth."
-                    },
-                    {
-                        "type": "paragraph",
-                        "data": "The employee will receive 50% of the daily average salary for the following period. The Social Security Institution will be responsible for this pay."
-                    },
-                    {
-                        "type": "paragraph",
-                        "data": "Employees cannot extend leave."
-                    }
-                ]
-            },
-            {
-                "title": "Sick Leave",
-                "data": [
-                    {
-                        "type": "paragraph",
-                        "data": "There is no maximum paid sick leave in Albania. This leave is paid at different rates and by different payers depending upon length:"
-                    },
-                    {
-                        "type": "table",
-                        "data": [
-                            {
-                                "Period": "0 - 14 days",
-                                "Pay": "80% of salary",
-                                "Payer": "Employer",
-                                "Condition": "All"
-                            },
-                            {
-                                "Period": "Over 14 days",
-                                "Pay": "70% of salary",
-                                "Payer": "Health Insurance Institution",
-                                "Condition": "If employee has less than 10 years of insurance contributions"
-                            },
-                            {
-                                "Period": "Over 14 days",
-                                "Pay": "80% of salary",
-                                "Payer": "Health Insurance Institution",
-                                "Condition": "If employee has over 10 years of insurance contributions"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ],
-        "Termination": [
-            {
-                "title": "Termination Requirements",
-                "data": [
-                    {
-                        "type": "paragraph",
-                        "data": "Terminations must respect complex rules and the rules of an employee’s employment country. The off-boarding is always handled by the Employer with the primary stakeholders. It may include ad-hoc fees as well as required or recommended steps on specific termination cases."
-                    },
-                    {
-                        "type": "paragraph",
-                        "data": "Terminations in Albania can be complex. There is no at-will termination in Albania for employers outside the probation period and termination must be done for just cause."
-                    },
-                    {
-                        "type": "paragraph",
-                        "data": "Compliant terminations include:"
-                    },
-                    {
-                        "type": "nested_list",
-                        "data": [
-                            {
-                                "text": "Voluntarily by the employee"
-                            },
-                            {
-                                "text": "By mutual agreement"
-                            },
-                            {
-                                "text": "Unilaterally by the employer based on:",
-                                "children": [
-                                    {
-                                        "text": "probation period"
-                                    },
-                                    {
-                                        "text": "objective grounds"
-                                    },
-                                    {
-                                        "text": "disciplinary dismissal"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "title": "Notice Period",
-                "data": [
-                    {
-                        "type": "paragraph",
-                        "data": "The minimum notice period is 2 weeks and will be increased according to the length of the employment."
-                    },
-                    {
-                        "type": "nested_list",
-                        "data": [
-                            {
-                                "text": "6 months of employment - 2 weeks notice"
-                            },
-                            {
-                                "text": "Between 6 months to 2 years of employment - 1 month notice"
-                            },
-                            {
-                                "text": "Between 2 to 5 years of employment - 2 months notice"
-                            },
-                            {
-                                "text": "Longer than 5 years of employment - 3 months notice"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "title": "Severance for Employees",
-                "data": [
-                    {
-                        "type": "paragraph",
-                        "data": "In Albania, all employees receive seniority remuneration if the contract has been terminated by the employer and the employment relationship has lasted a minimum of 3 years. Severance pay for seniority is a minimum of 15 days salary for each year of work. It is calculated on the basis of the salary that exists at the end of the employment relationship."
-                    },
-                    {
-                        "type": "paragraph",
-                        "data": "The employer who has terminated the contract without reasonable cause is obliged to give the employee compensation of up to 1 year of salary, which is in addition to the salary that the employee will receive during the notice period."
-                    }
-                ]
-            }
-        ],
-        "Statutory time off": [
-            {
-                "title": "Paid Time Off",
-                "data": [
-                    {
-                        "type": "text",
-                        "data": "Both full-time and part-time employees are entitled to 20 days of paid time off (PTO) a year. PTO accrues monthly at 1.67 days per month. Employees are eligible for annual leave from the start of employment."
-                    }
-                ]
-            },
-            {
-                "title": "Public Holidays",
-                "data": [
-                    {
-                        "type": "paragraph",
-                        "data": "Albania celebrates around 13 national holidays. National public holidays include:"
-                    },
-                    {
-                        "type": "text",
-                        "data": "New Year’s Day\nSummer Day\nNowruz\nCatholic Easter\nOrthodox Easter\nMay Day\nEid al-Fitr\nMother Teresa Day\nEid al-Adha\nIndependence Day\nLiberation Day\nNational Youth Day\nChristmas Day"
-                    }
-                ]
-            }
-        ],
-        "Onboarding": [
-            {
-                "title": "Onboarding",
-                "data": [
-                    {
-                        "type": "text",
-                        "data": "Onboarding takes 5 business days. A medical certificate is required before the start date."
-                    }
-                ]
-            }
-        ],
-        "Additional info": [
-            {
-                "title": "Employment Contract Details",
-                "data": [
-                    {
-                        "type": "paragraph",
-                        "data": "Contracts must be in Albanian and can be in more than one language. An officially translated and notarized copy is required if the original contract is not in Albanian. They must be in writing and signed by both parties."
-                    },
-                    {
-                        "type": "paragraph",
-                        "data": "A contract must include:"
-                    },
-                    {
-                        "type": "nested_list",
-                        "data": [
-                            {
-                                "text": "Identity of the parties"
-                            },
-                            {
-                                "text": "Place of work"
-                            },
-                            {
-                                "text": "Job description"
-                            },
-                            {
-                                "text": "Date of commencement of work"
-                            },
-                            {
-                                "text": "Duration of contract"
-                            },
-                            {
-                                "text": "Duration of paid leave"
-                            },
-                            {
-                                "text": "The notice period for the termination of the contract"
-                            },
-                            {
-                                "text": "Salary and the date of its payment"
-                            },
-                            {
-                                "text": "Normal weekly working time"
-                            },
-                            {
-                                "text": "Probation period"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "title": "Probation Period",
-                "data": [
-                    {
-                        "type": "text",
-                        "data": "Probation periods are not mandatory. There is no minimum probation period. The maximum probation period is 90 days (3 months)."
-                    }
-                ]
-            }
-        ]
-    }
+	"hireIn": "瑞典",
+	"hireInOrigin": "sweden",
+	"currency": "瑞典克朗 (SEK)",
+	"capital": "斯德哥尔摩",
+	"offical_language": "瑞典语",
+	"payroll_cycle": "每月",
+	"necessary_benefits":["公共健康保险","国家养老基金","失业保险","私人医疗保健和养老金 - Soderberg & Partners（可选）","残疾基金","长期残疾保险","工伤赔偿保险（可选）"],
+	"quickStartGuide":{
+		"Pay&Tax":[{
+			"title": "最低工资要求",
+			"data":[{
+				"type": "text",
+				"data": "没有关于法律规定的最低工资的规定。如果适用于公司,最低工资可能由集体谈判协议 (CBA) 规定。Deel 是没有 CBA 的一部分。"
+			}]
+		}, {
+			"title": "个人所得税",
+			"data":[{
+				"type": "paragraph",
+				"data": "所得税是根据累进税率计算的。多种其他因素可能会影响总体税率,例如家庭状况,子女数量和员工居住的城市。"
+			}, {
+				"type": "table",
+				"data":[
+					["年总收入", "国税税率(%)", "市税税率(%)"],
+					["高达 523,000 瑞典克朗","0%","32%"],
+					["超过 523,000 瑞典克朗","20%","32%"]
+				]
+			}]
+		}, {
+			"title": "雇主成本",
+			"data":[{
+				"type": "paragraph",
+				"data": "雇主成本一般估计为员工工资的 31.42%。"
+			}, {
+				"type": "nested_list",
+				"data":[{
+					"text": "健康保险 - 3.55%"
+				}, {
+					"text": "父母保险 - 2.60%"
+				}, {
+					"text": "退休金 - 10.21%"
+				}, {
+					"text": "幸存者养老金缴款 - 0.60%"
+				}, {
+					"text": "劳动力市场费用 - 2.65%"
+				}, {
+					"text": "工伤 - 0.20%"
+				}, {
+					"text": "一般工资税 - 11.62%"
+				}]
+			}]
+		}, {
+			"title": "加班费和最长工作时间",
+			"data":[{
+				"type": "text",
+				"data": "标准工作时间为每天 8 小时,每周 40 小时。标准工作周为周一至周五。加班费不是强制性的,可能包含在工资中。如果雇佣协议中有规定,则外出时间标准工作时间的标准工作时间可以被视为加班。员工每月最多可以加班 50 小时,每年最多可以加班 150 小时。对于额外的时间,员工按小时工资的 168% 支付工资。"
+			}]
+		}],
+		"Leave_Policy":[{
+			"title": "产假",
+			"data":[{
+				"type": "text",
+				"data": "怀孕员工有权享受240天的带薪休假。孩子出生前必须休49天,孩子出生后至少休49天。剩余天数最多可与伴侣分成三个时期. 员工将在前 195 天收到几乎 80% 的工资,在剩下的 45 天里每天收到 180 瑞典克朗。瑞典社会保险局 (Försäkringskassan) 将负责支付这笔工资。"
+			}]
+		}, {
+			"title": "陪产假",
+			"data":[{
+				"type": "paragraph",
+				"data": "员工享有240天的带薪陪产假。孩子出生前或出生后可额外休10天。剩余天数可分为三个时间段。只能同时休30天作为合伙人。"
+			}, {
+				"type": "paragraph",
+				"data": "员工将在前 195 天领取其工资的 80%,在剩余的 45 天内每天领取 180 瑞典克朗。瑞典社会保险局 (Försäkringskassan) 将负责支付这笔工资。"
+			}]
+		}, {
+			"title": "育儿假",
+			"data":[{
+				"type": "paragraph",
+				"data": "在瑞典,产假和陪产假被视为育儿假。因此父母双方都有同样的休假权利。"
+			}, {
+				"type": "paragraph",
+				"data": "员工有权享有,共计480个工作日的育儿假。每位父母有权享有240天,他们可以决定如何分配最长150天的假期。瑞典社会保险局将支付工资在这段时期。"
+			}, {
+				"type": "table",
+				"data":[
+					["期间","付款","付款人"],
+					["0 - 390 天", "工资的百分比 (几乎 80%)", "社会保险"],
+					["391 - 480 天","每天 180 瑞典克朗","社会保险"]
+				]
+			}]
+		}, {
+			"title": "病假",
+			"data":[{
+				"type": "paragraph",
+				"data": "员工有权享受 90 天的带薪病假。该病假以不同的费率支付,并由其他付款人根据时长支付:"
+			}, {
+				"type": "table",
+				"data":[
+					["期间","付款","付款人"],
+					["1 - 14 天","基本工资的 80%","雇主"],
+					["15 - 90 天","25-80%*","社会保险"]
+				]
+			}, {
+				"type": "paragraph",
+				"data": "** 当员工在他们的平台上提交请求并提供所需信息时,社会保险将计算病假的确切金额。最高缴款额为每天 810 瑞典克朗。"
+			}]
+		}],
+		"Termination":[{
+			"title": "终止要求",
+			"data":[{
+				"type": "paragraph",
+				"data": "解雇必须遵守复杂的规则和员工所在国家/地区的规则。离职始终由雇主与主要利益相关者一起处理。它可能包括临时费用以及特定要求或建议的步骤解雇案件。"
+			}, {
+				"type": "paragraph",
+				"data": "在瑞典没有随意终止。瑞典的终止可以由雇主,雇员或双方协商完成。要终止合同,每一方都必须提供正确的通知。"
+			}, {
+				"type": "paragraph",
+				"data": "合规终止包括:"
+			}, {
+				"type": "nested_list",
+				"data":[{
+					"text": "员工自愿"
+				}, {
+					"text": "经双方同意"
+				}, {
+					"text": "在合同到期之前"
+				}, {
+					"text": "雇主单方面基于:",
+					"chidren":[{
+						"text": "试用期"
+					}, {
+						"text": "客观依据"
+					}, {
+						"text": "因不适合工作而表现"
+					}, {
+						"text": "不当行为"
+					}, {
+						"text": "合作问题"
+					}, {
+						"text": "拒绝工作"
+					}]
+				}]
+			}]
+		}, {
+			"title": "通知期",
+			"data":[{
+				"type": "paragraph",
+				"data": "最短通知期为 30 天,并根据雇佣时间延长:"
+			}, {
+				"type": "nested_list",
+				"data":[{
+					"text": "如果工作时间少于两年,则为 30 天。"
+				}, {
+					"text": "60 天,如果工作时间在两到四年之间。"
+				}, {
+					"text": "如果工作时间在四到六年之间,则为 90 天。"
+				}, {
+					"text": "如果工作年限在 6 到 8 年之间,则为 120 天。"
+				}, {
+					"text": "如果工作时间在八到十年之间,则为 150 天。"
+				}, {
+					"text": "如果工作时间超过十年,则为 180 天。"
+				}]
+			}]
+		}, {
+			"title": "员工遣散费",
+			"data":[{
+				"type": "text",
+				"data": "在瑞典,对于遣散费没有法定要求。在通知期内,员工领取标准工资。"
+			}]
+		}],
+		"Statutory_time_off":[{
+			"title": "带薪休假",
+			"data":[{
+				"type": "paragraph",
+				"data": "全职员工有权享受每年 25 天的带薪休假 (PTO)。PTO 按每月 2.08 天累计。员工从次年的 4 月 1 日到次年 3 月 31 日休假。"
+			}, {
+				"type": "paragraph",
+				"data": "兼职员工的 PTO 将取决于他们每周工作多少天。如果员工每周工作 5 天,他们将有权获得 25 天。如果员工工作天数较少,亲比率计算将适用。"
+			}, {
+				"type": "paragraph",
+				"data": "应计假期是强制性的,占员工总工资的 12%。雇主有义务从 6 月到 8 月连续为员工提供四个星期的假期。"
+			}]
+		}, {
+			"title": "公众假期",
+			"data":[{
+				"type": "paragraph",
+				"data": "瑞典庆祝 13 个国定假日,其中包括:"
+			}, {
+				"type": "text",
+				"data": "元旦\n主显节\n耶稣受难日\n复活节星期天\n复活节星期一\n劳动节\n耶稣升天节\n圣灵降临节\n国庆节\n仲夏节\n万圣节\n圣诞节\n节礼日"
+			}]
+		}],
+		"Onboarding":[{
+			"title": "入职",
+			"data":[{
+				"type": "paragraph",
+				"data": "在客户签署 SOW 后,入职需要 2 个工作日。"
+			}, {
+				"type": "paragraph",
+				"data": "每个人都必须有一个 SS 号码并在签署协议前提供。如果员工没有 SS 号码,他们将需要联系税务机构并申请一个临时号码。"
+			}]
+		}],
+		"Additional_info":[{
+			"title": "雇佣合同详情",
+			"data":[{
+				"type": "paragraph",
+				"data": "合同是英文的,可以是双语的。必须是书面形式,并由双方签字。"
+			}, {
+				"type": "paragraph",
+				"data": "合同必须注明强制性信息,例如员工姓名,开始日期,工作年限,假期条件等。"
+			}]
+		}, {
+			"title": "试用期",
+			"data":[{
+				"type": "paragraph",
+				"data": "使用 Deel 雇用的员工有 90 天的试用期,您可以延长至 180 天。自 2022 年 1 月起,Deel 公司的政策是在所有雇佣合同中包括试用期。"
+			}, {
+				"type": "paragraph",
+				"data": "根据法律,固定期限的雇佣协议不能有试用期。"
+			}, {
+				"type": "paragraph",
+				"data": "无限期合同的最长试用期为 180 天（6 个月）。"
+			}]
+		}]
+	}
 }

@@ -1,0 +1,20 @@
+.basic-information{
+  &_title{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(225, 222, 222);
+    position: relative;
+    
+    &::before{
+      content: '';
+      position: absolute;
+      top: 5px;
+      left: -8px;
+      width: 3px;
+      height: 16px;
+      background: #165dff;
+    }
+  }
+}

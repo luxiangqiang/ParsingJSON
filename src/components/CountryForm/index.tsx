@@ -1,13 +1,8 @@
-import React, { useEffect, useMemo, useState } from "react";
-import { Input, Select, Form, Button, message, InputNumber, Spin } from "antd";
-import { IData, ISaveCountry } from "@/components/types";
-import "./country-form.less";
-// import { downloadJSON } from "@/utils/downloadJSON";
+import React, { useMemo, useState } from "react";
+import { Form, Button, message, Spin, Input, Select, InputNumber } from "antd";
+import { ISaveCountry } from "@/components/types";
+import "./index.less";
 import debounce from "lodash.debounce";
-import md5 from 'js-md5';
-import axios from "axios";
-
-const { Option } = Select;
 
 // 六大洲
 const useContinents = function () {
@@ -38,68 +33,36 @@ const useContinents = function () {
     },
   ];
 };
-const appid = process.env.REACT_APP_APPID;
-const secret = process.env.REACT_APP_SECRET;
 
 const CountryForm: React.FC<{
-  sourceData: IData;
-  formData: IData;
-  updateCountry: React.Dispatch<React.SetStateAction<any>>;
-}> = function ({ sourceData, formData, updateCountry }) {
+  country: any,
+  onTextAreaChange: (value: any) => void;
+  updateCountry: Function;
+}> = function ({ onTextAreaChange, country, updateCountry }) {
   const [form] = Form.useForm();
+  const TextArea = Input.TextArea;
+
+  const { Option } = Select;
   const continents = useContinents();
+
   const [loading, setLoading] = useState(false);
 
-  const debounceChangeInput = useMemo(
-    () =>
-      debounce((e: React.ChangeEvent<HTMLInputElement>, key: string = "") => {
-        updateCountry({
-          [key]: key === "priority" ? Number(e) : e.target.value,
-        });
-      }, 500),
-    [updateCountry]
-  );
-
-  function onChangeInput(
-    e: React.ChangeEvent<HTMLInputElement>,
-    key: string = ""
-  ) {
-    debounceChangeInput(e, key);
-  }
-
-  function onChangeSelect(value: string) {
-    updateCountry({
-      continent: value,
-    });
-  }
-
-  // 保存到本地
-  const handlerSaveLocalStory = function () {
-    localStorage.setItem(sourceData.hireIn, JSON.stringify(formData));
-    message.success("保存成功");
-  };
-
-  // 下载到本地
-  // const handlerDownload = function () {
-  //   downloadJSON(formData, sourceData.hireIn);
-  // };
-
   // 上传服务器
-  const handlerUpload = function () { 
+  const handlerUpload = function () {
     setLoading(true);
     const params: ISaveCountry = {
-      name: sourceData.hireIn,
-      title: formData.hireIn,
-      benefits: sourceData.necessary_benefits.map(item => item.title),
-      capital: formData.capital,
-      currency: formData.currency,
-      officialLanguage: formData.offical_language,
-      payrollCycle: formData.payroll_cycle,
-      priority: formData.priority,
-      quickStartGuide: sourceData.quickStartGuide,
-      area: Number(formData.continent)
+      name: country.hireInOrigin,
+      title: country.hireIn,
+      benefits: country.necessary_benefits,
+      capital: country.capital,
+      currency: country.currency,
+      officialLanguage: country.offical_language,
+      payrollCycle: country.payroll_cycle,
+      quickStartGuide: country.quickStartGuide,
+      priority: country.priority,
+      area: Number(country.continent)
     }
-    const config:RequestInit  = {
+    const config: RequestInit = {
       "headers": {
         "accept": "application/json, text/plain, */*",
         "accept-language": "zh-CN,zh;q=0.9",
@@ -110,145 +73,81 @@ const CountryForm: React.FC<{
       },
       "referrerPolicy": "no-referrer",
       "body": JSON.stringify({
-          "data": params
-        }),
+        "data": params
+      }),
       "method": "POST"
     }
     fetch(process.env.REACT_APP_UPLOAD_URL, config)
-      .then(({status}) => { 
+      .then(({ status }) => {
         if (status === 200) {
           message.success("上传成功");
-        } else { 
+        } else {
           message.success("上传错误");
         }
         setLoading(false);
+      })
+  }
+
+  const debounceChangeInput = useMemo(
+    () =>
+      debounce((e: React.ChangeEvent<HTMLInputElement>, key: string = "") => {
+        updateCountry({
+          ...country,
+          [key]: key === "priority" ? Number(e) : e.target.value,
+        });
+      }, 500),
+    [updateCountry, country]
+  );
+
+  function onChangeSelect(value: string) {
+    updateCountry({
+      ...country,
+      continent: value
     })
   }
 
-  // 一键翻译
-  const handlerTranslation = function () {
-    setLoading(true);
-    const qsKeys = ['hireIn', 'capital', 'currency', 'offical_language', 'payroll_cycle'];
-    let qs = qsKeys.reduce((pre, key) => {
-      return pre + `${pre !== '' ? '、' : ''}${sourceData[key as keyof IData]}`;
-    }, '');
-    const salt = Math.random();
-    const sign = md5(appid + qs + salt + secret);
-    const allURL = `/baiduApi/api/trans/vip/translate?q=${encodeURI(qs)}&from=en&to=zh&salt=${ salt }&appid=${appid}&sign=${sign}`
-    axios.get(allURL).then(({data}) => {
-      const { trans_result } = data;
-      const results = trans_result?.[0]?.dst?.split('、') as string[] || [];
-      const newData: Record<string, string> = {};
-      qsKeys.forEach((key: string, index) => { 
-        newData[key] = results[index];
-      })
-      updateCountry({
-       ...newData
-      })
-      setLoading(false);
-    });
+  function onChangeInput(e: React.ChangeEvent<HTMLInputElement>,
+    key: string = "") {
+    debounceChangeInput(e, key);
   }
-
-  useEffect(() => {
-    console.log("CountryForm.tsx", formData);
-    form.setFieldsValue(formData);
-  }, [form, formData]);
 
   return (
     <Spin spinning={loading} >
       <Form
-      form={form}
-      labelCol={{ span: 5 }}
-      wrapperCol={{ span: 16 }}
-      className="CountryForm"
-    >
-      <Form.Item label="国家名称" name="hireIn">
-        <Input
-          allowClear
-          addonBefore={sourceData.hireIn}
-          onChange={(e) => onChangeInput(e, "hireIn")}
-        />
-      </Form.Item>
-      <Form.Item label="首都" name="capital">
-        <Input
-          allowClear
-          addonBefore={sourceData.capital}
-          onChange={(e) => onChangeInput(e, "capital")}
-        />
-      </Form.Item>
-      <Form.Item label="货币种类" name="currency">
-        <Input
-          allowClear
-          addonBefore={sourceData.currency}
-          onChange={(e) => onChangeInput(e, "currency")}
-        />
-      </Form.Item>
-      <Form.Item label="官方语言" name="offical_language">
-        <Input
-          allowClear
-          addonBefore={sourceData.offical_language}
-          onChange={(e) => onChangeInput(e, "offical_language")}
-        />
-      </Form.Item>
-      <Form.Item label="工资单周期" name="payroll_cycle">
-        <Input
-          allowClear
-          addonBefore={sourceData.payroll_cycle}
-          onChange={(e) => onChangeInput(e, "payroll_cycle")}
-        />
-      </Form.Item>
-      <Form.Item label="所属大洲" name="continent">
-        <Select onChange={(e) => onChangeSelect(e)} allowClear>
-          {continents.map((el) => (
-            <Option value={el.value} key={el.value}>
-              {el.label}
-            </Option>
-          ))}
-        </Select>
-      </Form.Item>
-      <Form.Item label="优先级" name="priority">
-        <InputNumber
-          className="input-number"
-          min={0}
-          onChange={(e) => onChangeInput.call(this, e, "priority")}
-        />
-      </Form.Item>
-      <Form.Item wrapperCol={{ offset: 3, span: 24 }}>
-        <Button
-          type="primary"
-          htmlType="submit"
-          onClick={handlerSaveLocalStory}
-        >
-          缓存到本地
-        </Button>
-        {/* <Button
-          className="download"
-          type="primary"
-          htmlType="submit"
-          onClick={handlerDownload}
-        >
-          下载到本地
-        </Button> */}
-        <Button
-          className="upload"
-          type="primary"
-          htmlType="submit"
-          onClick={handlerTranslation}
-        >
-          一键翻译
-        </Button>
-        <Button
-          className="upload"
-          type="primary"
-          htmlType="submit"
-          onClick={handlerUpload}
-        >
-          上传服务器
-        </Button>
-      </Form.Item>
+        form={form}
+        labelCol={{ span: 3 }}
+        wrapperCol={{ span: 24 }}
+        className="CountryForm"
+      >
+        <Form.Item label="所属大洲" name="continent">
+          <Select onChange={(e) => onChangeSelect(e)} allowClear>
+            {continents.map((el) => (
+              <Option value={el.value} key={el.value}>
+                {el.label}
+              </Option>
+            ))}
+          </Select>
+        </Form.Item>
+        <Form.Item label="优先级" name="priority">
+          <InputNumber
+            className="input-number"
+            min={0}
+            onChange={(e) => onChangeInput.call(this, e, "priority")}
+          />
+        </Form.Item>
+        <TextArea onChange={onTextAreaChange} style={{ minHeight: 200, width: '100%', marginBottom: 20 }} />
+        <Form.Item wrapperCol={{ offset: 3, span: 24 }}>
+          <Button
+            className="upload"
+            type="primary"
+            htmlType="submit"
+            onClick={handlerUpload}
+          >
+            上传服务器
+          </Button>
+        </Form.Item>
       </Form>
     </Spin>
-    
   );
 };
 

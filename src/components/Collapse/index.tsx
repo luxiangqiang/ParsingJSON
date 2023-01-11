@@ -1,66 +1,29 @@
-import React, { useEffect, useReducer } from "react";
+import React, { useState } from "react";
 import { Collapse } from "antd";
-import { IData } from "@/components/types";
 import "./collapse.less";
 import JsonView from "@/components/JsonView/index";
 import CountryForm from "@/components/CountryForm/index";
 
 const { Panel } = Collapse;
 
-let initialState:IData = {
-  capital: "",
-  currency: "",
-  hireIn: "",
-  offical_language: "",
-  payroll_cycle: "",
-  continent: undefined,
-  priority: 0,
-};
+const CollapseContent: React.FC = function () {
+  const [state, setState] = useState({});
 
-function reducer(state: IData, action: { type: string; payload: IData }) {
-  const country = action.payload;
-  switch (action.type) {
-    case "update":
-      return {
-        ...country,
-      };
-  }
-}
-
-const CollapseContent: React.FC<{ sourceData: IData }> = function ({
-  sourceData,
-}) {
-  const [state, dispatch] = useReducer(reducer, initialState);
-  
-  function onUpdateCountry(newData: Partial<IData>) {
-    dispatch({
-      type: "update",
-      payload: {
+  const handlerTextAreaChange = (e: any) => {
+    if (e.target.value.trim() !== '') {
+      let result = e.target.value.replace(/“/g, "\"");
+      result = result.replace(/”/g, "\"");
+      result = result.replace(/：/g, ":");
+      result = result.replace(/，/g, ",");
+      result = result.replace(/、/g, ",");
+      result = result.replace(/no_transa/g, '');
+      console.error(result)
+      setState({
         ...state,
-        ...newData,
-      },
-    });
-  }
-
-  useEffect(() => {
-    console.log("Collapse.tsx");
-    function getStoryData() {
-      let story = localStorage.getItem(sourceData.hireIn)
-        ? (JSON.parse(localStorage.getItem(sourceData.hireIn)) as IData)
-        : null;
-        dispatch({
-          type: "update",
-          payload: story ? {
-            ...sourceData,
-            ...story,
-          } : {
-            ...sourceData,
-            ...initialState,
-          },
-        });
+        ...JSON.parse(result)
+      });
     }
-    getStoryData();
-  }, [sourceData]);
+  }
 
   return (
     <div className="collapse">
@@ -69,13 +32,13 @@ const CollapseContent: React.FC<{ sourceData: IData }> = function ({
           <div className="collapse_container">
             <div className="collapse_left">
               <CountryForm
-                sourceData={sourceData}
-                formData={state}
-                updateCountry={onUpdateCountry}
+                country={state}
+                onTextAreaChange={handlerTextAreaChange}
+                updateCountry={setState}
               />
             </div>
             <div className="collapse_right">
-              <JsonView json={state} />
+              <JsonView json={state} updateText={setState} />
             </div>
           </div>
         </Panel>

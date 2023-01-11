@@ -1,9 +1,15 @@
-import React from "react";
-import ReactJson from "react-json-view";
-import { IData } from "@/components/types";
 
-const JsonView: React.FC<{ json: IData }> = function ({ json }) {
-  return <ReactJson src={json} />;
+import React from "react";
+import ReactJson, { InteractionProps } from "react-json-view";
+
+const JsonView: React.FC<{ json: any, updateText: Function }> = function ({ json, updateText }) {
+  const onEdit = (item: InteractionProps) => {
+    updateText({
+      ...json,
+      ...item.updated_src
+    })
+  }
+  return <ReactJson src={json} onEdit={onEdit} />;
 };
 
 export default JsonView;

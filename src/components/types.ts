@@ -4,7 +4,7 @@ export interface IData {
   hireIn: string;
   offical_language: string;
   payroll_cycle: string;
-  necessary_benefits?: { image: string; title: string }[];
+  necessary_benefits?: string[];
   quickStartGuide?: object;
   continent?: number;
   priority?: number;
