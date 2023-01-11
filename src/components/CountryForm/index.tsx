@@ -36,9 +36,11 @@ const useContinents = function () {
 
 const CountryForm: React.FC<{
   country: any,
-  onTextAreaChange: (value: any) => void;
+  jsonText: any,
+  formatJSON: (value: any) => void;
   updateCountry: Function;
-}> = function ({ onTextAreaChange, country, updateCountry }) {
+  setJsonText: Function;
+}> = function ({ formatJSON, jsonText, country, setJsonText, updateCountry }) {
   const [form] = Form.useForm();
   const TextArea = Input.TextArea;
 
@@ -60,7 +62,8 @@ const CountryForm: React.FC<{
       payrollCycle: country.payroll_cycle,
       quickStartGuide: country.quickStartGuide,
       priority: country.priority,
-      area: Number(country.continent)
+      area: Number(country.continent),
+      publishedAt: null
     }
     const config: RequestInit = {
       "headers": {
@@ -111,6 +114,16 @@ const CountryForm: React.FC<{
     debounceChangeInput(e, key);
   }
 
+  // 格式化 JSON
+  const handlerFormatJSON = () => {
+    const data = formatJSON(jsonText)
+    form.setFieldValue('json', data)
+  }
+
+  const handlerTextAreaChange = (e: any) => {
+    setJsonText(e.target.value)
+  }
+
   return (
     <Spin spinning={loading} >
       <Form
@@ -135,10 +148,22 @@ const CountryForm: React.FC<{
             onChange={(e) => onChangeInput.call(this, e, "priority")}
           />
         </Form.Item>
-        <TextArea onChange={onTextAreaChange} style={{ minHeight: 200, width: '100%', marginBottom: 20 }} />
+        <Form.Item label="JSON" name="json">
+          <TextArea
+            allowClear
+            onChange={handlerTextAreaChange}
+            style={{ minHeight: 400, width: '100%', marginBottom: 20 }} />
+        </Form.Item>
         <Form.Item wrapperCol={{ offset: 3, span: 24 }}>
           <Button
-            className="upload"
+            type="primary"
+            htmlType="submit"
+            onClick={handlerFormatJSON}
+          >
+            格式化 JSON
+          </Button>
+          <Button
+            style={{ marginLeft: 20 }}
             type="primary"
             htmlType="submit"
             onClick={handlerUpload}

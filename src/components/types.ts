@@ -24,5 +24,6 @@ export interface ISaveCountry {
   priority: Number;
   quickStartGuide: Record<string, any>;
   area: number;
+  publishedAt: null;
 }
 

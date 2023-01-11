@@ -8,20 +8,30 @@ const { Panel } = Collapse;
 
 const CollapseContent: React.FC = function () {
   const [state, setState] = useState({});
+  const [jsonText, setJsonText] = useState<string>();
 
-  const handlerTextAreaChange = (e: any) => {
-    if (e.target.value.trim() !== '') {
-      let result = e.target.value.replace(/“/g, "\"");
+  const formatJSON = (value: string) => {
+    if (value.trim() !== '') {
+      let result = value.replace(/“/g, "\"");
       result = result.replace(/”/g, "\"");
       result = result.replace(/：/g, ":");
       result = result.replace(/，/g, ",");
       result = result.replace(/、/g, ",");
+      result = result.replace(/《/g, "\"");
+      result = result.replace(/》/g, "\"");
       result = result.replace(/no_transa/g, '');
-      console.error(result)
-      setState({
-        ...state,
-        ...JSON.parse(result)
-      });
+      try {
+        const json = JSON.parse(result);
+        setState({
+          ...state,
+          ...json
+        });
+      } catch (error) {
+        alert('JSON 解析错误，请在控制台检查格式');
+      } finally {
+        setJsonText(result);
+        return result;
+      }
     }
   }
 
@@ -33,8 +43,10 @@ const CollapseContent: React.FC = function () {
             <div className="collapse_left">
               <CountryForm
                 country={state}
-                onTextAreaChange={handlerTextAreaChange}
+                jsonText={jsonText}
+                formatJSON={formatJSON}
                 updateCountry={setState}
+                setJsonText={setJsonText}
               />
             </div>
             <div className="collapse_right">
